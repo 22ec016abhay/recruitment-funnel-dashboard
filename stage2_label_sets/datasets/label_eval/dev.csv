@@ -1,0 +1,31 @@
+label_id,source_raw,expected_source,example_type,reason,author
+D01,Linkedinn,LinkedIn,typo,Doubled letter; still clearly LinkedIn,assistant
+D02,Linked In Jobs,LinkedIn,variant,Spaced name plus 'Jobs',assistant
+D03,linkedin.in,LinkedIn,domain,Domain style of LinkedIn,assistant
+D04,Likedin,LinkedIn,typo,Dropped letter; recognizable LinkedIn,assistant
+D05,Referall,Referral,typo,Misspelled referral,assistant
+D06,employee ref,Referral,abbreviation,Abbreviation of employee referral,assistant
+D07,Staff Referral,Referral,variant,Staff = employee; referral program,assistant
+D08,Reffral,Referral,typo,Misspelled referral,assistant
+D09,Indeed Jobs,Indeed,variant,Indeed plus generic word,assistant
+D10,Indead,Indeed,typo,Vowel swap; clearly Indeed,assistant
+D11,indeed.co.in,Indeed,domain,Indeed regional domain,assistant
+D12,Naukri.com Jobs,Naukri,domain,Naukri domain plus generic word,assistant
+D13,Naukary,Naukri,typo,Phonetic misspelling of Naukri,assistant
+D14,naukri-job,Naukri,variant,Hyphenated Naukri variant,assistant
+D15,Job Fare,Job Fair,typo,Homophone misspelling of Job Fair,assistant
+D16,Jobfair Event,Job Fair,variant,Job fair event,assistant
+D17,campus job fair,Job Fair,variant,Job fair held on campus,assistant
+D18,Company Webiste,Company Website,typo,Typo of Company Website,assistant
+D19,careers site,Company Website,variant,Company careers site,assistant
+D20,Company Career Page,Company Website,variant,Careers page on company site,assistant
+D21,Facebook,Unknown,out_of_set,"Real source, but not one of the six canonical sources",assistant
+D22,misc,Unknown,ambiguous,Generic catch-all,assistant
+D23,none,Unknown,missing,No source information,assistant
+D24,not specified,Unknown,missing,No source information,assistant
+D25,TBD,Unknown,missing,"Placeholder, no information",assistant
+D26,Headhunter,Unknown,out_of_set,Agency-type channel not in the six sources,assistant
+D27,Newspaper Ad,Unknown,out_of_set,Offline channel not in the six sources,assistant
+D28,Telegram group,Unknown,out_of_set,Social channel not in the six sources,assistant
+D29,LinkedIn / Referral,Unknown,ambiguous,Names two sources; cannot choose one from the string,assistant
+D30,Recruiter outreach,Unknown,ambiguous,"Method, not a source; could be LinkedIn, email, etc.",assistant

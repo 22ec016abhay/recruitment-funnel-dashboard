@@ -1,0 +1,1516 @@
+applicant_id,name,age,gender,experience_years,source,job_role,department,recruiter,applied_date,screened_date,interviewed_date,offered_date,hired_date,final_status,rejected_at_stage
+52,Danny Morgan,34,Male,10.9,indeed,Software Engineer,Marketing,Vikram Singh,2026-02-08,2026-02-12,,,,Rejected,Screened
+169,Joel Williams,18,Male,0.0,Referral,QA Engineer,Marketing ,Vikram Singh,2026-08-01,2026-08-04,2026-08-09,2026-08-15,2026-08-29,Hired,
+1469,Mr. Edward Terry,31,Male,7.3,LINKEDIN,Sales Associate,Operations,Priya Sharma,2025-11-30,2025-12-02,2025-12-04,2025-12-07,2025-12-16,Hired,
+927,Vickie Anderson,31,Female,7.4,REFERRAL,HR Executive,Product,David Lee,2026-01-18,2026-01-25,2026-02-03,,,Rejected,Interviewed
+423,Michael Mitchell,19,Male,0.0,naukri,Data Analyst,Operations,Arjun Patel,2026-08-19,2026-08-26,,,,In Process,
+1091,Vincent Reyes,26,Male,3.4,LinkedIn,Data Analyst,Finance,Sarah Johnson,2025-12-02,2025-12-06,2025-12-09,2025-12-12,2025-12-29,Hired,
+586,Tina Ballard,22,Female,0.0,Referral,Product Manager,Finance,Arjun Patel,2026-08-14,2026-08-22,2026-08-27,,,In Process,
+221,Courtney Mills,32,Female,6.2,LINKEDIN,Software Engineer,Finance,Vikram Singh,2026-08-22,2026-08-24,,,,In Process,
+1468,Chad Roach,32,Male,9.4,LinkedIn,Data Analyst,Sales,Sarah Johnson,2026-07-12,2026-07-18,2026-08-01,,,Rejected,Interviewed
+1441,Joseph Lopez,33,Male,8.3,NAUKRI,Marketing Specialist,Marketing,Rohan Mehta,2026-07-27,2026-08-07,,,,Rejected,Screened
+1147,Mason Moore,30,Male,7.6,naukri,QA Engineer,Operations,Aisha Khan,2026-03-22,,,,,Rejected,Applied
+50,Eric Carney,37,Female,14.5,LINKEDIN,QA Engineer,Human Resources,Rohan Mehta,2025-09-20,2025-10-01,,,,Rejected,Screened
+536,Mr. Lawrence Edwards,27,Male,2.0,LINKEDIN,Software Engineer,Engineering,Vikram Singh,2026-04-23,,,,,Rejected,Applied
+176,Alex Hernandez,20,Male,0.0,Linked in,UX Designer,Marketing,Arjun Patel,2026-07-11,2026-07-14,2026-07-29,,,Rejected,Interviewed
+1076,Brandon Kelly,47,Female,21.9,linkedin,UX Designer,Marketing,Vikram Singh,2026-08-28,,,,,In Process,
+406,Madison Weber,33,Female,8.8,naukri,DevOps Engineer,Product,Priya Sharma,2026-04-02,,,,,Rejected,Applied
+847,Brandi Haney,31,Female,8.7,LINKEDIN,HR Executive,Human Resources,Vikram Singh,2026-08-16,2026-08-23,2026-09-04,2026-09-13,,In Process,
+599,Kimberly Sharp,23,Male,0.0,REFERRAL,QA Engineer,Engineering,Emily Chen,2026-08-16,2026-08-19,,,,In Process,
+1494,Mario White,29,Female,3.4,referral,HR Executive,Finance,David Lee,2026-02-19,2026-02-24,,,,Rejected,Screened
+939,Amy Ramirez,21,Non-binary,0.0,LinkedIn,Software Engineer,Finance,Sarah Johnson,2026-08-21,2026-08-28,,,,In Process,
+1486,Timothy Clark,21,Male,0.0,Indeed,HR Executive,Marketing,Emily Chen,2026-09-06,2026-09-12,,,,In Process,
+204,Joseph Coleman,33,Male,7.9,linkedin,Software Engineer,Product,David Lee,2026-07-13,2026-07-15,2026-07-26,,,Rejected,Interviewed
+1035,Chelsea Lewis,25,Male,0.7,referral,Software Engineer,Operations ,Arjun Patel,2026-03-01,2026-03-09,2026-03-20,,,Rejected,Interviewed
+298,William Barrett,30,Male,6.2,JobFair,Business Analyst,Sales,Arjun Patel,2026-03-14,2026-03-18,2026-03-22,,,Rejected,Interviewed
+454,Cynthia Vang,25,Female,1.5,company website,QA Engineer,Human Resources,Emily Chen,2026-08-15,2026-08-20,,,,In Process,
+368,Holly Farmer,27,Male,1.5,Company Website,Data Analyst,Finance,Arjun Patel,2025-12-20,2025-12-25,2026-01-05,,,Rejected,Interviewed
+942,Virginia Casey,39,Male,13.5,Indeed ,Software Engineer,Sales,David Lee,2026-05-30,2026-06-01,2026-06-05,,,Rejected,Interviewed
+238,David Davis,35,Male,10.2,REFERRAL,DevOps Engineer,Human Resources,Rohan Mehta,2026-04-07,2026-04-12,2026-05-04,2026-05-07,2026-05-25,Hired,
+1165,Mitchell Griffith,30,Male,4.1,Indeed ,Product Manager,Sales,David Lee,2025-11-14,2025-11-20,,,,Rejected,Screened
+678,Joseph Howard,29,Female,3.7,Indeed,Sales Associate,Human Resources,Vikram Singh,2026-04-22,,,,,Rejected,Applied
+124,Michelle Harmon,25,Female,0.0,NAUKRI,Marketing Specialist,Human Resources,Arjun Patel,2026-02-01,2026-02-06,2026-02-14,,,Rejected,Interviewed
+707,Adam Jackson,27,Male,2.7,NAUKRI,Product Manager,Engineering ,Emily Chen,2026-08-18,2026-08-22,2026-09-03,2026-09-08,,In Process,
+603,Tammy Mcdowell,35,Male,10.8,Linked in,Product Manager,Engineering,Vikram Singh,2025-09-17,2025-09-19,,,,Rejected,Screened
+463,Riley Bryant,28,Male,5.9,referral,DevOps Engineer,Operations,Rohan Mehta,2025-11-10,2025-11-21,2025-12-07,2025-12-15,2025-12-29,Hired,
+911,Keith Graham,18,Female,0.0,indeed,Data Analyst,Engineering,Sarah Johnson,2026-07-18,,,,,Rejected,Applied
+1342,Jessica Harris,31,Female,7.1,JobFair,Business Analyst,Operations,Arjun Patel,2026-02-18,,,,,Rejected,Applied
+1297,Alison Williams,24,Female,0.0,Company Website,UX Designer,Finance ,David Lee,2026-03-24,2026-03-27,2026-04-05,,,Rejected,Interviewed
+77,Angela Lopez,32,Male,7.0,Naukri,UX Designer,Operations,Sarah Johnson,2026-04-11,2026-04-17,2026-04-22,,,Rejected,Interviewed
+1170,Patricia Hayes,36,Female,13.4,JobFair,DevOps Engineer,Product,Vikram Singh,2026-08-13,,,,,Rejected,Applied
+1135,Rebekah Gregory,19,Male,0.0,Linked in,Sales Associate,Engineering,Emily Chen,2026-01-20,,,,,Rejected,Applied
+487,Monica Miller,19,Male,0.0,job fair,Product Manager,Marketing,Emily Chen,2026-06-30,,,,,Rejected,Applied
+462,Eric Williams,31,Female,7.2,Linked in,UX Designer,Finance,Emily Chen,2026-06-21,,,,,Rejected,Applied
+1336,Vincent Smith,30,Female,7.0,Indeed,DevOps Engineer,Engineering,Rohan Mehta,2026-08-20,,,,,In Process,
+1312,Richard Gordon,23,Female,0.0,REFERRAL,DevOps Engineer,Finance ,Arjun Patel,2026-05-26,2026-06-02,2026-06-20,,,Rejected,Interviewed
+1484,Kelly Miles,35,Male,11.8,linkedin,Marketing Specialist,Human Resources,Priya Sharma,2026-06-12,2026-06-17,2026-06-19,,,Rejected,Interviewed
+839,Michael Young,18,Male,0.0,JobFair,UX Designer,Engineering,Emily Chen,2025-11-05,,,,,Rejected,Applied
+782,Amy Garcia,24,Non-binary,0.0,LinkedIn,Sales Associate,Engineering ,David Lee,2026-05-03,,,,,Rejected,Applied
+343,Anthony Harmon,18,Female,0.0,Company website,Product Manager,Human Resources,Vikram Singh,2025-12-08,,,,,Rejected,Applied
+1098,Nicholas Carlson,29,Male,4.2,Referral,Marketing Specialist,Finance ,Rohan Mehta,2026-08-05,2026-08-10,,,,Rejected,Screened
+1383,John Austin,18,Male,0.0,indeed,Business Analyst,Sales,Sarah Johnson,2026-01-03,2026-01-06,2026-01-10,2026-01-12,2026-01-29,Hired,
+71,Jordan Henderson,20,Female,0.0,company website,Business Analyst,Operations,Rohan Mehta,2026-04-01,,,,,Rejected,Applied
+1217,Paul Moreno,37,Male,13.1,NAUKRI,Product Manager,Finance ,Vikram Singh,2026-09-11,2026-09-15,,,,In Process,
+991,Carmen Preston,22,Male,0.0,LINKEDIN,Sales Associate,Product,Vikram Singh,2025-11-21,,,,,Rejected,Applied
+1463,Yolanda Garrett,32,Female,8.1,job fair,UX Designer,Operations,Rohan Mehta,2026-03-08,,,,,Rejected,Applied
+1289,Jamie Solomon,32,Male,6.2,NAUKRI,UX Designer,Marketing,Rohan Mehta,2026-05-10,,,,,Rejected,Applied
+544,Kathleen Robertson,18,Female,0.0,naukri,Software Engineer,Finance ,Sarah Johnson,2026-02-22,,,,,Rejected,Applied
+943,Joshua Washington,18,Male,0.0,LinkedIn,Data Analyst,Marketing,Sarah Johnson,2026-03-05,,,,,Rejected,Applied
+904,Matthew Sweeney,32,Female,9.2,REFERRAL,HR Executive,Operations,Priya Sharma,2026-06-28,2026-06-30,2026-07-07,2026-07-13,,Rejected,Offered
+417,Gwendolyn Klein,30,Male,4.3,Linked in,Sales Associate,Sales,David Lee,2026-03-03,2026-03-07,2026-03-19,2026-03-28,2026-04-08,Hired,
+1316,Andrew Moreno,25,Female,0.0,Indeed,Business Analyst,Engineering ,David Lee,2026-05-29,2026-06-02,2026-06-11,,,Rejected,Interviewed
+965,Eric Taylor,20,Female,0.0,job fair,Data Analyst,Marketing,Emily Chen,2025-10-06,,,,,Rejected,Applied
+125,Helen Jones,18,Male,0.0,Company Website,Software Engineer,Marketing,Vikram Singh,2025-11-16,2025-11-18,2025-11-23,,,Rejected,Interviewed
+494,Mark Cox,21,Female,0.0,naukri,Software Engineer,Finance ,Rohan Mehta,2026-01-15,,,,,Rejected,Applied
+1014,Dr. Rhonda Martinez,37,Female,11.4,Naukri,DevOps Engineer,Marketing ,Aisha Khan,2026-07-08,2026-07-15,,,,Rejected,Screened
+424,Mary Escobar,27,Male,3.0,LinkedIn,DevOps Engineer,Product,Emily Chen,2025-09-22,2025-09-27,2025-10-02,,,Rejected,Interviewed
+619,Emily Wilson,29,Male,5.3,linkedin,UX Designer,Operations,Rohan Mehta,2025-11-09,2025-11-12,2025-12-03,,,Rejected,Interviewed
+1049,Traci Vincent,33,Non-binary,10.5,Referral,Software Engineer,Engineering,Priya Sharma,2026-05-23,2026-05-29,2026-06-02,,,Rejected,Interviewed
+789,Cesar Wilson,27,Male,3.1,Indeed,UX Designer,Product,Aisha Khan,2026-08-29,2026-09-04,,,,In Process,
+1277,Renee Mendez,22,Female,0.0,NAUKRI,Marketing Specialist,Engineering ,David Lee,2026-04-30,,,,,Rejected,Applied
+621,Casey Hernandez,30,Female,6.9,Linked in,UX Designer,Operations,Arjun Patel,2025-10-05,2025-10-08,,,,Rejected,Screened
+893,Jake Shaw,35,Female,9.6,REFERRAL,HR Executive,Human Resources,Rohan Mehta,2026-08-19,2026-08-24,2026-09-15,,,In Process,
+1358,Tonya Ellis,18,Female,0.0,indeed,Business Analyst,Human Resources,Arjun Patel,2025-12-07,2025-12-12,2025-12-31,2026-01-07,2026-01-31,Hired,
+68,Carol Tucker,29,Male,3.1,referral,Marketing Specialist,Product,Emily Chen,2026-08-29,2026-09-01,2026-09-10,,,In Process,
+768,Haley Johnson,34,Male,11.3,NAUKRI,Product Manager,Finance ,Vikram Singh,2025-10-06,2025-10-10,,,,Rejected,Screened
+1481,Russell Anderson,30,Male,6.9,Indeed,Sales Associate,Sales,Vikram Singh,2026-06-26,,,,,Rejected,Applied
+1068,James Johnson,36,Male,11.0,naukri,Business Analyst,Marketing,Arjun Patel,2026-08-08,2026-08-17,2026-08-28,,,In Process,
+290,Briana Murray,18,Female,0.0,linkedin,Product Manager,Engineering ,Arjun Patel,2025-10-04,,,,,Rejected,Applied
+1236,Jessica Smith,29,Female,6.3,job fair,Product Manager,Marketing ,Emily Chen,2026-05-23,2026-05-29,,,,Rejected,Screened
+825,Aaron Schroeder,34,Male,10.6,LinkedIn,Software Engineer,Engineering ,Arjun Patel,2026-07-27,2026-07-31,,,,Rejected,Screened
+1094,Michael Sims,30,Male,4.2,naukri,Software Engineer,Operations,Vikram Singh,2026-03-05,,,,,Rejected,Applied
+241,Andrew Avila,30,Female,5.4,LINKEDIN,Software Engineer,Finance,Aisha Khan,2026-03-01,2026-03-08,2026-03-11,,,Rejected,Interviewed
+620,Elizabeth Mendez,22,Female,0.0,Referral,Sales Associate,Product,Vikram Singh,2026-04-14,2026-04-20,2026-04-23,,,Rejected,Interviewed
+1182,Christina Weber,27,Female,4.2,referral,DevOps Engineer,Human Resources,Rohan Mehta,2026-07-15,2026-07-26,2026-08-01,,,Rejected,Interviewed
+572,Christian Vaughn,32,Female,6.0,NAUKRI,Data Analyst,Finance,Vikram Singh,2026-05-19,2026-05-24,,,,Rejected,Screened
+889,Chris Velazquez,25,Female,0.7,Company website,Marketing Specialist,Human Resources,Arjun Patel,2026-02-03,2026-02-12,2026-02-26,2026-03-06,,Rejected,Offered
+986,Elizabeth Flores,29,Male,4.0,LINKEDIN,Data Analyst,Engineering ,Sarah Johnson,2026-02-28,,,,,Rejected,Applied
+1152,Robert West,24,Female,0.5,referral,QA Engineer,Product,Rohan Mehta,2026-05-14,2026-05-22,2026-06-09,2026-06-19,2026-07-10,Hired,
+498,James Bradley,32,Male,8.9,LinkedIn,Product Manager,Finance,Aisha Khan,2026-02-04,2026-02-11,,,,Rejected,Screened
+272,Veronica Simpson,30,Male,7.8,company website,Marketing Specialist,Product,Rohan Mehta,2026-09-15,,,,,In Process,
+307,Edward Burgess,33,Male,9.5,LinkedIn,Sales Associate,Marketing ,Arjun Patel,2026-01-03,2026-01-12,,,,Rejected,Screened
+1175,Kyle Andrade,29,Female,6.8,linkedin,UX Designer,Product,David Lee,2026-02-05,2026-02-07,2026-02-16,2026-02-26,2026-03-07,Hired,
+354,Michael Farrell,29,Non-binary,3.2,company website,DevOps Engineer,Human Resources,Vikram Singh,2026-08-28,2026-08-30,2026-09-04,,,In Process,
+352,Kimberly Nguyen,23,Female,0.0,Linked in,Data Analyst,Sales,David Lee,2026-06-30,2026-07-05,2026-07-11,2026-07-14,,Rejected,Offered
+480,Kaylee Hays,24,Male,0.4,LinkedIn,Marketing Specialist,Human Resources,Arjun Patel,2026-07-29,2026-08-07,2026-08-18,,,In Process,
+812,Daniel Brown,25,Female,0.0,indeed,Marketing Specialist,Marketing ,David Lee,2026-07-23,2026-07-29,2026-08-08,2026-08-15,2026-08-24,Hired,
+30,Anthony Rodriguez,35,Male,11.8,NAUKRI,Marketing Specialist,Finance ,Arjun Patel,2025-11-16,2025-11-23,,,,Rejected,Screened
+1459,Richard Smith,29,Male,6.7,Indeed,Data Analyst,Finance ,Aisha Khan,2026-02-17,2026-02-23,2026-03-07,,,Rejected,Interviewed
+924,Amanda Sullivan MD,29,Female,6.4,LINKEDIN,Software Engineer,Finance ,Aisha Khan,2026-06-23,2026-06-30,2026-07-12,,,Rejected,Interviewed
+1191,Candace Mitchell,28,Male,4.3,indeed,QA Engineer,Engineering ,Vikram Singh,2026-06-05,2026-06-12,2026-06-25,,,Rejected,Interviewed
+66,Amber Kidd,22,Female,0.0,company website,Marketing Specialist,Marketing ,David Lee,2026-01-08,,,,,Rejected,Applied
+1051,Alejandro Deleon,24,Male,0.0,REFERRAL,UX Designer,Finance,Priya Sharma,2026-05-06,2026-05-10,2026-05-18,2026-05-20,2026-05-30,Hired,
+142,David Douglas Jr.,34,Female,9.8,linkedin,Sales Associate,Sales,Rohan Mehta,2025-10-16,,,,,Rejected,Applied
+874,Amy Miller,23,Female,0.8,indeed,Software Engineer,Product,Arjun Patel,2025-12-17,2025-12-26,2026-01-04,2026-01-12,2026-01-27,Hired,
+1121,Misty Garcia,30,Female,7.5,linkedin,QA Engineer,Finance ,Priya Sharma,2025-12-06,,,,,Rejected,Applied
+568,Lauren Jackson,34,Female,10.5,naukri,Product Manager,Human Resources,David Lee,2025-12-20,,,,,Rejected,Applied
+1451,Joel Wise,31,Male,6.9,referral,Data Analyst,Finance,David Lee,2026-03-06,2026-03-12,2026-03-20,2026-03-25,2026-04-07,Hired,
+1284,Jesse Williams,21,Male,0.0,REFERRAL,Sales Associate,Human Resources,Rohan Mehta,2025-11-11,2025-11-19,2025-12-10,2025-12-24,2026-01-09,Hired,
+1471,Denise Guerra,28,Male,3.7,JobFair,Product Manager,Engineering,David Lee,2026-06-02,,,,,Rejected,Applied
+317,Lauren Carson,33,Female,7.5,NAUKRI,UX Designer,Sales,Priya Sharma,2026-04-25,,,,,Rejected,Applied
+491,Heather Williams,25,Female,0.0,Linked in,DevOps Engineer,Product,Rohan Mehta,2026-07-06,2026-07-11,,,,Rejected,Screened
+722,Raymond Johnson,25,Male,0.2,LINKEDIN,UX Designer,Product,David Lee,2025-12-24,2025-12-27,,,,Rejected,Screened
+1337,Charles Frost,24,Female,0.1,Job Fair,Business Analyst,Engineering,Rohan Mehta,2026-04-17,,,,,Rejected,Applied
+971,Nicholas Rush,33,Male,9.7,Company Website,Product Manager,Finance ,David Lee,2026-05-06,,,,,Rejected,Applied
+1141,Patricia Ray,999,Male,0.3,Naukri,QA Engineer,Operations,Aisha Khan,2026-05-06,,,,,Rejected,Applied
+1262,David Walker,34,Female,11.5,Company Website,Data Analyst,Marketing,Sarah Johnson,2026-05-11,2026-05-13,,,,Rejected,Screened
+185,Lindsay Martinez,34,Female,9.0,linkedin,Software Engineer,Engineering,Sarah Johnson,2026-04-29,2026-05-04,,,,Rejected,Screened
+1361,Megan Hall MD,32,Male,8.8,Naukri,DevOps Engineer,Engineering,Aisha Khan,2026-03-18,2026-03-25,,,,Rejected,Screened
+1036,Natalie Malone,22,Male,0.0,Linked in,Product Manager,Marketing ,Emily Chen,2025-10-21,2025-10-25,,,,Rejected,Screened
+725,Mary Miller,32,Female,9.4,LINKEDIN,Data Analyst,Human Resources,Arjun Patel,2026-09-14,,,,,In Process,
+275,Joyce Bowen,36,Male,10.7,referral,Data Analyst,Finance,Aisha Khan,2026-04-06,2026-04-13,2026-04-19,,,Rejected,Interviewed
+45,Angelica Tucker,-1,Male,8.8,Linked in,DevOps Engineer,Product,Priya Sharma,2025-10-15,2025-10-17,2025-10-23,,,Rejected,Interviewed
+60,John Daniel,23,Female,0.0,NAUKRI,Data Analyst,Human Resources,Priya Sharma,2026-04-24,2026-04-28,,,,Rejected,Screened
+1055,Maria Coleman,36,Female,10.1,Indeed ,QA Engineer,Human Resources,Rohan Mehta,2026-07-10,2026-07-21,2026-07-29,2026-08-14,2026-09-01,Hired,
+811,Carol Taylor,35,Female,12.9,JobFair,Software Engineer,Engineering ,Sarah Johnson,2026-06-29,,,,,Rejected,Applied
+24,Tommy Walter,35,Male,10.0,REFERRAL,Software Engineer,Marketing ,David Lee,2025-12-03,2025-12-06,2025-12-12,2025-12-17,2026-01-06,Hired,
+579,Melissa Bishop,27,Male,3.6,LinkedIn,Marketing Specialist,Operations,Priya Sharma,2026-07-01,,,,,Rejected,Applied
+1232,Brittany Stevens,35,Male,12.2,Company website,QA Engineer,Finance ,Sarah Johnson,2026-06-20,2026-06-25,,,,Rejected,Screened
+248,Frank Cordova,32,Male,6.2,Linked in,QA Engineer,Operations ,Arjun Patel,2026-08-30,2026-09-08,,,,In Process,
+757,Karen Morales DDS,21,Female,0.0,REFERRAL,UX Designer,Human Resources,Vikram Singh,2026-04-23,,,,,Rejected,Applied
+116,Diana May,34,Female,8.7,Job Fair,Sales Associate,Finance ,David Lee,2026-05-11,,,,,Rejected,Applied
+434,Chad Jones,31,Male,8.8,Indeed,Sales Associate,Product,Aisha Khan,2025-12-16,2025-12-18,,,,Rejected,Screened
+355,Patricia Le,33,Female,7.9,Company website,Sales Associate,Operations ,Arjun Patel,2025-12-23,2025-12-28,,,,Rejected,Screened
+1396,Justin Frederick,20,Male,0.0,Referral,DevOps Engineer,Sales,Arjun Patel,2026-09-15,,,,,In Process,
+375,Charles Schultz,34,Male,10.1,Company Website,Data Analyst,Marketing ,Emily Chen,2026-01-14,,,,,Rejected,Applied
+753,Michael Fuentes,19,Male,0.0,naukri,Software Engineer,Marketing ,Rohan Mehta,2025-12-26,2026-01-01,2026-01-11,2026-01-16,2026-02-09,Hired,
+1199,Emily Arnold,22,Female,0.0,linkedin,Software Engineer,Marketing,Priya Sharma,2026-05-31,2026-06-02,,,,Rejected,Screened
+79,Steve Sanchez,35,Female,9.9,LINKEDIN,QA Engineer,Finance ,Arjun Patel,2026-08-27,,,,,In Process,
+271,Jasmin Alvarado,30,Male,5.9,Job Fair,HR Executive,Operations,Priya Sharma,2026-01-22,,,,,Rejected,Applied
+1398,Tracey Gonzalez,23,Female,0.1,company website,Data Analyst,Sales,Vikram Singh,2025-11-15,2025-11-20,,,,Rejected,Screened
+240,Yvonne Chambers,34,Female,8.6,Indeed ,Business Analyst,Operations,Emily Chen,2026-09-14,,,,,In Process,
+351,Ana Hill,26,Female,2.7,Job Fair,Business Analyst,Marketing,Emily Chen,2026-05-30,,,,,Rejected,Applied
+16,Brian Ramirez,34,Male,8.5,LINKEDIN,HR Executive,Finance ,Emily Chen,2026-08-11,2026-08-15,2026-08-22,2026-08-29,2026-09-15,Hired,
+1193,Paul Johnson,39,Male,15.7,NAUKRI,Product Manager,Human Resources,Priya Sharma,2025-10-13,2025-10-18,,,,Rejected,Screened
+359,Christian Leblanc,30,Male,5.3,Linked in,Business Analyst,Human Resources,Priya Sharma,2026-02-11,2026-02-15,,,,Rejected,Screened
+304,Sara Fuller,27,Female,4.4,naukri,Marketing Specialist,Human Resources,Arjun Patel,2025-10-25,2025-10-29,,,,Rejected,Screened
+416,Antonio Garcia,33,Female,10.8,Job Fair,Product Manager,Engineering,Sarah Johnson,2026-06-26,2026-07-01,2026-07-06,2026-07-11,2026-07-25,Hired,
+433,Travis Tucker,29,Female,3.3,linkedin,HR Executive,Operations,Arjun Patel,2026-02-01,,,,,Rejected,Applied
+278,Marie Christian,25,Male,1.9,job fair,Product Manager,Finance ,Arjun Patel,2026-07-28,,,,,Rejected,Applied
+615,Elizabeth Sharp,23,Male,0.5,naukri,Software Engineer,Finance,David Lee,2026-08-03,2026-08-05,2026-08-17,,,Rejected,Interviewed
+1213,Daniel White,33,Male,10.3,Indeed ,Data Analyst,Engineering ,David Lee,2026-06-01,2026-06-06,,,,Rejected,Screened
+539,Emma Owens,23,Female,0.4,Naukri,UX Designer,Engineering ,David Lee,2026-06-03,,,,,Rejected,Applied
+1001,Matthew Davis MD,35,Male,9.9,indeed,Data Analyst,Product,Sarah Johnson,2026-07-02,2026-07-08,,,,Rejected,Screened
+372,Debra White,32,Male,9.4,indeed,Sales Associate,Sales,Aisha Khan,2026-03-07,,,,,Rejected,Applied
+629,Joseph Wilson,27,Female,1.9,Indeed ,UX Designer,Engineering,Priya Sharma,2025-12-23,,,,,Rejected,Applied
+1264,Nicholas Humphrey,39,Male,15.9,Job Fair,Sales Associate,Marketing ,Priya Sharma,2026-08-11,,,,,Rejected,Applied
+1474,Aaron Little ,33,Non-binary,8.3,Naukri,UX Designer,Human Resources,Vikram Singh,2026-07-28,2026-08-01,2026-08-12,2026-08-19,2026-09-04,Hired,
+1401,Dr. Steve James,28,Male,2.0,indeed,Sales Associate,Finance ,Aisha Khan,2025-11-28,,,,,Rejected,Applied
+1074,David Stokes,36,Female,11.5,job fair,UX Designer,Marketing ,Vikram Singh,2026-02-01,,,,,Rejected,Applied
+1031,Douglas Vasquez,31,Female,6.9,naukri,UX Designer,Finance,David Lee,2026-07-30,,,,,Rejected,Applied
+967,Marie Thompson,27,Female,3.4,indeed,Sales Associate,Finance ,Priya Sharma,2026-04-20,2026-04-22,2026-04-28,2026-04-30,2026-05-08,Hired,
+486,Jonathan Glass MD,35,Male,11.8,linkedin,Marketing Specialist,Finance ,Aisha Khan,2026-03-18,,,,,Rejected,Applied
+1464,Matthew Miles,26,Male,1.4,Indeed ,Data Analyst,Finance ,Vikram Singh,2026-07-13,,,,,Rejected,Applied
+773,Eric Patrick,36,Female,11.4,company website,UX Designer,Engineering ,Sarah Johnson,2026-03-27,,,,,Rejected,Applied
+977,Stephen Davis,24,Male,0.0,company website,Sales Associate,Sales,Rohan Mehta,2025-11-22,2025-12-02,,,,Rejected,Screened
+975,Taylor Taylor,33,Male,7.9,LINKEDIN,UX Designer,Sales,Priya Sharma,2025-11-29,2025-12-04,,,,Rejected,Screened
+1011,Kathryn Lester,36,Female,13.4,Job Fair,DevOps Engineer,Sales,David Lee,2025-10-04,,,,,Rejected,Applied
+44,Anthony Humphrey,23,Male,0.0,Company Website,UX Designer,Product,Aisha Khan,2026-02-23,,,,,Rejected,Applied
+427,Jenna Larson,34,Male,9.9,linkedin,HR Executive,Operations,Sarah Johnson,2026-03-16,,,,,Rejected,Applied
+850,Brittany Jenkins,38,Male,15.3,Referral,Product Manager,Marketing,Sarah Johnson,2026-09-09,2026-09-14,,,,In Process,
+1373,John Oliver,32,Female,7.5,linkedin,Product Manager,Product,Emily Chen,2026-01-10,,,,,Rejected,Applied
+507,Brandon Fleming,23,Male,0.0,company website,Data Analyst,Engineering,Rohan Mehta,2026-08-02,2026-08-07,2026-08-17,,,Rejected,Interviewed
+102,Cameron Parker,40,Male,16.9,indeed,Sales Associate,Engineering ,Arjun Patel,2025-09-25,2025-09-29,,,,Rejected,Screened
+1103,Nicholas Lawrence,36,Non-binary,10.8,REFERRAL,DevOps Engineer,Finance ,Priya Sharma,2026-07-09,2026-07-11,2026-07-20,,,Rejected,Interviewed
+108,Sierra Johnson,29,Female,4.3,naukri,Business Analyst,Marketing,Rohan Mehta,2026-07-16,2026-07-19,,,,Rejected,Screened
+1069,Laura Lee,35,Female,12.3,Indeed ,Marketing Specialist,Engineering ,Sarah Johnson,2025-11-14,2025-11-20,2025-12-03,,,Rejected,Interviewed
+1205,Michael Lopez,31,Female,5.1,naukri,Software Engineer,Engineering ,Aisha Khan,2026-05-21,2026-05-24,2026-06-04,,,Rejected,Interviewed
+431,Maria Henderson,28,Female,4.5,indeed,Data Analyst,Engineering,Priya Sharma,2025-10-28,,,,,Rejected,Applied
+840,Michele Smith,30,Male,5.2,LinkedIn,HR Executive,Marketing ,Arjun Patel,2026-08-04,,,,,Rejected,Applied
+1002,Stephen Wood,35,Male,10.1,indeed,DevOps Engineer,Product,Aisha Khan,2025-12-31,2026-01-04,2026-01-07,,,Rejected,Interviewed
+1288,Matthew Houston,24,Female,0.5,indeed,Business Analyst,Operations,David Lee,2025-09-26,,,,,Rejected,Applied
+1180,Elizabeth Miles,31,Male,8.6,Linked in,Business Analyst,Finance ,Sarah Johnson,2025-12-08,2025-12-15,,,,Rejected,Screened
+712,Stephanie Elliott,25,Male,0.5,indeed,Marketing Specialist,Sales,Priya Sharma,2026-05-31,2026-06-02,,,,Rejected,Screened
+129,Cameron Fisher,32,Male,9.9,REFERRAL,Product Manager,Marketing ,Aisha Khan,2025-10-13,2025-10-19,2025-10-25,2025-11-04,2025-11-19,Hired,
+1455,Dawn Little,34,Male,9.6,NAUKRI,Marketing Specialist,Marketing ,David Lee,2025-11-10,2025-11-13,2025-11-19,,,Rejected,Interviewed
+1448,Ruth Clayton,39,Female,14.8,indeed,Data Analyst,Finance,Aisha Khan,2026-02-28,2026-03-04,2026-03-12,2026-03-19,2026-04-09,Hired,
+694,Jonathan Brooks,29,Male,3.8,company website,Software Engineer,Finance ,Arjun Patel,2026-02-24,2026-02-28,,,,Rejected,Screened
+530,Angel May,24,Female,1.7,Job Fair,DevOps Engineer,Marketing,Priya Sharma,2026-06-17,,,,,Rejected,Applied
+665,Renee Melendez,25,Male,2.2,LinkedIn,UX Designer,Product,Priya Sharma,2025-11-18,,,,,Rejected,Applied
+1482,Christina Washington,25,Male,2.0,linkedin,Data Analyst,Sales,Sarah Johnson,2025-11-06,2025-11-12,,,,Rejected,Screened
+865,Austin Baker,29,Non-binary,4.1,NAUKRI,Business Analyst,Finance,David Lee,2026-01-28,2026-01-31,,,,Rejected,Screened
+1384,Jonathan Clark,35,Male,12.6,NAUKRI,Sales Associate,Product,Vikram Singh,2026-08-07,,,,,Rejected,Applied
+33,Tricia Valencia,32,Female,6.6,Naukri,DevOps Engineer,Marketing,Sarah Johnson,2026-08-24,2026-08-27,2026-09-05,,,In Process,
+675,Zachary Mendoza,33,Female,11.0,Company website,Software Engineer,Engineering ,Arjun Patel,2025-12-01,2025-12-05,,,,Rejected,Screened
+472,Richard Cooper,29,Female,6.8,NAUKRI,Software Engineer,Engineering,Vikram Singh,2026-08-13,,,,,Rejected,Applied
+382,Paul Wilson,27,Female,2.0,LinkedIn,DevOps Engineer,Finance ,Vikram Singh,2025-10-25,2025-10-29,,,,Rejected,Screened
+1164,Amber Martin,34,Male,10.2,linkedin,UX Designer,Sales,Sarah Johnson,2025-12-18,2025-12-20,2025-12-25,,,Rejected,Interviewed
+452,Courtney Hayes,19,Male,0.0,Indeed ,QA Engineer,Operations ,David Lee,2026-05-08,,,,,Rejected,Applied
+1304,Carolyn Greer,25,Male,2.8,linkedin,Sales Associate,Sales,Arjun Patel,2026-03-08,2026-03-15,2026-04-02,,,Rejected,Interviewed
+232,Susan Serrano,24,Female,1.7,Linked in,Business Analyst,Finance ,Arjun Patel,2026-04-16,,,,,Rejected,Applied
+817,Tamara Riddle,22,Male,0.0,naukri,QA Engineer,Operations,Aisha Khan,2026-05-20,,,,,Rejected,Applied
+527,Todd Moore,25,Male,2.7,naukri,HR Executive,Engineering,Aisha Khan,2026-04-07,2026-04-12,,,,Rejected,Screened
+1465,Beth Hall,29,Male,6.2,Referral,Data Analyst,Operations,Rohan Mehta,2026-07-16,2026-07-24,2026-08-03,,,Rejected,Interviewed
+990,Karen Johnson,38,Female,13.1,LinkedIn,QA Engineer,Operations,Sarah Johnson,2026-04-22,,,,,Rejected,Applied
+164,Jeffrey Johnson,41,Female,15.3,Indeed,HR Executive,Operations,Emily Chen,2026-01-13,,,,,Rejected,Applied
+1084,Keith Knox,29,Male,5.2,job fair,Business Analyst,Human Resources,Sarah Johnson,2025-12-07,,,,,Rejected,Applied
+1179,Jason Graves,28,Male,6.0,referral,Marketing Specialist,Marketing ,Arjun Patel,2026-06-30,2026-07-09,,,,Rejected,Screened
+1145,Michael Cruz,33,Female,7.2,NAUKRI,UX Designer,Marketing,Rohan Mehta,2026-07-30,,,,,Rejected,Applied
+1220,Lisa Haley,35,Male,9.1,naukri,HR Executive,Product,Emily Chen,2026-02-11,2026-02-15,,,,Rejected,Screened
+262,Desiree Tyler,18,Female,0.0,Indeed,DevOps Engineer,Engineering ,Emily Chen,2026-06-03,2026-06-06,2026-06-10,,,Rejected,Interviewed
+590,Melissa Taylor,24,Male,0.0,Company website,HR Executive,Operations,Rohan Mehta,2026-05-28,,,,,Rejected,Applied
+651,Andrew Harper,25,Female,2.8,LinkedIn,QA Engineer,Marketing,Rohan Mehta,2026-08-30,,,,,In Process,
+859,Steven Blevins,31,Male,7.1,linkedin,Software Engineer,Finance ,Sarah Johnson,2026-03-22,,,,,Rejected,Applied
+1201,Sheila Greer,26,Female,2.2,Indeed,Software Engineer,Sales,Aisha Khan,2026-05-19,,,,,Rejected,Applied
+820,Megan Burns,28,Male,2.7,Indeed,Sales Associate,Engineering ,Emily Chen,2026-08-26,2026-08-31,2026-09-13,,,In Process,
+193,Debra Christian,22,Male,0.0,LinkedIn,HR Executive,Finance ,Aisha Khan,2026-07-30,2026-08-01,2026-08-04,,,Rejected,Interviewed
+1186,John Duncan,25,Male,0.0,indeed,QA Engineer,Product,Arjun Patel,2026-01-08,,,,,Rejected,Applied
+325,Natalie Bautista,18,Female,0.0,NAUKRI,Sales Associate,Finance ,David Lee,2026-09-01,2026-09-08,,,,In Process,
+482,Howard Norman,38,Male,15.5,LinkedIn,HR Executive,Marketing ,Rohan Mehta,2025-12-18,2025-12-26,,,,Rejected,Screened
+64,Donald Wright,21,Male,0.0,company website,Business Analyst,Marketing,Sarah Johnson,2025-12-06,2025-12-12,2025-12-15,2025-12-19,2025-12-28,Hired,
+1102,Darryl Acosta,38,Female,14.6,job fair,Data Analyst,Finance,Rohan Mehta,2026-01-02,,,,,Rejected,Applied
+245,Shannon Rivera,20,Female,0.0,Company website,Software Engineer,Product,David Lee,2026-03-13,,,,,Rejected,Applied
+974,Tracy Walker,18,Male,0.0,Referral,Business Analyst,Product,Emily Chen,2025-10-08,2025-10-10,2025-10-21,,,Rejected,Interviewed
+925,Danielle Murray,23,Female,0.0,Company Website,Business Analyst,Product,Emily Chen,2026-09-08,,,,,In Process,
+366,Kenneth Lewis,35,Non-binary,12.2,referral,Marketing Specialist,Marketing ,Aisha Khan,2025-10-31,2025-11-03,,,,Rejected,Screened
+523,Hannah Everett,30,Male,6.8,Indeed,HR Executive,Finance ,Emily Chen,2025-11-12,,,,,Rejected,Applied
+932,Sandra Rivera,23,Female,0.0,linkedin,HR Executive,Human Resources,Priya Sharma,2025-10-29,,,,,Rejected,Applied
+483,Evelyn Martinez,30,Male,6.5,Company Website,DevOps Engineer,Finance,Emily Chen,2026-07-18,2026-07-23,,,,Rejected,Screened
+926,Brenda Smith,27,Male,4.5,linkedin,QA Engineer,Product,David Lee,2026-05-23,2026-05-26,2026-06-08,,,Rejected,Interviewed
+199,Adam Vaughan,18,Non-binary,0.0,company website,UX Designer,Finance,Sarah Johnson,2025-10-02,2025-10-09,2025-10-14,,,Rejected,Interviewed
+1221,Erica Moon,24,Female,0.0,company website,HR Executive,Engineering ,Arjun Patel,2026-08-29,,,,,In Process,
+1285,Mrs. Michele Boyd,24,Male,1.4,linkedin,UX Designer,Finance,Vikram Singh,2026-05-05,2026-05-08,,,,Rejected,Screened
+260,Mrs. Kristen Reyes,29,Male,6.7,linkedin,Marketing Specialist,Marketing ,Emily Chen,2025-11-21,2025-11-24,2025-12-07,,,Rejected,Interviewed
+567,Paula Lane,20,Female,0.0,NAUKRI,Business Analyst,Finance,Arjun Patel,2025-10-01,,,,,Rejected,Applied
+219,Justin Torres,28,Female,2.2,Company website,QA Engineer,Engineering ,Rohan Mehta,2025-10-29,,,,,Rejected,Applied
+465,Jose Allen,18,Female,0.0,JobFair,Business Analyst,Human Resources,Emily Chen,2025-11-09,,,,,Rejected,Applied
+31,Rebecca Henderson,24,Male,1.0,Indeed,Marketing Specialist,Engineering,David Lee,2026-07-14,,,,,Rejected,Applied
+57,Timothy Duncan,27,Female,3.0,Indeed,Software Engineer,Finance,Sarah Johnson,2025-10-08,,,,,Rejected,Applied
+1224,Robert Griffin,26,Male,1.2,LinkedIn,Product Manager,Engineering ,Vikram Singh,2025-12-26,,,,,Rejected,Applied
+894,Cassie Brock,33,Female,7.1,Linked in,HR Executive,Product,Arjun Patel,2026-06-25,,,,,Rejected,Applied
+922,David Kelly,31,Female,6.2,Job Fair,Data Analyst,Finance,Arjun Patel,2026-07-17,,,,,Rejected,Applied
+515,Angelica Parker,29,Female,6.7,referral,Software Engineer,Engineering ,Rohan Mehta,2026-02-23,2026-03-01,,,,Rejected,Screened
+1371,Megan Alvarado,29,Female,3.9,Referral,HR Executive,Finance ,Vikram Singh,2026-02-09,2026-02-11,,,,Rejected,Screened
+744,Valerie Taylor,24,Female,0.0,company website,DevOps Engineer,Engineering ,Sarah Johnson,2026-09-02,2026-09-04,,,,In Process,
+1047,Nicole Barker,27,Female,4.2,linkedin,QA Engineer,Sales,David Lee,2026-06-27,,,,,Rejected,Applied
+863,Holly Vega,29,Male,3.8,linkedin,Data Analyst,Product,Vikram Singh,2025-12-21,2025-12-25,2026-01-07,,,Rejected,Interviewed
+1162,Glenn Gallegos,19,Female,0.0,Naukri,Sales Associate,Sales,Sarah Johnson,2026-01-10,2026-01-12,2026-01-26,,,Rejected,Interviewed
+1250,Stephanie Cooper,34,Male,8.6,Indeed,DevOps Engineer,Marketing,Sarah Johnson,2026-01-29,2026-02-02,2026-02-16,,,Rejected,Interviewed
+414,Joanna Pacheco,25,Male,2.0,NAUKRI,QA Engineer,Finance ,Rohan Mehta,2026-05-14,2026-05-20,2026-05-28,2026-06-05,2026-06-24,Hired,
+1177,Pamela Hill,18,Female,0.0,indeed,Marketing Specialist,Operations,Aisha Khan,2026-08-23,2026-08-29,,,,In Process,
+655,Robert Dennis,30,Female,5.5,Naukri,Marketing Specialist,Engineering,Aisha Khan,2026-05-05,,,,,Rejected,Applied
+1054,Robert Torres,0,Male,5.2,referral,Business Analyst,Product,Vikram Singh,2025-10-03,2025-10-08,,,,Rejected,Screened
+853,Victor Edwards,22,Female,0.0,LinkedIn,Software Engineer,Marketing ,Priya Sharma,2025-10-29,2025-11-04,2025-11-11,,,Rejected,Interviewed
+100,Stephen Mckee,40,Female,15.4,Referral,QA Engineer,Sales,Aisha Khan,2026-01-27,2026-02-01,,,,Rejected,Screened
+1321,Diane Mcdowell,23,Female,0.0,REFERRAL,UX Designer,Sales ,David Lee,2025-10-10,2025-10-15,2025-10-20,,,Rejected,Interviewed
+310,Dawn Summers,28,Female,2.1,referral,Marketing Specialist,Engineering ,Sarah Johnson,2026-02-16,2026-02-20,,,,Rejected,Screened
+276,Matthew Moore,18,Male,0.0,Company Website,Business Analyst,Engineering ,Vikram Singh,2026-01-08,,,,,Rejected,Applied
+1126,Peter Williams,24,Male,1.2,Indeed ,Marketing Specialist,Marketing,Rohan Mehta,2026-03-01,2026-03-11,,,,Rejected,Screened
+1390,Robert Thompson,30,Female,6.8,Company website,UX Designer,Sales,Emily Chen,2026-06-09,,,,,Rejected,Applied
+616,Matthew Schwartz,23,Male,0.4,NAUKRI,Sales Associate,Human Resources,Rohan Mehta,2025-10-30,2025-11-04,2025-11-20,2025-12-04,2025-12-17,Hired,
+844,Benjamin Reyes,24,Male,0.6,JobFair,DevOps Engineer,Finance ,Arjun Patel,2025-10-26,,,,,Rejected,Applied
+637,Timothy Johnson,35,Male,9.4,linkedin,UX Designer,Engineering,David Lee,2026-01-23,2026-01-27,,,,Rejected,Screened
+589,Dale Ryan,39,Male,16.3,Indeed,UX Designer,Finance,Aisha Khan,2025-12-18,2025-12-25,2025-12-30,,,Rejected,Interviewed
+381,Karla Ramos,20,Male,0.0,company website,DevOps Engineer,Marketing,David Lee,2026-08-30,,,,,In Process,
+597,Victor Morris,34,Male,10.8,job fair,Sales Associate,Engineering ,Rohan Mehta,2026-03-10,2026-03-13,,,,Rejected,Screened
+983,Joshua Garcia,24,Female,0.0,Job Fair,Product Manager,Engineering,Sarah Johnson,2026-03-04,,,,,Rejected,Applied
+1178,Tracy Chavez,32,Non-binary,8.6,Job Fair,Business Analyst,Human Resources,Emily Chen,2026-03-25,,,,,Rejected,Applied
+848,Joseph Smith,23,Male,0.0,company website,UX Designer,Finance,Sarah Johnson,2026-05-01,,,,,Rejected,Applied
+237,Andrew Reynolds,37,Female,13.0,job fair,Product Manager,Sales,Emily Chen,2026-06-15,,,,,Rejected,Applied
+1056,Gregory King,25,Female,1.1,REFERRAL,Software Engineer,Sales,Sarah Johnson,2026-05-12,2026-05-14,,,,Rejected,Screened
+1079,Julie Delacruz,24,Female,1.6,Linked in,Marketing Specialist,Marketing,Sarah Johnson,2026-01-22,2026-01-24,,,,Rejected,Screened
+1461,Jacqueline Davis,30,Female,7.8,referral,Business Analyst,Engineering ,Emily Chen,2026-01-13,2026-01-17,2026-01-31,,,Rejected,Interviewed
+888,Dana Ruiz,26,Male,1.2,Indeed ,Sales Associate,Product,Arjun Patel,2025-12-22,,,,,Rejected,Applied
+479,Curtis Williams,32,Female,7.3,company website,DevOps Engineer,Human Resources,Emily Chen,2026-07-25,2026-07-30,,,,Rejected,Screened
+209,Dr. William Warren,30,Male,5.0,REFERRAL,Software Engineer,Engineering ,Arjun Patel,2026-05-03,2026-05-10,,,,Rejected,Screened
+395,Tamara Davis,30,Female,7.0,LINKEDIN,Product Manager,Marketing ,David Lee,2025-11-12,,,,,Rejected,Applied
+797,Tracey Wagner,19,Female,0.0,referral,UX Designer,Marketing ,Emily Chen,2025-12-29,2026-01-03,,,,Rejected,Screened
+362,Laurie Hoffman,34,Female,9.2,linkedin,Software Engineer,Operations,David Lee,2026-01-18,2026-01-21,2026-01-30,2026-02-04,2026-02-10,Hired,
+59,Brent Jordan,36,Female,11.2,REFERRAL,Data Analyst,Engineering ,Rohan Mehta,2026-09-04,2026-09-12,,,,In Process,
+311,Dr. Paul Morgan,20,Male,0.0,linkedin,Marketing Specialist,Product,David Lee,2025-11-17,,,,,Rejected,Applied
+868,Michael Miller,33,Male,10.3,company website,Software Engineer,Finance ,Arjun Patel,2026-02-02,2026-02-09,2026-02-27,,,Rejected,Interviewed
+412,Lisa Hunter,41,Female,15.3,Indeed ,UX Designer,Marketing,Emily Chen,2026-01-16,,,,,Rejected,Applied
+1393,Jennifer Vaughn,32,Female,9.8,Company Website,QA Engineer,Marketing,Arjun Patel,2025-10-25,,,,,Rejected,Applied
+1204,Tracey Phillips,35,Female,12.4,Indeed,Sales Associate,Sales,David Lee,2025-11-21,,,,,Rejected,Applied
+731,Jerry Peters,45,Male,22.1,REFERRAL,DevOps Engineer,Finance ,Aisha Khan,2025-11-13,2025-11-20,2025-11-23,,,Rejected,Interviewed
+1223,Thomas Short,37,Female,12.9,LinkedIn,Software Engineer,Sales,Emily Chen,2026-04-09,2026-04-11,,,,Rejected,Screened
+345,Kayla Rodriguez,19,Female,0.0,Company website,QA Engineer,Operations,Sarah Johnson,2026-05-17,2026-05-24,,,,Rejected,Screened
+1299,Kenneth Brown,35,Female,9.5,Company website,Business Analyst,Marketing,Emily Chen,2026-09-13,,,,,In Process,
+869,Lisa Ramirez,28,Male,3.2,company website,HR Executive,Human Resources,Aisha Khan,2025-12-02,2025-12-07,2025-12-15,2025-12-23,,Rejected,Offered
+1167,Jenna Bryant,21,Male,0.0,Company Website,DevOps Engineer,Engineering,Vikram Singh,2026-03-11,,,,,Rejected,Applied
+1171,Tina Taylor,27,Male,2.2,company website,Sales Associate,Operations,Priya Sharma,2026-07-02,,,,,Rejected,Applied
+716,David Davenport,35,Male,12.8,naukri,Product Manager,Marketing ,Sarah Johnson,2025-11-29,2025-12-04,2025-12-08,,,Rejected,Interviewed
+234,Laura Roberts,33,Female,9.9,Linked in,DevOps Engineer,Marketing ,Aisha Khan,2026-01-06,2026-01-11,,,,Rejected,Screened
+632,Joyce Brown,28,Female,4.0,JobFair,Software Engineer,Engineering,David Lee,2026-03-25,,,,,Rejected,Applied
+197,Daniel Salinas,26,Male,3.1,Company website,Product Manager,Finance,Arjun Patel,2026-03-24,,,,,Rejected,Applied
+1275,John Dixon,24,Male,0.0,Company Website,UX Designer,Engineering,Aisha Khan,2026-09-04,2026-09-08,,,,In Process,
+82,Mike Allen,25,Female,1.8,Naukri,Product Manager,Engineering,Aisha Khan,2026-01-19,,,,,Rejected,Applied
+1420,Kimberly Nelson,33,Male,9.4,indeed,Product Manager,Finance,Vikram Singh,2026-01-26,,,,,Rejected,Applied
+1088,Philip Jackson,24,Male,0.0,Referral,DevOps Engineer,Finance,David Lee,2026-07-27,2026-07-29,2026-08-06,2026-08-13,2026-08-26,Hired,
+1169,Timothy Monroe,34,Female,8.3,referral,QA Engineer,Sales,Arjun Patel,2026-02-26,2026-03-01,2026-03-06,,,Rejected,Interviewed
+112,Shannon Walker,30,Male,4.6,job fair,Software Engineer,Finance,Vikram Singh,2026-08-07,,,,,Rejected,Applied
+1330,Dawn Parker,30,Female,6.3,Referral,DevOps Engineer,Human Resources,Arjun Patel,2026-08-28,2026-09-01,,,,In Process,
+794,Katherine Taylor,29,Male,6.2,Indeed ,Data Analyst,Operations,Rohan Mehta,2026-06-09,2026-06-12,,,,Rejected,Screened
+999,Edgar Miller,29,Female,5.7,LINKEDIN,QA Engineer,Finance ,Aisha Khan,2026-08-12,,,,,Rejected,Applied
+870,Jorge Harris,38,Male,15.8,LinkedIn,Product Manager,Engineering ,Sarah Johnson,2026-01-31,2026-02-05,2026-02-09,,,Rejected,Interviewed
+1281,Daniel Freeman,32,Female,7.1,Referral,Product Manager,Marketing ,Rohan Mehta,2026-03-15,2026-03-21,2026-03-27,,,Rejected,Interviewed
+1335,Melissa Mann,36,Male,12.3,Job Fair,QA Engineer,Operations,Sarah Johnson,2026-03-16,,,,,Rejected,Applied
+602,Jennifer Simpson DVM,32,Female,8.9,Company Website,Software Engineer,Engineering,Emily Chen,2026-07-05,,,,,Rejected,Applied
+591,Laurie Sanchez,30,Male,7.4,JobFair,Software Engineer,Marketing,Vikram Singh,2026-02-26,2026-03-01,,,,Rejected,Screened
+719,Kathryn Mccann,34,Female,9.8,Company Website,DevOps Engineer,Marketing ,Aisha Khan,2026-03-30,2026-04-02,,,,Rejected,Screened
+428,Emily Bennett,36,Female,12.9,job fair,Software Engineer,Human Resources,Emily Chen,2026-05-09,,,,,Rejected,Applied
+917,Jason Herrera,35,Female,12.3,REFERRAL,UX Designer,Engineering ,Sarah Johnson,2025-10-05,,,,,Rejected,Applied
+333,Jordan Bates,26,Female,0.5,naukri,Data Analyst,Engineering ,Emily Chen,2026-06-01,2026-06-08,2026-06-18,,,Rejected,Interviewed
+813,Douglas Ryan,28,Male,2.1,referral,Business Analyst,Operations,Aisha Khan,2026-01-27,2026-01-31,,,,Rejected,Screened
+1202,Michele Holland,26,Male,2.6,naukri,Product Manager,Finance ,Vikram Singh,2025-12-13,2025-12-16,,,,Rejected,Screened
+1038,Eric Hunter,29,Male,4.4,Company Website,Software Engineer,Marketing,Priya Sharma,2026-07-10,2026-07-16,,,,Rejected,Screened
+1033,William Ramos,40,Male,17.2,NAUKRI,UX Designer,Finance,Emily Chen,2026-07-03,2026-07-06,2026-07-18,2026-07-28,2026-08-08,Hired,
+1090,Lucas Schultz,26,Male,3.7,REFERRAL,Sales Associate,Finance ,Aisha Khan,2026-05-28,2026-05-31,,,,Rejected,Screened
+440,Jason Rhodes,41,Female,18.9,naukri,QA Engineer,Finance ,David Lee,2026-03-17,2026-03-23,2026-03-28,,,Rejected,Interviewed
+514,Robert Arnold,27,Female,5.0,LINKEDIN,Software Engineer,Finance,Priya Sharma,2026-05-18,,,,,Rejected,Applied
+1418,Alyssa Alvarado,26,Female,3.0,Indeed,Product Manager,Marketing ,Emily Chen,2026-08-29,,,,,In Process,
+1107,Martha Smith,27,Male,4.7,Referral,Software Engineer,Finance ,David Lee,2025-10-18,2025-10-24,2025-10-31,,,Rejected,Interviewed
+549,Jessica Khan,25,Male,0.0,Company Website,Marketing Specialist,Engineering,Emily Chen,2026-02-20,,,,,Rejected,Applied
+1314,Samantha Prince,28,Male,2.5,Job Fair,Product Manager,Product,Sarah Johnson,2026-07-01,,,,,Rejected,Applied
+994,Deborah Campbell,39,Male,16.9,LinkedIn,HR Executive,Operations,Emily Chen,2026-04-15,2026-04-17,2026-04-22,,,Rejected,Interviewed
+1497,Sonya Jackson,-5,Male,1.6,NAUKRI,Data Analyst,Finance ,Vikram Singh,2026-04-22,2026-04-25,,,,Rejected,Screened
+255,Cynthia Moore,22,Female,0.0,LinkedIn,QA Engineer,Engineering ,Vikram Singh,2026-09-16,,,,,In Process,
+323,Johnathan Davis,22,Male,0.0,Referral,Software Engineer,Engineering,Sarah Johnson,2026-08-15,2026-08-19,2026-08-23,,,In Process,
+1106,Amber Vang,28,Female,3.5,indeed,Software Engineer,Finance ,Priya Sharma,2026-07-15,2026-07-18,2026-07-29,,,Rejected,Interviewed
+745,Travis Harris,40,Male,16.8,Referral,Sales Associate,Finance ,Emily Chen,2026-04-06,2026-04-09,,,,Rejected,Screened
+938,Edward Jenkins,25,Non-binary,2.3,indeed,HR Executive,Operations,Sarah Johnson,2025-10-13,2025-10-17,,,,Rejected,Screened
+680,William Harrison,28,Male,3.4,indeed,Marketing Specialist,Finance ,Sarah Johnson,2025-11-02,2025-11-06,2025-11-09,,,Rejected,Interviewed
+856,Melissa Abbott,30,Male,7.9,job fair,Marketing Specialist,Finance ,Arjun Patel,2026-06-19,,,,,Rejected,Applied
+1247,Kristen Peters,27,Male,2.7,naukri,UX Designer,Engineering ,Arjun Patel,2025-11-06,2025-11-11,2025-11-20,2025-11-29,2025-12-10,Hired,
+340,David Thompson,35,Male,9.1,Linked in,Marketing Specialist,Human Resources,Vikram Singh,2025-11-28,2025-12-04,,,,Rejected,Screened
+87,Shirley Suarez,18,Female,0.0,Indeed,QA Engineer,Sales,Arjun Patel,2026-08-23,2026-08-27,2026-09-04,,,In Process,
+1437,Rhonda Gutierrez,42,Male,17.8,REFERRAL,Software Engineer,Product,Aisha Khan,2026-08-25,2026-08-31,2026-09-04,2026-09-12,,In Process,
+266,Joshua Reed,28,Female,4.7,JobFair,Product Manager,Operations,Emily Chen,2025-12-03,,,,,Rejected,Applied
+288,Carolyn Miller,38,Female,12.8,LINKEDIN,HR Executive,Engineering ,Vikram Singh,2025-11-23,,,,,Rejected,Applied
+1499,Zachary Ramos,31,Male,7.9,Indeed,Product Manager,Finance ,David Lee,2026-01-29,,,,,Rejected,Applied
+1053,Lindsay Smith,31,Non-binary,8.3,JobFair,Data Analyst,Operations,Arjun Patel,2026-01-15,2026-01-24,,,,Rejected,Screened
+1142,Vanessa Santiago,28,Female,4.1,Job Fair,Business Analyst,Sales,Vikram Singh,2026-08-02,2026-08-09,,,,Rejected,Screened
+1362,Kelli Smith,29,Male,3.5,LINKEDIN,Product Manager,Sales,Aisha Khan,2025-10-18,2025-10-20,2025-11-03,,,Rejected,Interviewed
+562,Kim Erickson,39,Female,13.2,job fair,DevOps Engineer,Product,David Lee,2025-11-03,,,,,Rejected,Applied
+746,Vincent Novak,26,Male,0.7,Indeed,QA Engineer,Sales,David Lee,2025-11-24,2025-11-30,,,,Rejected,Screened
+222,Jeremy Dalton,35,Female,9.2,referral,Data Analyst,Marketing ,Sarah Johnson,2026-03-15,2026-03-21,,,,Rejected,Screened
+114,Crystal Johnson,26,Female,0.1,company website,UX Designer,Product,Arjun Patel,2026-05-12,2026-05-20,,,,Rejected,Screened
+1109,Kara Hernandez,30,Female,4.1,linkedin,Marketing Specialist,Marketing,Aisha Khan,2026-07-16,,,,,Rejected,Applied
+592,Kiara Little,23,Male,0.3,Company Website,Marketing Specialist,Finance ,Aisha Khan,2026-01-29,2026-02-02,2026-02-11,,,Rejected,Interviewed
+175,Nicole Herring,200,Male,12.4,Indeed ,Business Analyst,Operations,Priya Sharma,2025-12-12,2025-12-14,,,,Rejected,Screened
+606,Todd Rosales MD,21,Female,0.0,Linked in,QA Engineer,Finance ,Sarah Johnson,2025-11-01,,,,,Rejected,Applied
+495,Meghan Cisneros,27,Male,4.2,Company website,UX Designer,Human Resources,Emily Chen,2025-12-09,,,,,Rejected,Applied
+1189,Kelly Johnson,31,Male,7.0,Indeed ,HR Executive,Engineering,Rohan Mehta,2026-02-04,2026-02-15,2026-03-01,2026-03-17,2026-04-12,Hired,
+19,Lisa Jackson,22,Female,0.0,Referral,Data Analyst,Engineering ,Priya Sharma,2026-08-03,2026-08-09,2026-08-11,,,Rejected,Interviewed
+998,Christina Johnson,32,Male,8.4,Indeed ,UX Designer,Engineering,Priya Sharma,2025-12-24,2025-12-26,,,,Rejected,Screened
+286,Elaine Brooks,32,Female,7.8,Company website,DevOps Engineer,Engineering,Emily Chen,2026-05-14,,,,,Rejected,Applied
+882,Denise Brown,25,Male,0.0,LinkedIn,Data Analyst,Operations,Arjun Patel,2026-09-03,2026-09-08,,,,In Process,
+1269,Bernard Smith,27,Male,1.5,Indeed,UX Designer,Engineering ,Vikram Singh,2026-03-03,,,,,Rejected,Applied
+1210,Anthony Randolph,30,Female,7.4,Indeed ,Sales Associate,Operations,Vikram Singh,2026-03-15,2026-03-19,2026-03-22,,,Rejected,Interviewed
+32,James Ferrell,33,Male,10.1,Referral,Data Analyst,Marketing,Rohan Mehta,2025-10-02,2025-10-08,2025-10-14,2025-10-25,,Rejected,Offered
+1113,Nathan Wilson,23,Male,0.9,Linked in,Software Engineer,Engineering,Aisha Khan,2025-12-16,,,,,Rejected,Applied
+211,Christopher Smith,22,Male,0.0,REFERRAL,DevOps Engineer,Marketing ,Arjun Patel,2026-08-11,2026-08-15,,,,Rejected,Screened
+985,Carla Jones,33,Female,8.3,REFERRAL,UX Designer,Operations,Priya Sharma,2026-05-07,2026-05-12,2026-05-23,2026-05-26,2026-05-30,Hired,
+1043,Kathy Reid,19,Female,0.0,Linked in,Product Manager,Marketing ,Aisha Khan,2026-03-24,2026-03-30,2026-04-08,,,Rejected,Interviewed
+1199,Emily Arnold,22,Female,0.0,linkedin,Software Engineer,Marketing,Priya Sharma,2026-05-31,2026-06-02,,,,Rejected,Screened
+429,Robin Santiago,27,Male,2.7,Company website,HR Executive,Marketing ,Rohan Mehta,2026-08-16,,,,,Rejected,Applied
+1211,Mary Henry,33,Male,10.4,Indeed ,UX Designer,Marketing,Rohan Mehta,2025-11-05,2025-11-13,,,,Rejected,Screened
+775,Carly Riggs,35,Female,11.1,Linked in,UX Designer,Engineering,Priya Sharma,2026-04-29,,,,,Rejected,Applied
+142,David Douglas Jr.,34,Female,9.8,indeed,Sales Associate,Sales,Rohan Mehta,2025-10-16,,,,,Rejected,Applied
+189,Madison Poole,34,Female,9.0,LINKEDIN,Software Engineer,Finance ,Rohan Mehta,2025-11-27,2025-12-05,2025-12-15,,,Rejected,Interviewed
+383,Douglas Gregory,25,Male,0.0,Referral,Data Analyst,Product,David Lee,2026-07-06,2026-07-10,2026-07-16,2026-07-21,2026-07-27,Hired,
+1328,Nicole Gutierrez,26,Male,0.5,Linked in,Sales Associate,Operations,Emily Chen,2025-11-01,2025-11-08,,,,Rejected,Screened
+501,Jennifer Banks,29,Female,4.5,Indeed ,Business Analyst,Finance,Arjun Patel,2025-10-24,2025-10-31,,,,Rejected,Screened
+1032,Annette Melton,30,Female,7.0,Company Website,QA Engineer,Finance,Rohan Mehta,2026-03-09,,,,,Rejected,Applied
+809,Patricia Young PhD,23,Male,0.9,Job Fair,Data Analyst,Sales,Rohan Mehta,2026-02-04,,,,,Rejected,Applied
+917,Jason Herrera,35,Female,12.3,NAUKRI,UX Designer,Engineering ,Sarah Johnson,2025-10-05,,,,,Rejected,Applied
+84,Paul Jones,29,Female,4.7,JobFair,Business Analyst,Finance ,Emily Chen,2026-01-18,2026-01-21,,,,Rejected,Screened
+683,Dean Donovan,34,Male,8.5,Job Fair,Software Engineer,Sales,Aisha Khan,2025-12-06,,,,,Rejected,Applied
+49,Joshua Blair,37,Female,14.2,REFERRAL,Marketing Specialist,Marketing,Sarah Johnson,2026-04-06,2026-04-09,2026-04-16,2026-04-18,2026-05-08,Hired,
+1138,Bianca Knapp,25,Male,2.9,JobFair,Business Analyst,Finance ,Rohan Mehta,2026-05-05,2026-05-16,,,,Rejected,Screened
+156,Michelle Brown,28,Male,4.1,Job Fair,UX Designer,Marketing,Priya Sharma,2026-02-22,,,,,Rejected,Applied
+908,Kelly Haynes,25,Male,0.0,NAUKRI,Marketing Specialist,Human Resources,Emily Chen,2026-08-06,2026-08-13,2026-08-18,2026-08-20,,In Process,
+1411,Mercedes Miller,37,Female,12.8,LinkedIn,UX Designer,Product,David Lee,2026-05-17,2026-05-21,,,,Rejected,Screened
+430,Nancy Jennings,31,Male,5.0,REFERRAL,Data Analyst,Engineering ,Emily Chen,2026-03-29,2026-04-03,2026-04-14,2026-04-22,2026-05-01,Hired,
+1066,Melanie Griffith,32,Male,9.0,Company website,HR Executive,Finance ,Priya Sharma,2026-06-13,,,,,Rejected,Applied
+821,Debra Perry,20,Male,0.0,LINKEDIN,Software Engineer,Product,Priya Sharma,2026-05-17,,,,,Rejected,Applied
+1243,Brandy Myers,27,Male,4.0,Job Fair,Sales Associate,Operations,Rohan Mehta,2026-09-03,,,,,In Process,
+1496,Heather Ellis,29,Female,4.8,Naukri,Software Engineer,Marketing ,Arjun Patel,2026-06-08,2026-06-15,2026-07-01,2026-07-09,2026-07-24,Hired,
+535,Anthony Gonzales,28,Male,3.9,JobFair,Sales Associate,Sales,Vikram Singh,2025-11-19,,,,,Rejected,Applied
+180,Robert Oconnell,26,Male,3.0,LINKEDIN,HR Executive,Finance,Arjun Patel,2025-11-09,2025-11-13,,,,Rejected,Screened
+426,Gregory Ponce,36,Female,12.0,Company website,Business Analyst,Sales,Rohan Mehta,2025-11-04,,,,,Rejected,Applied
+1261,Eugene Patterson,26,Female,1.4,LINKEDIN,UX Designer,Marketing,Emily Chen,2026-01-16,2026-01-21,2026-01-27,,,Rejected,Interviewed
+755,Dana Hopkins,38,Female,13.4,Company Website,Sales Associate,Operations,Rohan Mehta,2025-12-24,2026-01-01,,,,Rejected,Screened
+1027,Lee Steele,37,Female,12.2,Indeed ,Marketing Specialist,Human Resources,Arjun Patel,2026-05-23,2026-05-27,,,,Rejected,Screened
+830,Kenneth Knight,20,Male,0.0,linkedin,QA Engineer,Engineering ,Arjun Patel,2026-02-24,,,,,Rejected,Applied
+364,Nicole Parrish,25,Male,1.3,Linked in,Software Engineer,Sales,Aisha Khan,2026-06-24,2026-06-30,,,,Rejected,Screened
+1190,Michael Gonzalez,27,Female,3.0,Naukri,UX Designer,Human Resources,Arjun Patel,2026-07-02,2026-07-06,,,,Rejected,Screened
+1212,Heather Bowers,27,Male,1.7,Job Fair,DevOps Engineer,Marketing,David Lee,2026-02-07,,,,,Rejected,Applied
+347,Sharon Boyd,31,Female,7.8,NAUKRI,Data Analyst,Operations,Arjun Patel,2026-01-29,,,,,Rejected,Applied
+1095,Michael Cooper,18,Female,0.0,Linked in,Data Analyst,Engineering ,Vikram Singh,2026-06-16,,,,,Rejected,Applied
+644,Courtney Smith,32,Female,8.7,Job Fair,Data Analyst,Finance ,Sarah Johnson,2026-01-26,,,,,Rejected,Applied
+669,Nathaniel Lee,31,Male,8.0,Company website,Product Manager,Marketing,Aisha Khan,2026-02-17,2026-02-21,2026-03-03,,,Rejected,Interviewed
+1086,Katherine Welch,30,Male,4.0,LINKEDIN,Sales Associate,Sales,Arjun Patel,2025-10-21,2025-10-26,,,,Rejected,Screened
+598,Susan Davis,33,Male,10.3,indeed,Product Manager,Engineering ,Rohan Mehta,2026-03-08,2026-03-19,,,,Rejected,Screened
+577,Thomas Peterson,39,Female,14.9,REFERRAL,Data Analyst,Marketing,Emily Chen,2026-03-16,2026-03-21,,,,Rejected,Screened
+1323,Laura Wilson,40,Male,14.2,company website,Software Engineer,Finance,Sarah Johnson,2025-12-16,2025-12-18,2025-12-22,2025-12-24,2026-01-02,Hired,
+244,Brandon Bailey MD,32,Male,6.5,JobFair,Marketing Specialist,Marketing,Vikram Singh,2025-12-11,2025-12-18,,,,Rejected,Screened
+818,Beth Cline,35,Female,12.5,Job Fair,Business Analyst,Marketing,David Lee,2026-02-24,,,,,Rejected,Applied
+627,Amy Kelley,999,Male,2.2,Linked in,QA Engineer,Product,Vikram Singh,2025-10-14,2025-10-19,,,,Rejected,Screened
+778,Cody Davidson,30,Male,4.8,LinkedIn,QA Engineer,Finance ,Arjun Patel,2026-01-01,2026-01-09,2026-01-17,,,Rejected,Interviewed
+906,Johnathan Brown,18,Female,0.0,Linked in,Software Engineer,Sales,Priya Sharma,2026-06-24,,,,,Rejected,Applied
+421,George Harper,33,Male,10.9,Naukri,Data Analyst,Engineering,Emily Chen,2025-11-25,2025-11-29,,,,Rejected,Screened
+1436,Melinda Mitchell,31,Female,7.1,Naukri,Product Manager,Finance,Arjun Patel,2026-04-05,,,,,Rejected,Applied
+555,Robert Morgan,26,Male,0.3,company website,Marketing Specialist,Human Resources,Arjun Patel,2026-02-02,2026-02-11,2026-02-27,,,Rejected,Interviewed
+309,Kiara Mcintyre,35,Female,9.6,naukri,Product Manager,Finance ,Rohan Mehta,2026-08-31,,,,,In Process,
+1111,Mary Nelson,18,Female,0.0,LINKEDIN,DevOps Engineer,Sales,Arjun Patel,2026-01-18,,,,,Rejected,Applied
+399,Ashley Hicks,29,Female,6.4,referral,HR Executive,Operations,Vikram Singh,2026-07-08,2026-07-13,,,,Rejected,Screened
+371,Allison Hickman,28,Female,2.6,indeed,Sales Associate,Marketing,Rohan Mehta,2026-03-04,2026-03-14,2026-03-28,,,Rejected,Interviewed
+55,Shannon Jones,26,Female,0.4,REFERRAL,DevOps Engineer,Sales,Sarah Johnson,2026-02-07,2026-02-10,2026-02-19,,,Rejected,Interviewed
+800,Donald Medina,31,Male,7.4,Indeed,Software Engineer,Marketing,Arjun Patel,2026-09-09,,,,,In Process,
+760,Margaret Miller,22,Male,0.0,indeed,QA Engineer,Product,Rohan Mehta,2025-12-14,2025-12-25,,,,Rejected,Screened
+313,Shannon Ramsey,27,Male,2.8,referral,QA Engineer,Product,Priya Sharma,2026-07-26,2026-07-28,2026-08-04,,,Rejected,Interviewed
+937,Amanda Harvey,27,Male,2.2,Job Fair,Business Analyst,Operations,Aisha Khan,2026-01-24,,,,,Rejected,Applied
+1209,Brittney Hernandez,27,Female,4.2,Job Fair,Product Manager,Human Resources,Aisha Khan,2025-11-01,,,,,Rejected,Applied
+110,Sharon Cochran,41,Male,16.6,Naukri,UX Designer,Engineering,Vikram Singh,2026-06-15,2026-06-18,2026-06-24,,,Rejected,Interviewed
+814,Michael Roberts,40,Female,17.3,Company website,Software Engineer,Product ,Rohan Mehta,2026-05-31,,,,,Rejected,Applied
+1440,Chelsea Smith,31,Female,5.3,job fair,Data Analyst,Marketing,Aisha Khan,2026-02-06,,,,,Rejected,Applied
+101,Sandra Aguilar,27,Male,3.5,linkedin,QA Engineer,Human Resources,Vikram Singh,2026-03-29,,,,,Rejected,Applied
+1233,Brandon Brown,18,Female,0.0,NAUKRI,DevOps Engineer,Engineering,Aisha Khan,2026-04-24,,,,,Rejected,Applied
+681,Suzanne Wood,27,Female,3.5,job fair,Product Manager,Engineering ,Emily Chen,2026-04-08,,,,,Rejected,Applied
+1453,Emily Morris,29,Female,3.3,linkedin,Product Manager,Human Resources,Sarah Johnson,2025-10-18,2025-10-20,2025-10-25,2025-10-28,2025-11-03,Hired,
+267,Kimberly Gibson,24,Female,1.4,linkedin,QA Engineer,Engineering,Emily Chen,2026-03-21,,,,,Rejected,Applied
+1327,Jacob Hill,22,Female,0.0,LINKEDIN,DevOps Engineer,Marketing,Arjun Patel,2026-05-02,2026-05-05,,,,Rejected,Screened
+297,Laura Haney,26,Male,2.8,Referral,Software Engineer,Human Resources,Sarah Johnson,2026-02-19,2026-02-23,2026-03-03,,,Rejected,Interviewed
+1352,Timothy Andrews,32,Male,8.1,Company website,UX Designer,Finance ,David Lee,2026-09-16,,,,,In Process,
+1238,Nicole Richards,25,Male,0.8,linkedin,DevOps Engineer,Engineering,Emily Chen,2026-01-28,2026-01-30,,,,Rejected,Screened
+1341,Theresa Wilkins,30,Male,7.9,company website,Software Engineer,Engineering,Priya Sharma,2026-08-17,,,,,Rejected,Applied
+966,Travis Conner,30,Female,5.8,JobFair,Data Analyst,Marketing,Sarah Johnson,2026-04-29,,,,,Rejected,Applied
+378,Paula Bradley,33,Female,9.8,job fair,DevOps Engineer,Marketing ,Rohan Mehta,2026-08-09,,,,,Rejected,Applied
+287,Joseph Knight,38,Female,15.8,Linked in,Marketing Specialist,Marketing ,Aisha Khan,2026-03-17,2026-03-19,,,,Rejected,Screened
+1454,Amanda Pineda,30,Male,5.5,Referral,Data Analyst,Finance ,Emily Chen,2025-09-28,2025-10-04,2025-10-17,,,Rejected,Interviewed
+742,Manuel Brock,26,Female,1.5,company website,Marketing Specialist,Engineering ,Emily Chen,2026-08-26,,,,,In Process,
+127,Michelle Evans,24,Female,0.9,JobFair,DevOps Engineer,Operations,Sarah Johnson,2025-11-06,2025-11-11,,,,Rejected,Screened
+328,Trevor Johnson,24,Male,0.0,naukri,Marketing Specialist,Finance,Priya Sharma,2026-03-24,2026-03-28,,,,Rejected,Screened
+293,Jeremy Reed,32,Male,9.2,job fair,Data Analyst,Human Resources,Sarah Johnson,2025-11-18,,,,,Rejected,Applied
+1354,Edward Arroyo,32,Female,9.7,Linked in,QA Engineer,Engineering ,Arjun Patel,2026-07-31,,,,,Rejected,Applied
+1041,Danielle Bryant,20,Male,0.0,naukri,Sales Associate,Operations,Sarah Johnson,2026-04-26,,,,,Rejected,Applied
+1408,Heidi Matthews,40,Male,14.4,LINKEDIN,DevOps Engineer,Engineering,Arjun Patel,2026-02-05,,,,,Rejected,Applied
+356,Jesse Perez,20,Male,0.0,job fair,DevOps Engineer,Marketing ,David Lee,2026-02-15,,,,,Rejected,Applied
+171,Jamie Walton,26,Female,1.5,indeed,DevOps Engineer,Engineering,Rohan Mehta,2026-01-14,2026-01-17,2026-02-08,,,Rejected,Interviewed
+574,Nancy Brown,28,Male,4.9,referral,Marketing Specialist,Operations,David Lee,2025-10-01,,,,,Rejected,Applied
+1019,Jimmy Marks,27,Female,1.8,Company website,HR Executive,Sales,Rohan Mehta,2026-02-22,,,,,Rejected,Applied
+1345,Christopher Johnson,29,Female,6.2,Indeed ,Product Manager,Marketing,Emily Chen,2026-08-02,2026-08-07,2026-08-14,2026-08-20,,In Process,
+210,Brian Lee,18,Female,0.0,LinkedIn,QA Engineer,Product,David Lee,2026-07-27,,,,,Rejected,Applied
+611,Samantha Robertson,30,Male,7.1,LinkedIn,Business Analyst,Product,Emily Chen,2026-06-17,,,,,Rejected,Applied
+528,Michelle Jacobs,26,Male,2.0,REFERRAL,DevOps Engineer,Finance,Emily Chen,2026-09-10,2026-09-15,,,,In Process,
+141,Cheyenne Horton,29,Non-binary,6.1,LINKEDIN,UX Designer,Marketing,Emily Chen,2025-11-13,2025-11-18,2025-11-30,,,Rejected,Interviewed
+1101,Travis Hull,32,Female,7.4,indeed,DevOps Engineer,Finance ,Aisha Khan,2025-10-04,,,,,Rejected,Applied
+1006,Joshua Arellano,24,Female,0.0,Indeed ,Data Analyst,Marketing ,Emily Chen,2025-10-30,2025-11-03,,,,Rejected,Screened
+661,William David DDS,27,Female,3.5,JobFair,Sales Associate,Sales,Rohan Mehta,2025-10-09,,,,,Rejected,Applied
+1202,Michele Holland,26,Male,2.6,LINKEDIN,Product Manager,Finance ,Vikram Singh,2025-12-13,2025-12-16,,,,Rejected,Screened
+933,Joel Jackson,39,Male,16.6,Referral,HR Executive,Operations,Priya Sharma,2026-02-10,2026-02-12,2026-02-20,,,Rejected,Interviewed
+1075,Catherine Frazier,23,Male,0.0,Naukri,Sales Associate,Operations,Emily Chen,2026-05-10,2026-05-13,,,,Rejected,Screened
+533,Donna Frye,25,Male,0.6,indeed,Product Manager,Engineering ,Aisha Khan,2026-09-13,2026-09-16,,,,In Process,
+200,Nathan Freeman,34,Male,9.2,Company Website,QA Engineer,Finance ,David Lee,2026-03-20,2026-03-24,2026-04-06,,,Rejected,Interviewed
+905,Ashley Moreno,37,Female,12.0,job fair,Software Engineer,Operations,Vikram Singh,2026-08-27,,,,,In Process,
+1228,Michael Ayala,25,Male,0.0,Naukri,Software Engineer,Marketing ,Arjun Patel,2026-05-28,,,,,Rejected,Applied
+1427,Robert Charles,25,Male,1.5,Job Fair,HR Executive,Product,Emily Chen,2026-06-27,2026-06-29,,,,Rejected,Screened
+529,Kristy Bryan,29,Non-binary,5.4,Company website,DevOps Engineer,Product,Priya Sharma,2026-02-05,2026-02-10,,,,Rejected,Screened
+1252,Daniel Davenport,22,Non-binary,0.0,LINKEDIN,Sales Associate,Engineering ,Arjun Patel,2026-04-22,2026-04-26,2026-05-08,,,Rejected,Interviewed
+11,Monica Herrera,25,Female,1.9,LINKEDIN,Product Manager,Human Resources,Vikram Singh,2026-01-01,2026-01-04,2026-01-18,,,Rejected,Interviewed
+148,Stephanie Salazar,18,Non-binary,0.0,Naukri,QA Engineer,Product,Arjun Patel,2026-02-05,2026-02-13,,,,Rejected,Screened
+984,Sean Curtis,35,Male,9.3,Naukri,Software Engineer,Finance ,Priya Sharma,2025-12-07,,,,,Rejected,Applied
+283,Jessica Garcia,21,Male,0.0,NAUKRI,DevOps Engineer,Operations,David Lee,2025-11-28,,,,,Rejected,Applied
+299,Keith Jennings,19,Female,0.0,Company website,Marketing Specialist,Operations,Emily Chen,2026-02-03,2026-02-08,2026-02-21,,,Rejected,Interviewed
+630,Kevin Davis,29,Male,3.5,Indeed,Data Analyst,Marketing,Aisha Khan,2026-05-07,,,,,Rejected,Applied
+292,Stephanie Byrd,32,Male,7.9,REFERRAL,QA Engineer,Marketing ,Aisha Khan,2026-08-13,2026-08-15,,,,Rejected,Screened
+1386,Christopher Anderson,27,Female,1.7,naukri,Business Analyst,Product,Rohan Mehta,2025-10-16,2025-10-26,2025-11-06,,,Rejected,Interviewed
+1301,Kristy Smith,26,Female,3.8,company website,HR Executive,Finance ,Vikram Singh,2026-07-23,,,,,Rejected,Applied
+1350,Suzanne Bailey,32,Female,8.7,Indeed,Business Analyst,Finance,Arjun Patel,2026-07-09,,,,,Rejected,Applied
+561,Nancy Evans MD,37,Female,13.4,Job Fair,Sales Associate,Marketing ,Priya Sharma,2025-10-01,,,,,Rejected,Applied
+553,Diana Hays,24,Male,1.5,Linked in,Software Engineer,Operations,Aisha Khan,2026-04-26,2026-05-03,2026-05-12,,,Rejected,Interviewed
+130,Megan Orr,37,Female,12.8,linkedin,QA Engineer,Engineering ,Aisha Khan,2026-07-06,2026-07-12,,,,Rejected,Screened
+979,Derek Wright,29,Female,5.0,company website,DevOps Engineer,Engineering,Arjun Patel,2026-01-15,,,,,Rejected,Applied
+332,Colton Martinez,25,Female,0.1,linkedin,Product Manager,Finance ,Arjun Patel,2026-05-29,2026-06-07,2026-06-18,,,Rejected,Interviewed
+324,Brandy Chavez,22,Male,0.0,Linked in,UX Designer,Engineering,Arjun Patel,2026-08-03,2026-08-11,2026-08-22,,,In Process,
+692,Pamela Gutierrez,25,Non-binary,1.7,company website,Sales Associate,Engineering,David Lee,2026-06-24,,,,,Rejected,Applied
+1416,Ellen Wright,26,Female,3.9,LINKEDIN,Business Analyst,Marketing ,Rohan Mehta,2025-11-13,,,,,Rejected,Applied
+1151,Jennifer Young,28,Male,2.4,REFERRAL,Business Analyst,Marketing ,Aisha Khan,2025-10-18,2025-10-23,2025-10-31,,,Rejected,Interviewed
+136,Jose Schultz,38,Male,12.4,LINKEDIN,UX Designer,Finance,Sarah Johnson,2026-07-04,2026-07-09,,,,Rejected,Screened
+679,Jose Crawford,30,Male,5.0,Indeed,Data Analyst,Engineering,Priya Sharma,2026-08-21,2026-08-27,,,,In Process,
+1413,Kimberly Johnson,28,Female,4.9,linkedin,HR Executive,Operations,Arjun Patel,2025-10-29,2025-11-03,,,,Rejected,Screened
+737,Charles Turner,18,Female,0.0,JobFair,Software Engineer,Marketing,David Lee,2026-09-01,,,,,In Process,
+436,Sophia Johnson,31,Female,5.7,Referral,Sales Associate,Sales,David Lee,2026-07-03,2026-07-08,,,,Rejected,Screened
+670,Michael Morrison,24,Male,0.3,Company Website,DevOps Engineer,Marketing ,Priya Sharma,2026-04-18,,,,,Rejected,Applied
+866,Antonio Mccormick,32,Male,9.7,JobFair,HR Executive,Product,Sarah Johnson,2026-02-08,2026-02-10,2026-02-21,2026-03-01,,Rejected,Offered
+711,Anthony Jones,35,Female,10.8,LINKEDIN,DevOps Engineer,Marketing,David Lee,2026-01-01,2026-01-04,2026-01-14,,,Rejected,Interviewed
+799,Bradley Johnson DDS,23,Female,0.0,referral,Sales Associate,Operations,Vikram Singh,2026-09-12,,,,,In Process,
+159,Melissa Gates,38,Female,13.2,naukri,QA Engineer,Finance ,David Lee,2026-05-07,,,,,Rejected,Applied
+1028,Steve Rivera,31,Male,8.9,job fair,Software Engineer,Human Resources,Arjun Patel,2026-05-10,,,,,Rejected,Applied
+1308,Crystal Cruz,28,Female,4.7,Referral,Marketing Specialist,Finance ,Priya Sharma,2026-06-27,2026-06-29,,,,Rejected,Screened
+584,Denise Martinez,22,Male,0.0,Company Website,Software Engineer,Product,Vikram Singh,2025-10-23,2025-10-26,2025-11-01,2025-11-10,2025-11-20,Hired,
+353,Kerry Chavez DDS,27,Male,3.7,JobFair,QA Engineer,Product,Emily Chen,2026-02-23,,,,,Rejected,Applied
+1081,Kathryn Dillon,31,Female,6.4,Company Website,UX Designer,Engineering ,Rohan Mehta,2025-10-30,,,,,Rejected,Applied
+1311,John Mendez,32,Female,7.2,indeed,Software Engineer,Finance ,Aisha Khan,2026-04-30,2026-05-05,2026-05-16,,,Rejected,Interviewed
+545,Mr. Alexander Landry MD,35,Male,11.7,JobFair,QA Engineer,Engineering,Vikram Singh,2025-12-27,,,,,Rejected,Applied
+571,Ashley Smith,22,Female,0.0,Job Fair,Business Analyst,Marketing,David Lee,2026-08-04,,,,,Rejected,Applied
+600,Susan Thompson,28,Female,5.3,company website,Product Manager,Engineering,Rohan Mehta,2026-03-04,,,,,Rejected,Applied
+1340,Miss Kelly Dawson,24,Male,1.7,Indeed ,Sales Associate,Engineering ,Emily Chen,2026-06-16,2026-06-22,,,,Rejected,Screened
+196,Allen Rosales,32,Female,9.8,LinkedIn,Sales Associate,Finance ,Rohan Mehta,2025-11-04,,,,,Rejected,Applied
+1349,Brandon Mitchell,36,Female,11.7,Job Fair,Sales Associate,Operations,Emily Chen,2025-10-12,,,,,Rejected,Applied
+721,Randy Friedman,29,Female,4.0,Company Website,UX Designer,Finance ,David Lee,2026-08-06,,,,,Rejected,Applied
+439,Rhonda Martin,28,Female,5.6,Company Website,Software Engineer,Human Resources,Emily Chen,2026-03-02,2026-03-08,,,,Rejected,Screened
+411,Angela Lin,19,Female,0.0,Naukri,HR Executive,Marketing,Rohan Mehta,2026-05-19,2026-05-27,2026-06-18,,,Rejected,Interviewed
+97,Aaron Wise,34,Male,11.1,indeed,QA Engineer,Engineering,Emily Chen,2026-03-07,2026-03-11,,,,Rejected,Screened
+1407,Denise Wallace,19,Female,0.0,Company website,UX Designer,Finance,Emily Chen,2026-01-13,,,,,Rejected,Applied
+157,Joshua Perry,28,Female,3.8,Indeed ,Business Analyst,Engineering ,David Lee,2025-11-13,,,,,Rejected,Applied
+420,Jake Campbell,30,Male,7.3,Linked in,Product Manager,Product,Aisha Khan,2026-06-11,2026-06-13,,,,Rejected,Screened
+650,Alexis Harris,26,Non-binary,2.5,REFERRAL,Sales Associate,Finance ,Rohan Mehta,2026-05-14,2026-05-24,2026-05-29,,,Rejected,Interviewed
+478,Judith Carter,24,Male,1.3,company website,HR Executive,Finance ,Rohan Mehta,2026-01-28,2026-02-03,2026-02-19,2026-03-04,2026-04-02,Hired,
+618,Jonathan Jacobson,38,Male,14.2,LinkedIn,UX Designer,Operations,Emily Chen,2025-11-12,,,,,Rejected,Applied
+950,Zachary Robinson,30,Female,7.5,JobFair,Product Manager,Operations,David Lee,2025-11-25,2025-12-01,,,,Rejected,Screened
+951,Rebecca Kelly,29,Male,5.8,Indeed ,DevOps Engineer,Sales,Emily Chen,2025-11-29,2025-12-05,2025-12-17,2025-12-26,2026-01-08,Hired,
+448,Shelly Spencer,23,Female,0.0,job fair,Software Engineer,Product,David Lee,2026-07-05,,,,,Rejected,Applied
+179,Lawrence Adkins,26,Male,2.2,company website,UX Designer,Marketing ,Emily Chen,2026-09-04,2026-09-09,,,,In Process,
+391,Thomas Atkins,23,Male,0.0,referral,QA Engineer,Finance,Emily Chen,2025-10-27,2025-10-30,2025-11-09,2025-11-11,,Rejected,Offered
+1305,Rebecca Hoover,36,Male,10.5,linkedin,Software Engineer,Human Resources,Emily Chen,2025-11-27,,,,,Rejected,Applied
+652,Amber Yang,25,Male,1.5,company website,Business Analyst,Engineering,Priya Sharma,2025-11-25,2025-11-28,2025-12-04,2025-12-06,2025-12-10,Hired,
+1256,Brett Swanson,39,Female,14.2,Referral,UX Designer,Finance ,David Lee,2026-08-20,2026-08-22,,,,In Process,
+614,David Molina,22,Female,0.0,job fair,Product Manager,Sales,David Lee,2025-12-23,2025-12-27,,,,Rejected,Screened
+583,Gregory Peck,25,Female,1.6,Company Website,Marketing Specialist,Engineering,Aisha Khan,2025-11-30,2025-12-03,2025-12-17,,,Rejected,Interviewed
+701,Joseph Ochoa,23,Male,0.6,linkedin,QA Engineer,Sales,Emily Chen,2025-11-09,2025-11-14,,,,Rejected,Screened
+880,Richard Adams,25,Male,0.0,Company website,HR Executive,Engineering ,David Lee,2026-08-06,2026-08-08,2026-08-22,,,In Process,
+827,Heather Brown,35,Male,9.4,JobFair,Sales Associate,Finance ,Priya Sharma,2026-06-04,,,,,Rejected,Applied
+756,Rachel Jones,30,Male,6.7,indeed,Marketing Specialist,Operations,Sarah Johnson,2026-09-06,2026-09-13,,,,In Process,
+715,Jennifer Jones,28,Female,3.9,Indeed,Business Analyst,Sales,Aisha Khan,2026-08-25,2026-08-30,2026-09-04,,,In Process,
+295,Ryan Gonzalez,32,Male,6.1,job fair,QA Engineer,Human Resources,Sarah Johnson,2025-10-28,,,,,Rejected,Applied
+552,Angel Gordon,29,Male,3.4,job fair,Software Engineer,Operations,Rohan Mehta,2026-06-01,2026-06-07,,,,Rejected,Screened
+1374,William Prince PhD,35,Female,12.4,indeed,Business Analyst,Finance,Arjun Patel,2026-06-07,,,,,Rejected,Applied
+89,Lisa Archer,23,Female,0.0,Job Fair,QA Engineer,Finance ,Sarah Johnson,2026-01-20,,,,,Rejected,Applied
+1143,Joseph Haynes,24,Male,0.1,JobFair,Data Analyst,Engineering ,Emily Chen,2026-09-04,2026-09-11,,,,In Process,
+945,Francis Robinson,28,Male,4.6,Company website,Sales Associate,Marketing,Sarah Johnson,2025-10-17,2025-10-19,2025-10-23,2025-11-01,,Rejected,Offered
+585,Jamie Baird,20,Male,0.0,JobFair,Business Analyst,Operations,Rohan Mehta,2026-03-07,,,,,Rejected,Applied
+671,Chelsea Gill,26,Female,0.7,LinkedIn,DevOps Engineer,Operations,Rohan Mehta,2026-02-07,2026-02-17,2026-03-10,,,Rejected,Interviewed
+1403,Robert Rogers,36,Male,13.1,NAUKRI,QA Engineer,Engineering,Rohan Mehta,2026-06-23,2026-07-03,2026-07-17,,,Rejected,Interviewed
+708,Mr. Richard Knight PhD,18,Male,0.0,company website,DevOps Engineer,Finance,Emily Chen,2026-07-24,2026-07-31,2026-08-05,2026-08-15,2026-09-05,Hired,
+959,Thomas Harris,33,Male,8.4,Company Website,Business Analyst,Finance ,Arjun Patel,2025-11-25,2025-11-29,2025-12-11,2025-12-23,2026-01-16,Hired,
+291,David Smith,20,Male,0.0,LinkedIn,HR Executive,Engineering,Vikram Singh,2026-02-21,,,,,Rejected,Applied
+1434,Dennis Henderson,25,Female,1.2,Referral,Marketing Specialist,Human Resources,David Lee,2026-05-09,2026-05-12,2026-05-19,2026-05-28,2026-06-10,Hired,
+706,James Tran,18,Male,0.0,Linked in,UX Designer,Finance ,Priya Sharma,2026-09-05,2026-09-09,,,,In Process,
+349,James Parks,25,Female,1.1,Company website,UX Designer,Finance,Priya Sharma,2026-08-30,,,,,In Process,
+576,Kelly Edwards,33,Male,7.0,Company Website,Software Engineer,Marketing,David Lee,2026-01-30,2026-02-03,2026-02-17,,,Rejected,Interviewed
+1428,John Smith,20,Female,0.0,LinkedIn,QA Engineer,Operations,Sarah Johnson,2026-08-16,,,,,Rejected,Applied
+702,James Watson,29,Female,6.0,Indeed,HR Executive,Engineering ,Emily Chen,2026-01-04,,,,,Rejected,Applied
+842,Alexandra Dominguez,33,Male,8.8,indeed,Marketing Specialist,Engineering,Emily Chen,2025-11-17,2025-11-21,2025-12-02,,,Rejected,Interviewed
+608,David Lopez,30,Male,7.3,Referral,Sales Associate,Finance ,Arjun Patel,2026-01-28,2026-01-31,2026-02-09,,,Rejected,Interviewed
+459,Aaron Miller,33,Female,7.9,Company Website,QA Engineer,Marketing,Arjun Patel,2026-02-12,2026-02-15,,,,Rejected,Screened
+376,Paul Lewis,26,Male,2.2,naukri,Marketing Specialist,Marketing ,Aisha Khan,2026-01-27,,,,,Rejected,Applied
+334,Linda Smith,21,Male,0.0,Company Website,HR Executive,Operations,Vikram Singh,2025-10-10,2025-10-12,,,,Rejected,Screened
+1117,Jon Clark,29,Female,4.2,REFERRAL,Product Manager,Finance ,Rohan Mehta,2026-08-03,2026-08-08,2026-08-21,2026-09-03,,In Process,
+1339,Andrew Cruz,32,Male,8.2,naukri,Marketing Specialist,Sales,David Lee,2025-12-19,2025-12-24,,,,Rejected,Screened
+723,Willie Henry,23,Male,0.0,Indeed,Software Engineer,Sales,Priya Sharma,2026-06-06,,,,,Rejected,Applied
+1405,Christopher Perez,25,Male,1.2,company website,Business Analyst,Finance ,Priya Sharma,2025-11-25,,,,,Rejected,Applied
+1263,Jessica Larsen,18,Male,0.0,company website,Business Analyst,Engineering,David Lee,2025-12-06,,,,,Rejected,Applied
+329,Jeremy Sampson,36,Male,11.9,Company Website,Marketing Specialist,Marketing,Arjun Patel,2025-11-17,2025-11-26,,,,Rejected,Screened
+319,Stephen Hoffman,25,Female,2.3,job fair,HR Executive,Human Resources,Sarah Johnson,2025-10-26,,,,,Rejected,Applied
+1166,Levi Lopez,39,Male,16.8,indeed,UX Designer,Sales,Arjun Patel,2026-01-27,,,,,Rejected,Applied
+968,Melissa Mcfarland,25,Female,1.8,Company Website,DevOps Engineer,Sales,Arjun Patel,2026-08-12,,,,,Rejected,Applied
+13,Lisa Hensley,45,Male,20.1,Referral,QA Engineer,Finance,Sarah Johnson,2026-08-09,2026-08-16,,,,Rejected,Screened
+172,Darlene Miller,37,Female,12.5,naukri,HR Executive,Engineering ,Emily Chen,2025-11-05,,,,,Rejected,Applied
+261,Katie Suarez,37,Male,12.6,Company Website,Sales Associate,Product,Emily Chen,2026-08-11,2026-08-18,2026-08-22,,,In Process,
+1279,Travis Hopkins ,29,Female,5.8,linkedin,QA Engineer,Human Resources,Emily Chen,2025-10-03,,,,,Rejected,Applied
+875,Jesse Lynch,24,Female,1.2,LINKEDIN,Business Analyst,Engineering,Rohan Mehta,2026-09-16,,,,,In Process,
+810,Heather Page,35,Male,9.9,referral,Business Analyst,Finance,David Lee,2026-06-08,2026-06-11,2026-06-15,2026-06-23,2026-06-28,Hired,
+139,David Alvarez,31,Male,9.0,job fair,UX Designer,Finance ,Sarah Johnson,2025-10-02,,,,,Rejected,Applied
+550,Pamela Diaz,30,Female,7.6,linkedin,Business Analyst,Finance ,Aisha Khan,2025-11-27,2025-12-02,,,,Rejected,Screened
+622,Lisa Perry,29,Male,6.3,naukri,Product Manager,Operations,Emily Chen,2025-10-05,2025-10-08,,,,Rejected,Screened
+860,Brian Porter MD,31,Male,7.4,Naukri,Sales Associate,Engineering ,Aisha Khan,2026-06-10,,,,,Rejected,Applied
+1119,Susan Conley,24,Female,1.1,Company Website,DevOps Engineer,Engineering ,Vikram Singh,2026-06-19,,,,,Rejected,Applied
+559,Larry Robertson,32,Female,6.6,Company Website,Product Manager,Marketing ,Aisha Khan,2026-01-04,,,,,Rejected,Applied
+140,Angel Perry,29,Female,6.1,REFERRAL,Sales Associate,Finance ,Rohan Mehta,2026-09-02,2026-09-13,,,,In Process,
+1325,Jack Moore,43,Female,19.4,company website,Sales Associate,Sales,Rohan Mehta,2026-02-15,,,,,Rejected,Applied
+887,Jordan Williams,37,Male,12.2,naukri,Product Manager,Marketing ,Aisha Khan,2026-05-22,,,,,Rejected,Applied
+225,Matthew Moore,19,Female,0.0,job fair,DevOps Engineer,Operations,Aisha Khan,2026-07-24,,,,,Rejected,Applied
+1030,Alicia Roth,38,Male,15.6,LinkedIn,Marketing Specialist,Product,Rohan Mehta,2026-02-17,2026-02-22,,,,Rejected,Screened
+410,Jesse Brown,34,Male,9.1,REFERRAL,HR Executive,Finance ,David Lee,2026-03-05,2026-03-08,2026-03-14,2026-03-24,2026-03-31,Hired,
+326,Patrick Moore,21,Female,0.0,Linked in,Software Engineer,Engineering,Priya Sharma,2026-04-29,,,,,Rejected,Applied
+300,Amber Obrien,26,Female,1.4,Job Fair,Software Engineer,Finance,Vikram Singh,2026-06-05,,,,,Rejected,Applied
+900,Christie Mccullough,24,Female,0.0,Job Fair,QA Engineer,Engineering,Vikram Singh,2026-06-28,2026-07-05,,,,Rejected,Screened
+1229,Jessica Garcia,29,Male,6.1,linkedin,Data Analyst,Engineering ,Aisha Khan,2025-10-20,2025-10-26,,,,Rejected,Screened
+705,Shannon Malone,26,Male,1.4,REFERRAL,Product Manager,Finance ,Aisha Khan,2026-06-14,2026-06-16,2026-06-30,,,Rejected,Interviewed
+1406,Eddie Adams,24,Male,0.0,referral,QA Engineer,Finance ,Priya Sharma,2026-03-01,2026-03-07,2026-03-09,,,Rejected,Interviewed
+1183,Gregory Chambers,31,Male,6.0,Referral,Data Analyst,Finance,Sarah Johnson,2026-04-16,2026-04-21,,,,Rejected,Screened
+918,Christine Parker,34,Male,9.1,NAUKRI,Business Analyst,Engineering ,Aisha Khan,2026-03-06,2026-03-11,,,,Rejected,Screened
+574,Nancy Brown,28,Male,4.9,Job Fair,Marketing Specialist,Operations,David Lee,2025-10-01,,,,,Rejected,Applied
+504,Zachary Mitchell,31,Female,9.0,JobFair,Software Engineer,Finance ,Vikram Singh,2025-10-18,,,,,Rejected,Applied
+1329,Karen Wood,34,Female,9.0,company website,UX Designer,Sales,Emily Chen,2026-08-04,,,,,Rejected,Applied
+4,Daniel Wagner,25,Female,2.2,REFERRAL,DevOps Engineer,Finance,David Lee,2026-05-03,2026-05-05,,,,Rejected,Screened
+1176,Janice Petty,24,Female,1.2,LinkedIn,DevOps Engineer,Finance ,Rohan Mehta,2026-06-05,2026-06-13,2026-06-29,,,Rejected,Interviewed
+468,William Jones,28,Female,2.0,Linked in,Software Engineer,Marketing ,Emily Chen,2025-10-29,,,,,Rejected,Applied
+322,Charles Shah,18,Male,0.0,linkedin,Product Manager,Operations,Vikram Singh,2026-07-01,2026-07-04,,,,Rejected,Screened
+6,Connie Lawrence,19,Male,0.0,referral,Software Engineer,Engineering ,Emily Chen,2025-11-04,2025-11-10,2025-11-16,2025-11-23,2025-12-04,Hired,
+989,Anna Wheeler,26,Female,3.2,Naukri,UX Designer,Engineering,Rohan Mehta,2026-07-05,2026-07-15,2026-07-31,,,Rejected,Interviewed
+548,Julie Herrera,34,Female,12.0,company website,Data Analyst,Marketing,Vikram Singh,2026-08-07,2026-08-14,,,,Rejected,Screened
+1230,Michele Cherry,25,Female,1.0,LinkedIn,Product Manager,Finance,Vikram Singh,2025-12-03,,,,,Rejected,Applied
+40,Brittany Farmer,27,Male,4.6,NAUKRI,DevOps Engineer,Engineering,Rohan Mehta,2026-01-15,,,,,Rejected,Applied
+543,Kenneth Edwards,23,Female,0.0,REFERRAL,Data Analyst,Sales,David Lee,2026-06-07,2026-06-11,2026-06-25,2026-07-01,2026-07-22,Hired,
+243,Kevin Walters,39,Female,16.0,NAUKRI,Business Analyst,Product,Rohan Mehta,2026-04-06,2026-04-17,,,,Rejected,Screened
+137,Robert Potter,24,Male,0.0,LinkedIn,HR Executive,Marketing,Sarah Johnson,2026-08-20,,,,,In Process,
+1200,David Oliver,18,Male,0.0,Company Website,DevOps Engineer,Operations,Rohan Mehta,2026-04-17,,,,,Rejected,Applied
+612,Michael Lopez,26,Female,1.3,indeed,UX Designer,Marketing,Arjun Patel,2026-02-16,2026-02-19,,,,Rejected,Screened
+786,Laurie Bailey,25,Female,1.5,Company Website,Software Engineer,Engineering,David Lee,2026-06-10,,,,,Rejected,Applied
+1475,Cody Smith,28,Female,4.8,LINKEDIN,Product Manager,Engineering ,Arjun Patel,2025-10-07,,,,,Rejected,Applied
+1080,Terry Jones,28,Female,5.2,Naukri,UX Designer,Engineering ,Aisha Khan,2026-07-17,2026-07-21,2026-07-25,,,Rejected,Interviewed
+1381,Kevin Nguyen,31,Male,7.4,JobFair,HR Executive,Product,Arjun Patel,2026-09-08,2026-09-12,,,,In Process,
+582,Daniel Bush,26,Female,1.9,Company Website,Marketing Specialist,Operations,David Lee,2025-11-21,2025-11-24,2025-12-02,,,Rejected,Interviewed
+1490,Deborah Williams,22,Female,0.0,Linked in,UX Designer,Engineering ,Priya Sharma,2026-06-03,2026-06-05,2026-06-16,2026-06-20,2026-07-04,Hired,
+1085,Eugene Baldwin,31,Female,5.9,referral,Data Analyst,Finance,Emily Chen,2026-03-05,2026-03-12,2026-03-23,2026-03-31,2026-04-07,Hired,
+1404,Laura Sweeney,31,Female,7.6,Job Fair,Business Analyst,Finance ,Sarah Johnson,2026-07-02,,,,,Rejected,Applied
+377,Glen Wood,33,Female,8.4,NAUKRI,HR Executive,Engineering ,Rohan Mehta,2026-05-12,,,,,Rejected,Applied
+315,Richard Smith,34,Female,10.4,referral,UX Designer,Engineering ,Priya Sharma,2026-02-25,2026-02-28,2026-03-10,,,Rejected,Interviewed
+443,Robert Harrison,24,Female,1.4,Indeed ,Product Manager,Finance,Vikram Singh,2026-03-19,,,,,Rejected,Applied
+320,Connie Brown,18,Non-binary,0.0,NAUKRI,DevOps Engineer,Marketing ,Priya Sharma,2026-08-02,2026-08-07,,,,Rejected,Screened
+819,Michael Poole,31,Male,7.4,LINKEDIN,DevOps Engineer,Product,Aisha Khan,2026-09-09,2026-09-12,,,,In Process,
+807,Zachary Cole,25,Male,2.2,JobFair,DevOps Engineer,Marketing ,David Lee,2025-10-03,,,,,Rejected,Applied
+1259,Jerry Jensen,32,Male,9.4,Job Fair,Sales Associate,Finance,Emily Chen,2026-02-26,,,,,Rejected,Applied
+425,Felicia Aguilar,27,Male,4.9,REFERRAL,Sales Associate,Product,Sarah Johnson,2025-09-24,2025-09-29,2025-10-09,,,Rejected,Interviewed
+554,Barbara Hester,36,Female,11.4,Referral,HR Executive,Marketing ,Sarah Johnson,2026-02-24,2026-03-03,2026-03-07,2026-03-10,,Rejected,Offered
+595,Tanya Russell,28,Male,2.5,referral,Business Analyst,Human Resources,Emily Chen,2025-11-06,2025-11-11,,,,Rejected,Screened
+909,William Miller,19,Female,0.0,REFERRAL,Marketing Specialist,Operations,David Lee,2026-07-01,2026-07-03,2026-07-11,2026-07-20,2026-07-30,Hired,
+662,Emma Butler,18,Male,0.0,indeed,QA Engineer,Product,Vikram Singh,2026-04-26,2026-04-28,2026-05-09,,,Rejected,Interviewed
+783,Chelsea Nguyen,25,Male,0.6,company website,QA Engineer,Sales,David Lee,2026-04-14,,,,,Rejected,Applied
+1231,Maria Case,24,Male,0.8,LinkedIn,Software Engineer,Product,Arjun Patel,2026-05-12,,,,,Rejected,Applied
+635,Amber Cooper,25,Female,2.8,JobFair,HR Executive,Marketing,David Lee,2026-08-28,,,,,In Process,
+228,Michael Warner,30,Male,4.5,Company website,Business Analyst,Engineering ,Priya Sharma,2026-08-06,,,,,Rejected,Applied
+1387,Crystal Garcia,37,Male,11.6,naukri,DevOps Engineer,Human Resources,Rohan Mehta,2025-10-10,2025-10-21,,,,Rejected,Screened
+953,Renee Wolfe,26,Female,1.9,Indeed ,Software Engineer,Sales,Vikram Singh,2025-11-29,2025-12-06,,,,Rejected,Screened
+995,Anthony Armstrong,27,Male,4.8,LINKEDIN,DevOps Engineer,Marketing,Aisha Khan,2026-08-09,,,,,Rejected,Applied
+1198,Jasmine Frye,31,Male,8.9,REFERRAL,Sales Associate,Human Resources,Arjun Patel,2026-04-14,2026-04-23,2026-05-08,,,Rejected,Interviewed
+67,Tracy House,23,Male,0.9,Company Website,Business Analyst,Human Resources,Sarah Johnson,2025-10-21,2025-10-25,2025-11-06,2025-11-14,2025-12-01,Hired,
+394,Robert Montgomery,22,Male,0.0,JobFair,DevOps Engineer,Finance,Emily Chen,2026-01-11,,,,,Rejected,Applied
+580,David Grant,28,Non-binary,2.2,job fair,DevOps Engineer,Marketing ,Priya Sharma,2026-05-25,,,,,Rejected,Applied
+1005,Mary Miller,31,Male,6.6,Referral,UX Designer,Engineering ,Sarah Johnson,2026-09-12,2026-09-14,,,,In Process,
+212,Denise Mccann,30,Male,4.1,Indeed,QA Engineer,Finance,Emily Chen,2026-09-02,2026-09-07,2026-09-14,,,In Process,
+1291,Mr. Larry Shaw,20,Male,0.0,company website,Product Manager,Engineering ,Vikram Singh,2025-12-12,,,,,Rejected,Applied
+1492,Anne Hardy,30,Male,6.7,naukri,DevOps Engineer,Finance ,Arjun Patel,2026-05-16,2026-05-24,2026-06-08,2026-06-12,2026-06-26,Hired,
+537,Morgan Valencia,29,Male,5.9,Job Fair,Sales Associate,Operations,Rohan Mehta,2026-05-28,,,,,Rejected,Applied
+728,Nancy Stewart,33,Male,7.9,job fair,DevOps Engineer,Marketing,Priya Sharma,2026-06-09,,,,,Rejected,Applied
+673,Felicia Krueger,18,Male,0.0,Company Website,Marketing Specialist,Finance,Sarah Johnson,2025-12-07,2025-12-13,2025-12-22,,,Rejected,Interviewed
+86,Daniel Baker,19,Male,0.0,Company website,DevOps Engineer,Finance ,Aisha Khan,2026-06-28,,,,,Rejected,Applied
+1365,Karen Gomez,19,Male,0.0,Referral,DevOps Engineer,Operations,Rohan Mehta,2026-09-12,,,,,In Process,
+273,Jonathan Lawrence,18,Female,0.0,Referral,Sales Associate,Engineering ,Priya Sharma,2026-02-02,2026-02-07,,,,Rejected,Screened
+931,Jill Anderson,36,Male,11.5,company website,UX Designer,Sales,Arjun Patel,2025-10-08,,,,,Rejected,Applied
+713,Timothy Edwards,24,Female,0.0,NAUKRI,Marketing Specialist,Engineering ,Vikram Singh,2026-06-30,2026-07-04,2026-07-17,,,Rejected,Interviewed
+1366,Debra Valentine,29,Female,6.8,naukri,QA Engineer,Engineering ,Rohan Mehta,2026-07-25,2026-08-04,2026-08-25,,,In Process,
+631,Rhonda Chavez,21,Female,0.0,indeed,HR Executive,Marketing ,Vikram Singh,2026-05-11,2026-05-17,2026-05-24,,,Rejected,Interviewed
+1042,Michele Hill,35,Female,10.1,LINKEDIN,Software Engineer,Operations,Aisha Khan,2026-07-26,,,,,Rejected,Applied
+1415,Christopher Pena,32,Male,6.6,Naukri,Marketing Specialist,Finance,Priya Sharma,2026-04-16,2026-04-19,2026-04-30,,,Rejected,Interviewed
+1455,Dawn Little,34,Male,9.6,naukri,Marketing Specialist,Marketing ,David Lee,2025-11-10,2025-11-13,2025-11-19,,,Rejected,Interviewed
+274,Shelly Alexander,39,Male,15.2,JobFair,Product Manager,Finance,Rohan Mehta,2026-01-07,,,,,Rejected,Applied
+1309,Dale Heath,31,Female,5.6,NAUKRI,QA Engineer,Engineering,David Lee,2025-12-01,,,,,Rejected,Applied
+363,Bryan Gomez,31,Male,8.8,NAUKRI,HR Executive,Marketing,Aisha Khan,2025-11-06,2025-11-09,2025-11-23,,,Rejected,Interviewed
+623,Kaitlin Medina,34,Non-binary,10.4,indeed,HR Executive,Engineering,Arjun Patel,2026-01-31,,,,,Rejected,Applied
+3,Angie Henderson,25,Male,2.6,Company Website,DevOps Engineer,Operations,Aisha Khan,2026-06-30,,,,,Rejected,Applied
+7,Abigail Shaffer,25,Male,1.6,indeed,UX Designer,Marketing ,Aisha Khan,2026-05-09,2026-05-16,,,,Rejected,Screened
+312,Victor Taylor,32,Female,6.1,linkedin,HR Executive,Finance ,Aisha Khan,2026-03-19,2026-03-21,2026-03-25,,,Rejected,Interviewed
+1235,David Hughes,25,Male,1.2,Referral,Data Analyst,Sales,Sarah Johnson,2026-09-12,,,,,In Process,
+666,Tracy Grant,26,Female,2.5,Indeed ,Data Analyst,Finance,Sarah Johnson,2026-06-16,,,,,Rejected,Applied
+1478,Joseph Jimenez,29,Female,6.3,LinkedIn,Marketing Specialist,Engineering,Rohan Mehta,2026-03-18,2026-03-26,,,,Rejected,Screened
+1493,Chelsey Fox,24,Female,0.9,job fair,UX Designer,Engineering,David Lee,2026-01-06,,,,,Rejected,Applied
+216,Anthony Everett,22,Female,0.0,Job Fair,DevOps Engineer,Marketing,Emily Chen,2026-05-05,,,,,Rejected,Applied
+695,Mary Jensen,30,Female,7.5,Linked in,Data Analyst,Engineering ,Emily Chen,2026-04-15,2026-04-21,2026-05-01,2026-05-09,,Rejected,Offered
+28,Stephanie Ross,31,Male,5.1,Indeed ,Product Manager,Sales,Arjun Patel,2026-06-24,2026-07-01,,,,Rejected,Screened
+1092,Curtis Watson,25,Male,0.2,company website,UX Designer,Engineering,Arjun Patel,2026-05-18,,,,,Rejected,Applied
+1430,Jeffrey Carter,24,Male,1.0,JobFair,Business Analyst,Human Resources,David Lee,2026-07-12,,,,,Rejected,Applied
+1234,Kristin Andrews,31,Female,5.5,Referral,Business Analyst,Finance ,Vikram Singh,2026-03-27,2026-03-30,2026-04-06,,,Rejected,Interviewed
+639,Maria Fisher,26,Male,2.2,Naukri,QA Engineer,Marketing ,Emily Chen,2026-07-12,,,,,Rejected,Applied
+766,Laura Griffin,39,Female,15.0,Linked in,Marketing Specialist,Product,Aisha Khan,2026-08-21,,,,,In Process,
+1467,Corey Norris,27,Male,3.3,Indeed ,UX Designer,Finance ,Priya Sharma,2026-01-18,,,,,Rejected,Applied
+625,Shelley Miller,21,Non-binary,0.0,LinkedIn,HR Executive,Sales,Sarah Johnson,2026-04-30,2026-05-06,,,,Rejected,Screened
+1290,Heather Parrish,45,Male,22.2,Indeed ,Product Manager,Engineering,Emily Chen,2026-07-29,2026-08-02,,,,Rejected,Screened
+257,Susan Murray MD,29,Female,4.9,linkedin,Marketing Specialist,Human Resources,Sarah Johnson,2026-04-02,,,,,Rejected,Applied
+26,Judy Baker,30,Female,6.7,LinkedIn,Software Engineer,Human Resources,Sarah Johnson,2026-01-16,2026-01-19,2026-01-30,2026-02-09,,Rejected,Offered
+337,Daniel Kane,26,Male,0.9,LINKEDIN,Data Analyst,Finance,Aisha Khan,2026-07-04,2026-07-08,2026-07-11,2026-07-20,2026-08-06,Hired,
+573,Reginald Knapp,28,Female,3.8,Linked in,Marketing Specialist,Operations,Vikram Singh,2026-04-02,2026-04-09,,,,Rejected,Screened
+48,Shane Henderson,22,Female,0.0,LinkedIn,Business Analyst,Operations,Vikram Singh,2026-01-27,,,,,Rejected,Applied
+107,Sharon Cherry,27,Female,1.1,LinkedIn,UX Designer,Engineering,Sarah Johnson,2026-07-07,,,,,Rejected,Applied
+350,Theodore Jones Jr.,31,Male,8.0,NAUKRI,Software Engineer,Marketing,Aisha Khan,2026-04-29,,,,,Rejected,Applied
+56,Michael Lewis,32,Female,7.6,JobFair,Marketing Specialist,Marketing,Sarah Johnson,2026-06-01,,,,,Rejected,Applied
+1246,Monica Brooks,23,Male,0.9,company website,UX Designer,Engineering,Vikram Singh,2026-03-28,,,,,Rejected,Applied
+214,Katherine Salas,33,Female,8.6,Job Fair,Product Manager,Marketing ,Vikram Singh,2026-03-30,,,,,Rejected,Applied
+121,Larry Dixon,25,Female,0.0,Indeed ,QA Engineer,Finance ,Arjun Patel,2025-09-24,,,,,Rejected,Applied
+1134,Caitlin Perry,25,Male,0.0,Job Fair,Software Engineer,Finance,Arjun Patel,2026-01-04,,,,,Rejected,Applied
+747,Michael Henry,28,Male,3.0,Indeed ,Sales Associate,Sales,Sarah Johnson,2026-08-28,2026-09-04,,,,In Process,
+73,Brittney Phillips,28,Female,3.9,Company website,HR Executive,Human Resources,Emily Chen,2025-10-21,2025-10-26,2025-10-30,,,Rejected,Interviewed
+793,Maria Cooke,27,Male,1.9,Job Fair,Sales Associate,Operations,Emily Chen,2026-01-25,2026-01-29,,,,Rejected,Screened
+845,Ashley Edwards,32,Male,8.5,LINKEDIN,QA Engineer,Sales,Priya Sharma,2026-08-09,2026-08-11,,,,Rejected,Screened
+46,Philip Cannon,27,Male,1.2,LinkedIn,Product Manager,Engineering ,Rohan Mehta,2026-08-27,,,,,In Process,
+1279,Travis Hopkins,29,Female,5.8,Company Website,QA Engineer,Human Resources,Emily Chen,2025-10-03,,,,,Rejected,Applied
+524,Sarah King,24,Female,1.0,Company website,UX Designer,Engineering ,Aisha Khan,2026-03-19,,,,,Rejected,Applied
+883,Laura Jones,30,Male,5.6,LINKEDIN,Software Engineer,Marketing,Priya Sharma,2026-05-29,2026-06-02,,,,Rejected,Screened
+944,Kathryn Price,28,Female,4.0,Company website,Product Manager,Engineering,Vikram Singh,2026-09-01,,,,,In Process,
+1248,Aaron Carlson,32,Male,7.2,Indeed,Marketing Specialist,Finance ,Vikram Singh,2025-12-10,2025-12-12,,,,Rejected,Screened
+808,Robert Gonzales,29,Male,3.9,JobFair,DevOps Engineer,Marketing,Priya Sharma,2026-08-27,,,,,In Process,
+534,Dr. Michael Evans,21,Female,0.0,Job Fair,Product Manager,Finance ,Vikram Singh,2026-06-10,,,,,Rejected,Applied
+1318,Kevin Figueroa,23,Male,0.0,Referral,Marketing Specialist,Sales,Aisha Khan,2025-10-27,2025-11-03,,,,Rejected,Screened
+604,Keith Rodriguez,27,Female,3.3,company website,UX Designer,Finance ,David Lee,2025-11-04,,,,,Rejected,Applied
+466,Jeffrey Mendez,31,Male,9.0,job fair,HR Executive,Product,David Lee,2026-05-02,,,,,Rejected,Applied
+899,Kevin Snyder,22,Male,0.0,REFERRAL,Software Engineer,Engineering,David Lee,2026-08-17,2026-08-19,2026-08-27,,,In Process,
+1293,Christine Lopez,28,Female,2.7,Linked in,Software Engineer,Marketing,David Lee,2025-12-22,2025-12-24,,,,Rejected,Screened
+1108,Jennifer James,35,Female,9.8,indeed,Marketing Specialist,Finance,Vikram Singh,2025-11-16,,,,,Rejected,Applied
+963,Shannon Yu,38,Male,12.4,job fair,Business Analyst,Engineering,Emily Chen,2026-02-23,,,,,Rejected,Applied
+61,Victoria Garcia,30,Male,7.5,company website,Marketing Specialist,Engineering,Vikram Singh,2026-01-01,2026-01-08,2026-01-19,2026-01-25,2026-02-09,Hired,
+901,Danielle Smith,36,Female,11.0,Linked in,Marketing Specialist,Engineering,Sarah Johnson,2026-06-13,,,,,Rejected,Applied
+93,Denise Jacobs,35,Male,11.5,Indeed,HR Executive,Engineering ,Emily Chen,2026-04-12,2026-04-14,,,,Rejected,Screened
+667,David Harris,19,Female,0.0,Company website,Data Analyst,Engineering ,Aisha Khan,2025-10-10,,,,,Rejected,Applied
+788,Elizabeth Mendez,30,Male,6.1,LinkedIn,DevOps Engineer,Product,Rohan Mehta,2025-11-02,2025-11-10,,,,Rejected,Screened
+195,John Bishop,35,Male,9.7,Company website,Sales Associate,Finance,Rohan Mehta,2025-11-26,,,,,Rejected,Applied
+281,Amanda Jones,41,Male,15.9,Referral,Sales Associate,Engineering ,Aisha Khan,2026-01-16,2026-01-21,2026-01-30,,,Rejected,Interviewed
+696,Mr. Aaron Arnold,32,Female,9.9,NAUKRI,Data Analyst,Engineering ,Sarah Johnson,2026-06-03,2026-06-10,2026-06-22,,,Rejected,Interviewed
+360,Ronald Davis,31,Female,8.8,REFERRAL,Software Engineer,Human Resources,Arjun Patel,2026-08-17,2026-08-22,,,,In Process,
+520,Vincent Reynolds,23,Male,0.0,Linked in,Marketing Specialist,Finance,Vikram Singh,2025-11-26,,,,,Rejected,Applied
+1050,Megan Adams,27,Female,2.4,Job Fair,Software Engineer,Sales,Emily Chen,2026-05-07,,,,,Rejected,Applied
+781,Christine Goodwin,23,Female,0.4,Job Fair,Sales Associate,Sales,Emily Chen,2026-07-19,,,,,Rejected,Applied
+183,Angela Vaughn,32,Male,6.5,LinkedIn,UX Designer,Finance ,Sarah Johnson,2026-01-11,2026-01-14,,,,Rejected,Screened
+1037,Samantha Robertson,20,Male,0.0,NAUKRI,UX Designer,Finance,Vikram Singh,2026-05-27,2026-05-30,,,,Rejected,Screened
+111,Richard Rodriguez,26,Male,2.3,naukri,Software Engineer,Product,Vikram Singh,2025-09-22,2025-09-26,2025-10-05,2025-10-14,2025-10-24,Hired,
+43,Sherry Decker,22,Male,0.0,Indeed ,DevOps Engineer,Finance ,Priya Sharma,2025-12-22,,,,,Rejected,Applied
+1395,Joanna Cook,39,Male,14.7,REFERRAL,Business Analyst,Finance ,Arjun Patel,2026-04-17,2026-04-21,,,,Rejected,Screened
+205,Erin Warner,30,Male,7.1,Naukri,Marketing Specialist,Sales,Aisha Khan,2026-02-04,2026-02-11,,,,Rejected,Screened
+835,Bonnie Santos,41,Male,17.2,NAUKRI,Product Manager,Operations,David Lee,2025-11-06,,,,,Rejected,Applied
+53,Crystal Robinson,32,Male,9.4,Company website,Sales Associate,Operations,Aisha Khan,2026-08-23,,,,,In Process,
+546,Cindy Gomez,22,Female,0.0,referral,UX Designer,Marketing,Arjun Patel,2026-03-23,2026-03-31,,,,Rejected,Screened
+1008,Jennifer Nichols,30,Male,5.9,Job Fair,Software Engineer,Human Resources,Aisha Khan,2025-12-28,,,,,Rejected,Applied
+910,Casey Wilkins,33,Male,8.8,job fair,DevOps Engineer,Marketing ,Vikram Singh,2026-05-05,2026-05-07,2026-05-11,2026-05-21,2026-06-05,Hired,
+1378,Jennifer Parks,32,Non-binary,7.4,Indeed ,Product Manager,Operations,Aisha Khan,2026-08-05,,,,,Rejected,Applied
+765,Jorge Stone,30,Female,4.4,NAUKRI,Sales Associate,Sales,Arjun Patel,2026-05-30,2026-06-06,2026-06-14,2026-06-21,2026-07-09,Hired,
+184,Ashley Barton,36,Female,11.6,naukri,HR Executive,Marketing,Sarah Johnson,2026-08-29,2026-09-04,2026-09-07,,,In Process,
+138,Courtney Gonzalez,28,Female,5.7,linkedin,Product Manager,Product,Rohan Mehta,2025-12-05,2025-12-11,2026-01-02,,,Rejected,Interviewed
+987,Angela Jackson,20,Female,0.0,company website,Software Engineer,Finance,Rohan Mehta,2026-02-12,,,,,Rejected,Applied
+81,Kelly Donovan,34,Female,9.3,REFERRAL,Marketing Specialist,Engineering ,David Lee,2026-08-26,2026-08-28,2026-09-11,,,In Process,
+1226,Tiffany Jackson,31,Female,7.9,LINKEDIN,Business Analyst,Human Resources,Arjun Patel,2026-08-23,,,,,In Process,
+106,Marc Moore,43,Male,18.2,company website,Product Manager,Operations,Rohan Mehta,2025-12-08,2025-12-16,2026-01-07,,,Rejected,Interviewed
+542,Sean Moore,28,Male,4.7,job fair,Marketing Specialist,Marketing ,Rohan Mehta,2026-07-05,,,,,Rejected,Applied
+980,David Rodriguez,29,Male,6.1,Linked in,QA Engineer,Finance,Arjun Patel,2025-10-26,2025-11-04,2025-11-22,,,Rejected,Interviewed
+481,Dawn Mullins,36,Female,13.3,LINKEDIN,UX Designer,Operations ,Rohan Mehta,2026-08-26,,,,,In Process,
+166,John Anderson,29,Male,3.3,Linked in,Business Analyst,Sales,Arjun Patel,2025-10-04,2025-10-13,,,,Rejected,Screened
+249,Jose Travis,34,Female,8.3,JobFair,UX Designer,Human Resources,Vikram Singh,2025-12-02,,,,,Rejected,Applied
+308,Carlos Ryan,29,Male,3.0,company website,QA Engineer,Marketing,Rohan Mehta,2025-11-24,2025-12-04,,,,Rejected,Screened
+447,Brenda Wright,18,Female,0.0,NAUKRI,UX Designer,Human Resources,Emily Chen,2025-09-22,,,,,Rejected,Applied
+758,Melissa Stephens,23,Male,0.3,company website,HR Executive,Marketing,Emily Chen,2026-02-04,,,,,Rejected,Applied
+335,Dana Martinez,24,Female,1.8,job fair,UX Designer,Finance ,Sarah Johnson,2026-06-17,,,,,Rejected,Applied
+98,Deborah Figueroa,36,Female,11.3,naukri,Product Manager,Finance ,Priya Sharma,2026-07-31,,,,,Rejected,Applied
+940,Curtis Wilkerson,29,Male,3.6,LINKEDIN,Software Engineer,Engineering,Sarah Johnson,2026-08-14,2026-08-21,2026-08-31,,,In Process,
+738,Arthur Hamilton MD,24,Female,0.3,Referral,HR Executive,Product,Emily Chen,2026-08-13,2026-08-20,,,,In Process,
+1118,Erin Smith,23,Male,0.0,job fair,Marketing Specialist,Finance,Aisha Khan,2026-06-28,,,,,Rejected,Applied
+1097,Rodney Evans,22,Female,0.0,Company website,Data Analyst,Finance,David Lee,2026-02-16,,,,,Rejected,Applied
+103,Rebecca Valencia,18,Female,0.0,LinkedIn,Marketing Specialist,Marketing,Rohan Mehta,2026-08-15,2026-08-18,2026-08-26,,,In Process,
+435,Ashley Wise,23,Male,0.0,indeed,Data Analyst,Marketing,Priya Sharma,2026-09-15,,,,,In Process,
+75,Amy Silva,35,Male,11.0,REFERRAL,Business Analyst,Human Resources,Emily Chen,2026-09-07,2026-09-09,2026-09-14,,,In Process,
+1356,Laura Benson,27,Male,3.8,linkedin,QA Engineer,Human Resources,Arjun Patel,2026-01-12,2026-01-20,,,,Rejected,Screened
+1146,Kristin Huerta,20,Female,0.0,REFERRAL,Data Analyst,Product,Vikram Singh,2025-10-12,2025-10-19,2025-10-25,,,Rejected,Interviewed
+1375,William Moon IV,23,Female,0.0,LINKEDIN,Data Analyst,Finance ,Priya Sharma,2025-09-21,,,,,Rejected,Applied
+303,Megan Le,21,Female,0.0,naukri,Marketing Specialist,Finance,Aisha Khan,2026-07-22,2026-07-27,,,,Rejected,Screened
+1278,Jose Griffin,27,Female,3.4,referral,Sales Associate,Marketing ,Rohan Mehta,2026-01-14,2026-01-19,2026-02-06,,,Rejected,Interviewed
+1237,Kimberly May,32,Female,6.9,Linked in,DevOps Engineer,Product,Arjun Patel,2026-05-17,,,,,Rejected,Applied
+763,Jennifer Goodwin,28,Female,3.5,Indeed ,UX Designer,Finance,David Lee,2025-10-04,2025-10-11,,,,Rejected,Screened
+734,Edgar Hughes,36,Male,11.8,company website,Data Analyst,Product,Vikram Singh,2026-06-06,,,,,Rejected,Applied
+389,Sandra Drake,43,Female,19.3,LinkedIn,DevOps Engineer,Engineering,Rohan Mehta,2026-05-15,2026-05-25,2026-06-07,,,Rejected,Interviewed
+236,Kathryn Snyder,26,Female,0.9,LINKEDIN,Sales Associate,Human Resources,Rohan Mehta,2025-09-19,,,,,Rejected,Applied
+1260,Kevin Cunningham,24,Male,0.0,Naukri,HR Executive,Finance,Sarah Johnson,2026-02-09,,,,,Rejected,Applied
+268,Colin Terry,24,Male,0.0,linkedin,QA Engineer,Operations,Sarah Johnson,2026-05-03,,,,,Rejected,Applied
+306,Kevin Oconnor,35,Male,11.9,Referral,Data Analyst,Sales ,Arjun Patel,2026-06-08,2026-06-15,2026-06-23,2026-06-27,2026-07-15,Hired,
+803,Reginald Morrow,30,Female,8.0,Job Fair,Product Manager,Finance ,Emily Chen,2025-10-31,,,,,Rejected,Applied
+118,Ashley Waller,21,Female,0.0,Referral,QA Engineer,Marketing,Vikram Singh,2026-01-26,2026-02-01,2026-02-08,,,Rejected,Interviewed
+1300,Christopher Mullen,33,Female,9.3,Indeed ,Sales Associate,Engineering ,Rohan Mehta,2026-06-28,2026-07-03,,,,Rejected,Screened
+674,Timothy Hayden,29,Male,6.8,Linked in,HR Executive,Finance ,Vikram Singh,2026-01-14,2026-01-21,,,,Rejected,Screened
+250,Kimberly Gutierrez,18,Male,0.0,referral,QA Engineer,Marketing ,Sarah Johnson,2026-07-15,2026-07-19,2026-07-29,2026-07-31,2026-08-05,Hired,
+1104,Jacob Santos,29,Male,6.1,Naukri,Data Analyst,Sales,Arjun Patel,2026-08-16,,,,,Rejected,Applied
+1089,Katherine Gallagher,18,Female,0.0,Linked in,Sales Associate,Engineering ,Aisha Khan,2025-10-23,2025-10-26,,,,Rejected,Screened
+72,Whitney Peters,28,Male,2.4,Referral,Sales Associate,Engineering,Emily Chen,2025-09-16,2025-09-21,2025-09-27,,,Rejected,Interviewed
+95,John Whitehead,24,Male,0.4,LinkedIn,UX Designer,Finance,Arjun Patel,2025-09-19,2025-09-22,2025-10-03,2025-10-17,2025-10-24,Hired,
+862,Bonnie Valencia,30,Female,8.0,indeed,QA Engineer,Marketing ,Aisha Khan,2026-04-24,2026-04-26,2026-05-01,2026-05-10,2026-05-27,Hired,
+34,Nathan Maldonado,35,Male,11.1,JobFair,Product Manager,Operations,Arjun Patel,2026-01-18,2026-01-27,2026-02-08,,,Rejected,Interviewed
+1112,Breanna Rivas,34,Female,8.3,LinkedIn,Product Manager,Engineering ,Emily Chen,2025-12-05,2025-12-11,2025-12-18,,,Rejected,Interviewed
+449,Ryan Rosales,36,Male,11.9,JobFair,Business Analyst,Sales,Priya Sharma,2026-01-31,,,,,Rejected,Applied
+446,Tracy Montoya,27,Female,2.8,company website,Software Engineer,Engineering,Rohan Mehta,2026-03-16,2026-03-24,,,,Rejected,Screened
+772,Mr. Jeffrey Horton,24,Male,0.0,Indeed ,Sales Associate,Marketing ,Priya Sharma,2026-03-27,,,,,Rejected,Applied
+717,Steven Rivera,20,Male,0.0,REFERRAL,Sales Associate,Marketing,Aisha Khan,2026-03-18,2026-03-23,2026-04-05,2026-04-15,2026-04-27,Hired,
+902,David Reed,33,Male,10.8,Indeed,Sales Associate,Engineering ,David Lee,2026-06-08,2026-06-14,,,,Rejected,Screened
+1156,Lisa Torres,30,Male,6.9,Indeed ,Product Manager,Finance ,Priya Sharma,2025-12-29,,,,,Rejected,Applied
+916,Brittney Martin,32,Non-binary,7.7,REFERRAL,HR Executive,Engineering ,Vikram Singh,2026-05-21,2026-05-23,2026-05-27,2026-06-01,2026-06-18,Hired,
+1044,Andre Watson,32,Female,6.4,Job Fair,Data Analyst,Product,Vikram Singh,2025-11-11,2025-11-13,,,,Rejected,Screened
+78,Megan Young,39,Non-binary,14.8,Company Website,Sales Associate,Marketing ,David Lee,2026-04-24,,,,,Rejected,Applied
+85,Zachary Ferrell,22,Male,0.0,NAUKRI,Data Analyst,Engineering ,Emily Chen,2026-01-06,2026-01-08,2026-01-17,2026-01-23,,Rejected,Offered
+1059,Sarah Brooks,34,Female,9.9,Company Website,QA Engineer,Finance ,Arjun Patel,2026-07-06,,,,,Rejected,Applied
+83,Michael Evans,37,Female,11.1,Indeed ,Software Engineer,Finance ,Emily Chen,2026-08-04,2026-08-06,2026-08-11,,,Rejected,Interviewed
+458,Brenda Thornton,19,Female,0.0,Company website,HR Executive,Operations,Priya Sharma,2026-08-31,2026-09-04,2026-09-13,,,In Process,
+934,Samantha Foster,25,Male,2.9,LinkedIn,Sales Associate,Finance ,Arjun Patel,2025-09-27,2025-10-06,2025-10-18,,,Rejected,Interviewed
+677,Kristen Rowe,23,Male,0.1,company website,Sales Associate,Finance ,Aisha Khan,2025-11-06,,,,,Rejected,Applied
+1000,Elizabeth Sanders,31,Male,8.5,Indeed,QA Engineer,Product,Vikram Singh,2026-05-10,2026-05-12,,,,Rejected,Screened
+1409,Jennifer White,20,Male,0.0,linkedin,Data Analyst,Operations,Sarah Johnson,2026-06-30,,,,,Rejected,Applied
+437,Ralph Anderson,30,Male,4.7,Linked in,DevOps Engineer,Human Resources,Emily Chen,2025-11-26,2025-11-28,,,,Rejected,Screened
+771,Jesse Clark,32,Male,8.1,referral,Data Analyst,Engineering,Vikram Singh,2025-11-07,2025-11-11,,,,Rejected,Screened
+645,Edwin Nunez,18,Female,0.0,Linked in,Business Analyst,Engineering,David Lee,2026-03-10,2026-03-15,2026-03-24,,,Rejected,Interviewed
+837,Danielle Watson,27,Male,4.4,Indeed ,Product Manager,Finance ,Aisha Khan,2025-12-15,,,,,Rejected,Applied
+1174,Monica Anderson,23,Non-binary,0.0,linkedin,QA Engineer,Human Resources,Rohan Mehta,2026-03-02,2026-03-12,2026-03-28,,,Rejected,Interviewed
+1207,Justin Anderson,37,Female,12.9,Company Website,QA Engineer,Engineering ,Sarah Johnson,2025-10-08,,,,,Rejected,Applied
+405,Joann Glass,23,Non-binary,0.0,Company Website,Sales Associate,Sales,Arjun Patel,2025-10-15,,,,,Rejected,Applied
+1319,Melissa Davis,21,Female,0.0,REFERRAL,QA Engineer,Finance ,Sarah Johnson,2026-07-17,2026-07-24,,,,Rejected,Screened
+949,Robert Stark,27,Female,4.4,company website,UX Designer,Human Resources,Arjun Patel,2026-06-20,2026-06-24,2026-06-28,,,Rejected,Interviewed
+1007,Kristen Randall,18,Male,0.0,linkedin,Marketing Specialist,Finance ,Sarah Johnson,2026-01-04,2026-01-08,2026-01-19,,,Rejected,Interviewed
+105,Richard Henson,29,Female,6.4,Referral,QA Engineer,Engineering ,David Lee,2026-05-12,2026-05-18,2026-05-27,,,Rejected,Interviewed
+610,Casey Chase,31,Male,6.3,Indeed,Marketing Specialist,Product,Emily Chen,2026-07-14,,,,,Rejected,Applied
+846,Breanna Ayala,29,Male,3.8,referral,Business Analyst,Operations ,Emily Chen,2025-10-22,2025-10-26,,,,Rejected,Screened
+689,Katherine Stark,31,Female,6.4,Naukri,QA Engineer,Human Resources,Emily Chen,2025-12-01,,,,,Rejected,Applied
+964,Tom Foster,34,Female,10.4,NAUKRI,UX Designer,Operations,Aisha Khan,2026-06-09,,,,,Rejected,Applied
+947,Kendra Wang DVM,36,Female,13.4,company website,Product Manager,Engineering ,Emily Chen,2026-06-09,2026-06-16,,,,Rejected,Screened
+63,Connor West,30,Female,5.0,linkedin,Product Manager,Sales,Emily Chen,2025-09-28,,,,,Rejected,Applied
+282,Tammie Bright,33,Female,9.3,Linked in,Software Engineer,Engineering ,Arjun Patel,2026-07-18,,,,,Rejected,Applied
+779,Allen Mendez,34,Male,9.6,Company website,Business Analyst,Engineering,David Lee,2025-10-08,2025-10-15,2025-10-19,,,Rejected,Interviewed
+1445,Mrs. Raven Rivera DVM,26,Male,1.8,Indeed ,UX Designer,Operations,Priya Sharma,2025-10-19,2025-10-24,2025-10-28,,,Rejected,Interviewed
+239,Sara Johnston,30,Male,4.6,LinkedIn,Business Analyst,Engineering,Arjun Patel,2025-10-25,2025-11-01,,,,Rejected,Screened
+224,Theresa Clark,36,Male,10.6,indeed,DevOps Engineer,Human Resources,Rohan Mehta,2026-02-05,2026-02-13,,,,Rejected,Screened
+146,Joyce Solis,34,Male,9.1,REFERRAL,Sales Associate,Engineering,Rohan Mehta,2026-01-11,2026-01-19,,,,Rejected,Screened
+1443,Crystal Hernandez,32,Male,9.9,company website,UX Designer,Marketing,Aisha Khan,2025-12-25,,,,,Rejected,Applied
+374,Sergio Knight,27,Male,2.9,LinkedIn,Business Analyst,Engineering ,Priya Sharma,2025-11-26,2025-11-28,,,,Rejected,Screened
+1382,Debbie Dunn,30,Male,6.6,Company website,Business Analyst,Marketing,Sarah Johnson,2025-10-29,2025-10-31,2025-11-12,,,Rejected,Interviewed
+119,Victor Baker,38,Female,14.6,NAUKRI,Sales Associate,Product,Aisha Khan,2026-06-07,,,,,Rejected,Applied
+1139,Jason Williams,30,Male,6.0,Job Fair,DevOps Engineer,Engineering,Emily Chen,2026-01-05,2026-01-09,,,,Rejected,Screened
+251,Isaiah Avila,19,Male,0.0,JobFair,Software Engineer,Marketing ,Arjun Patel,2026-05-05,,,,,Rejected,Applied
+246,Donna Landry,40,Female,16.6,NAUKRI,Product Manager,Marketing,Rohan Mehta,2025-11-29,2025-12-10,2025-12-31,,,Rejected,Interviewed
+1222,Janice Fernandez,22,Male,0.0,Indeed,QA Engineer,Engineering ,Emily Chen,2026-04-28,2026-05-03,2026-05-10,2026-05-16,2026-05-27,Hired,
+907,Michelle Davis DVM,31,Female,7.4,job fair,Product Manager,Product,Arjun Patel,2026-03-15,,,,,Rejected,Applied
+10,Ryan Munoz,34,Male,9.4,company website,Software Engineer,Marketing,Rohan Mehta,2026-03-29,2026-04-04,2026-04-15,2026-04-25,2026-05-16,Hired,
+450,Phillip Nelson,27,Male,3.8,indeed,Product Manager,Engineering ,Priya Sharma,2026-04-26,,,,,Rejected,Applied
+1456,Stephen Boyer,24,Male,0.1,LINKEDIN,Data Analyst,Human Resources,David Lee,2025-10-23,,,,,Rejected,Applied
+709,Joseph Williams,27,Male,1.3,linkedin,Sales Associate,Finance,Vikram Singh,2026-02-13,2026-02-15,,,,Rejected,Screened
+256,Kristen Davis,32,Male,9.7,linkedin,Data Analyst,Marketing,Arjun Patel,2026-04-28,2026-05-01,2026-05-05,,,Rejected,Interviewed
+594,Randy Smith,40,Female,15.1,Company Website,Business Analyst,Finance ,Emily Chen,2025-12-10,,,,,Rejected,Applied
+390,Scott Williams,28,Male,5.9,company website,Product Manager,Sales,Emily Chen,2026-03-26,,,,,Rejected,Applied
+1343,Regina Mitchell,25,Male,0.5,LINKEDIN,Business Analyst,Marketing ,Rohan Mehta,2025-11-19,2025-11-30,2025-12-05,2025-12-18,,Rejected,Offered
+1214,Jonathan Perry,18,Male,0.0,Linked in,Marketing Specialist,Operations,Priya Sharma,2026-04-29,2026-05-03,2026-05-07,,,Rejected,Interviewed
+558,Gary Wells,36,Male,11.9,linkedin,QA Engineer,Marketing ,Arjun Patel,2026-01-29,2026-02-07,2026-02-16,,,Rejected,Interviewed
+1303,Jerry Haney,44,Female,19.5,LINKEDIN,Business Analyst,Human Resources,Priya Sharma,2026-06-29,2026-07-01,,,,Rejected,Screened
+1157,Christine Powers,41,Female,16.9,REFERRAL,Data Analyst,Marketing ,Emily Chen,2026-08-31,2026-09-04,2026-09-13,,,In Process,
+461,Kelsey Rodriguez,27,Female,3.8,LINKEDIN,Product Manager,Finance,Emily Chen,2025-10-23,2025-10-27,2025-11-01,,,Rejected,Interviewed
+724,Todd Reynolds,27,Male,4.5,Job Fair,Business Analyst,Marketing ,Sarah Johnson,2025-11-21,,,,,Rejected,Applied
+1078,David Carter,33,Male,11.0,naukri,Data Analyst,Finance,Rohan Mehta,2026-06-11,2026-06-19,2026-07-03,2026-07-06,2026-07-25,Hired,
+145,Amber Wright,28,Female,3.8,company website,Software Engineer,Operations,Aisha Khan,2026-04-25,,,,,Rejected,Applied
+502,Brian Fitzgerald,33,Female,8.5,Indeed,Business Analyst,Product,Sarah Johnson,2026-09-06,,,,,In Process,
+1357,Kristine Carrillo,30,Male,6.0,LINKEDIN,UX Designer,Finance ,Priya Sharma,2026-02-13,2026-02-15,2026-02-20,2026-02-25,2026-03-03,Hired,
+740,Linda Gonzalez,37,Male,14.8,Indeed,Data Analyst,Sales,Sarah Johnson,2026-06-28,2026-07-02,2026-07-15,,,Rejected,Interviewed
+1400,Heather Nunez,28,Male,4.8,Company website,Product Manager,Engineering ,Vikram Singh,2026-02-19,2026-02-21,,,,Rejected,Screened
+732,Alexander Gomez,200,Female,1.3,Linked in,HR Executive,Operations,David Lee,2025-10-06,2025-10-09,,,,Rejected,Screened
+540,David Davis,28,Female,6.0,Indeed,HR Executive,Engineering,Arjun Patel,2026-03-21,2026-03-25,,,,Rejected,Screened
+178,Michael Wang,31,Male,9.0,naukri,Sales Associate,Product,Priya Sharma,2025-10-23,2025-10-26,2025-11-02,,,Rejected,Interviewed
+1462,Brandon Montgomery,25,Male,0.0,Indeed ,UX Designer,Engineering,Arjun Patel,2026-03-31,,,,,Rejected,Applied
+698,Alicia Li,24,Female,0.0,job fair,Marketing Specialist,Product,Arjun Patel,2026-08-18,,,,,In Process,
+1452,Vickie Kennedy,32,Female,9.7,Indeed ,Data Analyst,Marketing,Emily Chen,2025-10-24,2025-10-27,2025-11-08,2025-11-16,2025-11-23,Hired,
+1058,Brian Hunt,32,Female,7.5,JobFair,Sales Associate,Operations,Aisha Khan,2026-03-10,,,,,Rejected,Applied
+890,Kristen Sloan,22,Male,0.0,linkedin,Software Engineer,Product,Priya Sharma,2026-05-04,2026-05-06,2026-05-11,,,Rejected,Interviewed
+1320,John Hall,29,Male,4.4,naukri,Data Analyst,Operations,Arjun Patel,2026-03-01,,,,,Rejected,Applied
+1486,Timothy Clark,21,Male,0.0,Company Website,HR Executive,Marketing,Emily Chen,2026-09-06,2026-09-12,,,,In Process,
+8,Gina Moore,32,Male,7.9,company website,Software Engineer,Product,Sarah Johnson,2026-08-03,,,,,Rejected,Applied
+1253,Christopher Marsh,32,Female,9.2,LinkedIn,Sales Associate,Product,Sarah Johnson,2026-04-25,,,,,Rejected,Applied
+668,Tammy Boone,36,Non-binary,11.2,indeed,QA Engineer,Finance,Rohan Mehta,2026-06-23,2026-06-28,,,,Rejected,Screened
+1173,Mr. Thomas Thompson,30,Male,7.4,JobFair,Software Engineer,Marketing ,Aisha Khan,2026-04-09,2026-04-16,2026-04-23,,,Rejected,Interviewed
+358,Jeffery Ortega,29,Female,5.6,Company website,Sales Associate,Marketing ,Rohan Mehta,2026-07-06,,,,,Rejected,Applied
+784,Dennis Huffman,34,Female,9.6,JobFair,Product Manager,Operations,Sarah Johnson,2025-12-10,2025-12-14,,,,Rejected,Screened
+736,Laura Jackson,22,Female,0.0,Indeed ,Software Engineer,Engineering ,Priya Sharma,2026-06-18,,,,,Rejected,Applied
+330,Ariana Jennings,38,Male,14.9,linkedin,Product Manager,Engineering ,Aisha Khan,2026-02-11,2026-02-18,2026-02-23,2026-03-02,2026-03-12,Hired,
+1064,Ralph Yoder,32,Non-binary,9.0,LINKEDIN,Sales Associate,Marketing ,Aisha Khan,2025-11-12,2025-11-19,2025-11-26,,,Rejected,Interviewed
+1161,Ashley Malone,18,Female,0.0,Company website,Marketing Specialist,Finance ,Arjun Patel,2026-05-08,,,,,Rejected,Applied
+1129,Anna Briggs,36,Male,13.1,JobFair,QA Engineer,Sales,Emily Chen,2026-03-26,,,,,Rejected,Applied
+259,Denise Davenport,28,Male,4.7,Linked in,Sales Associate,Marketing ,Priya Sharma,2026-03-05,2026-03-09,2026-03-11,2026-03-13,2026-03-25,Hired,
+1188,Donna Boone,21,Male,0.0,job fair,Software Engineer,Marketing ,Emily Chen,2025-12-16,,,,,Rejected,Applied
+373,Ellen Morgan,34,Male,8.8,NAUKRI,HR Executive,Sales,Emily Chen,2026-04-22,2026-04-29,2026-05-06,,,Rejected,Interviewed
+1115,Dennis Mills,29,Male,3.8,naukri,Product Manager,Marketing,Priya Sharma,2026-08-09,2026-08-14,,,,Rejected,Screened
+941,Lydia Pham,25,Male,1.5,job fair,DevOps Engineer,Engineering ,Vikram Singh,2026-05-22,2026-05-26,2026-05-29,,,Rejected,Interviewed
+143,Patricia Rodriguez,42,Female,19.3,naukri,UX Designer,Operations,Sarah Johnson,2026-04-28,2026-05-01,,,,Rejected,Screened
+526,Joseph Shaw,28,Female,3.8,linkedin,QA Engineer,Engineering ,Aisha Khan,2026-07-13,2026-07-20,2026-08-03,,,Rejected,Interviewed
+1150,Amber Walker,35,Male,9.5,NAUKRI,HR Executive,Marketing,Vikram Singh,2026-03-15,2026-03-20,2026-04-03,2026-04-12,2026-04-22,Hired,
+1023,Kristine Garcia,39,Female,15.6,referral,HR Executive,Product,Rohan Mehta,2026-05-12,2026-05-23,2026-05-29,,,Rejected,Interviewed
+1133,Michael Brown,29,Male,6.1,LINKEDIN,UX Designer,Sales,Priya Sharma,2026-07-08,2026-07-12,2026-07-22,,,Rejected,Interviewed
+1439,Lisa Nelson,28,Female,5.3,JobFair,Data Analyst,Engineering ,Arjun Patel,2026-03-24,2026-03-29,2026-04-03,2026-04-07,,Rejected,Offered
+441,Jeremy Mitchell,30,Female,5.8,Linked in,Business Analyst,Sales,Emily Chen,2025-10-29,2025-11-04,2025-11-18,2025-11-22,2025-12-05,Hired,
+532,Mark Jimenez,42,Female,19.8,LinkedIn,Business Analyst,Engineering ,Arjun Patel,2026-07-26,,,,,Rejected,Applied
+1215,Anna Walker,38,Male,13.3,LinkedIn,Product Manager,Human Resources,Emily Chen,2026-04-21,2026-04-25,2026-04-29,,,Rejected,Interviewed
+227,Kirk Carter,23,Female,0.0,naukri,Marketing Specialist,Human Resources,Aisha Khan,2025-12-17,,,,,Rejected,Applied
+111,Richard Rodriguez,26,Male,2.3,Naukri,Software Engineer,Product,Vikram Singh,2025-09-22,2025-09-26,2025-10-05,2025-10-14,2025-10-24,Hired,
+229,Michael Bradshaw,32,Female,6.1,LinkedIn,DevOps Engineer,Marketing,Emily Chen,2026-04-18,,,,,Rejected,Applied
+1432,Justin Foster,22,Male,0.0,Indeed ,Software Engineer,Sales,Sarah Johnson,2026-04-25,,,,,Rejected,Applied
+1313,John Anderson,-5,Female,3.6,linkedin,Software Engineer,Human Resources,Rohan Mehta,2025-12-29,,,,,Rejected,Applied
+213,Melissa Martinez,25,Female,2.6,REFERRAL,QA Engineer,Engineering ,Rohan Mehta,2026-02-27,2026-03-04,,,,Rejected,Screened
+886,Kenneth Sharp,44,Male,21.1,REFERRAL,Marketing Specialist,Finance ,David Lee,2025-09-26,2025-09-29,2025-10-11,2025-10-15,2025-11-03,Hired,
+80,Lisa Barnes,29,Female,6.1,company website,Product Manager,Engineering ,Sarah Johnson,2026-06-06,,,,,Rejected,Applied
+149,Kathy Rivas,18,Female,0.0,Company website,Business Analyst,Finance ,Rohan Mehta,2026-05-14,2026-05-25,2026-06-08,,,Rejected,Interviewed
+815,Scott Duke,32,Female,8.8,LinkedIn,DevOps Engineer,Marketing ,Sarah Johnson,2026-09-06,,,,,In Process,
+919,Bryan Moore,31,Female,7.6,indeed,Business Analyst,Engineering ,David Lee,2026-08-16,2026-08-20,,,,In Process,
+1192,Ryan Vaughn,25,Female,0.1,LinkedIn,Sales Associate,Sales,Aisha Khan,2025-11-29,,,,,Rejected,Applied
+672,Kristin Mendoza,32,Female,9.5,Referral,QA Engineer,Marketing,David Lee,2026-01-28,2026-02-04,2026-02-14,,,Rejected,Interviewed
+1168,Michelle Rodriguez,27,Female,4.4,indeed,DevOps Engineer,Sales,Sarah Johnson,2025-11-17,,,,,Rejected,Applied
+556,Nicole Gonzalez,26,Female,3.1,Company Website,Product Manager,Operations,Rohan Mehta,2025-12-04,2025-12-10,,,,Rejected,Screened
+923,Megan Green,39,Female,14.7,Indeed,HR Executive,Finance,Sarah Johnson,2026-04-05,,,,,Rejected,Applied
+134,Daniel Kennedy,26,Female,0.2,Naukri,HR Executive,Engineering ,Emily Chen,2026-07-23,2026-07-25,2026-08-01,,,Rejected,Interviewed
+1120,Brittany Davis,24,Male,0.0,referral,HR Executive,Marketing ,Aisha Khan,2025-12-24,2025-12-28,2026-01-11,,,Rejected,Interviewed
+824,Jackie Clements,31,Female,5.5,Indeed,HR Executive,Marketing,David Lee,2026-07-29,,,,,Rejected,Applied
+409,Anthony Romero,34,Male,9.3,NAUKRI,Data Analyst,Engineering ,David Lee,2026-07-13,2026-07-19,2026-07-30,,,Rejected,Interviewed
+369,Renee Bruce,35,Male,9.3,LINKEDIN,Data Analyst,Engineering,Sarah Johnson,2026-07-03,2026-07-10,2026-07-13,,,Rejected,Interviewed
+508,Emma Reed,19,Male,0.0,company website,Data Analyst,Engineering ,Priya Sharma,2026-04-29,2026-05-03,2026-05-05,,,Rejected,Interviewed
+1363,Danielle Davis,41,Male,17.6,LinkedIn,UX Designer,Marketing,Rohan Mehta,2026-06-30,2026-07-11,2026-07-29,2026-08-04,,Rejected,Offered
+505,Katherine Martinez,22,Male,0.0,Linked in,HR Executive,Finance,David Lee,2026-05-27,2026-06-01,2026-06-15,,,Rejected,Interviewed
+1348,Kelly Mclaughlin,36,Female,11.0,job fair,QA Engineer,Finance ,Aisha Khan,2026-05-04,2026-05-07,,,,Rejected,Screened
+348,Victor Brown,33,Female,7.1,Company website,UX Designer,Marketing,Aisha Khan,2026-07-11,,,,,Rejected,Applied
+387,Adam Burgess,28,Male,3.7,JobFair,QA Engineer,Marketing ,Aisha Khan,2026-04-06,,,,,Rejected,Applied
+1,Allison Hill,22,Male,0.0,Referral,Sales Associate,Marketing,David Lee,2025-11-26,2025-11-29,,,,Rejected,Screened
+361,Parker Cain,18,Female,0.0,Linked in,HR Executive,Marketing,Sarah Johnson,2026-06-30,2026-07-03,,,,Rejected,Screened
+895,Dr. Andrea Marshall,25,Male,2.4,indeed,Marketing Specialist,Finance ,Vikram Singh,2025-11-11,2025-11-14,,,,Rejected,Screened
+829,Derrick Clayton,23,Male,0.0,naukri,DevOps Engineer,Engineering,Vikram Singh,2026-04-05,2026-04-09,,,,Rejected,Screened
+1431,Adam Brooks,19,Male,0.0,naukri,Data Analyst,Sales,Rohan Mehta,2026-02-16,2026-02-27,2026-03-21,,,Rejected,Interviewed
+476,Julie Dominguez,33,Male,7.5,job fair,UX Designer,Finance,Emily Chen,2025-09-18,,,,,Rejected,Applied
+1296,Mr. Daniel Martin,35,Female,12.2,Indeed,Business Analyst,Sales,Aisha Khan,2026-02-11,2026-02-13,,,,Rejected,Screened
+58,Richard Aguirre,27,Female,5.0,Naukri,Sales Associate,Sales,Arjun Patel,2026-06-25,,,,,Rejected,Applied
+638,Randy Cannon,24,Female,0.0,LINKEDIN,Sales Associate,Finance,Emily Chen,2026-03-13,,,,,Rejected,Applied
+1322,Colin Fletcher,27,Male,1.8,indeed,Marketing Specialist,Engineering,Rohan Mehta,2026-06-23,,,,,Rejected,Applied
+1062,Shannon Green,26,Female,1.5,linkedin,UX Designer,Engineering,Sarah Johnson,2026-08-01,,,,,Rejected,Applied
+969,Courtney Chapman,33,Female,9.2,REFERRAL,DevOps Engineer,Engineering ,Priya Sharma,2026-07-12,2026-07-16,2026-07-27,2026-07-29,2026-08-12,Hired,
+173,Joshua Cooke,28,Male,3.0,LinkedIn,QA Engineer,Sales,Sarah Johnson,2025-09-30,2025-10-07,2025-10-21,2025-10-26,2025-11-15,Hired,
+451,Brittany Kim,21,Female,0.0,referral,QA Engineer,Engineering ,Vikram Singh,2026-01-22,,,,,Rejected,Applied
+126,Erin Edwards,26,Female,1.0,Company website,Product Manager,Marketing ,David Lee,2026-05-21,,,,,Rejected,Applied
+1435,Phillip Kent,25,Female,0.0,naukri,Data Analyst,Sales,Aisha Khan,2026-07-24,,,,,Rejected,Applied
+531,Marilyn Wang,31,Male,7.7,REFERRAL,Software Engineer,Marketing ,Emily Chen,2026-01-16,2026-01-18,2026-01-29,,,Rejected,Interviewed
+858,Nicole Phillips,28,Male,3.6,Indeed ,UX Designer,Finance,Sarah Johnson,2026-03-12,2026-03-19,2026-03-25,,,Rejected,Interviewed
+714,Laurie Goodwin,27,Male,3.1,Linked in,DevOps Engineer,Marketing ,Emily Chen,2025-09-22,2025-09-28,,,,Rejected,Screened
+91,Matthew Mcmillan,43,Female,19.2,Company website,Sales Associate,Marketing,Sarah Johnson,2026-03-06,,,,,Rejected,Applied
+1466,Dr. Nicole Trujillo,38,Non-binary,12.8,Company Website,UX Designer,Sales,Sarah Johnson,2026-03-16,,,,,Rejected,Applied
+182,Tina Sanders,27,Female,1.1,Indeed ,Business Analyst,Marketing ,Aisha Khan,2026-07-02,,,,,Rejected,Applied
+876,Patrick Yang,19,Male,0.0,naukri,HR Executive,Engineering,David Lee,2026-05-09,2026-05-15,,,,Rejected,Screened
+1024,Joseph Cooper,27,Male,2.7,Job Fair,QA Engineer,Engineering ,Arjun Patel,2026-02-21,2026-03-02,2026-03-06,2026-03-13,2026-03-21,Hired,
+787,Lisa Cervantes,24,Male,0.0,JobFair,Business Analyst,Sales,Rohan Mehta,2025-12-15,2025-12-20,2026-01-02,,,Rejected,Interviewed
+415,Erica Alvarez,37,Male,12.0,company website,HR Executive,Human Resources,Vikram Singh,2026-04-15,,,,,Rejected,Applied
+252,Olivia Harris,27,Male,4.8,LINKEDIN,Sales Associate,Engineering ,Rohan Mehta,2026-07-27,2026-07-30,2026-08-13,,,Rejected,Interviewed
+70,William Baker,27,Male,4.3,job fair,Data Analyst,Engineering ,Emily Chen,2026-03-11,2026-03-17,,,,Rejected,Screened
+804,Rodney Williams,37,Female,14.7,linkedin,Marketing Specialist,Engineering ,Aisha Khan,2026-03-31,2026-04-07,2026-04-19,,,Rejected,Interviewed
+132,Dustin Jordan,34,Non-binary,11.0,Linked in,Software Engineer,Engineering ,Emily Chen,2026-05-25,2026-05-30,2026-06-11,,,Rejected,Interviewed
+301,Tanner Mitchell DDS,18,Male,0.0,REFERRAL,Product Manager,Engineering,Priya Sharma,2026-07-24,2026-07-27,,,,Rejected,Screened
+1034,Debra Butler,35,Female,9.9,Indeed ,HR Executive,Sales,Rohan Mehta,2026-09-15,,,,,In Process,
+327,Brett Burns,28,Female,4.3,job fair,HR Executive,Human Resources,Priya Sharma,2026-02-23,,,,,Rejected,Applied
+1480,Ashley Mills,30,Male,5.5,job fair,Data Analyst,Engineering,David Lee,2025-12-26,,,,,Rejected,Applied
+1125,Emily Rodgers,25,Female,0.9,Referral,HR Executive,Finance ,Vikram Singh,2026-04-18,2026-04-23,2026-05-03,,,Rejected,Interviewed
+500,Phillip Berry,21,Male,0.0,Naukri,Business Analyst,Finance ,Priya Sharma,2026-07-08,,,,,Rejected,Applied
+342,Cynthia Morris,23,Male,0.8,LINKEDIN,QA Engineer,Product,Arjun Patel,2025-12-01,2025-12-04,2025-12-12,2025-12-15,2025-12-26,Hired,
+833,Scott Alexander,33,Female,9.9,Indeed ,Marketing Specialist,Human Resources,Priya Sharma,2026-05-29,2026-06-04,2026-06-15,,,Rejected,Interviewed
+365,Tracy Burke,33,Male,7.1,Indeed,Business Analyst,Finance ,Arjun Patel,2026-08-15,2026-08-22,2026-09-10,,,In Process,
+496,Lawrence Harrington,39,Female,14.5,Company Website,HR Executive,Engineering,Vikram Singh,2026-06-15,2026-06-22,2026-07-02,2026-07-09,2026-07-15,Hired,
+1410,Nicholas Stanley,29,Female,4.4,Indeed ,DevOps Engineer,Engineering ,David Lee,2026-07-29,2026-08-02,2026-08-06,,,Rejected,Interviewed
+339,Scott Thomas,32,Female,8.0,NAUKRI,Sales Associate,Operations,Rohan Mehta,2025-11-20,2025-11-30,2025-12-21,2025-12-29,,Rejected,Offered
+422,Maria Jones,21,Male,0.0,Job Fair,Software Engineer,Sales ,Aisha Khan,2026-01-05,,,,,Rejected,Applied
+165,Michael Powell,35,Male,9.6,company website,Data Analyst,Human Resources,Arjun Patel,2026-09-12,,,,,In Process,
+29,Zachary Hicks,20,Male,0.0,Linked in,HR Executive,Product,David Lee,2026-09-16,,,,,In Process,
+517,William Day,0,Female,17.0,Naukri,Software Engineer,Product,Aisha Khan,2026-07-25,2026-07-31,2026-08-10,2026-08-14,2026-08-27,Hired,
+194,Angelica Keith,25,Female,0.0,LINKEDIN,UX Designer,Marketing,Rohan Mehta,2026-08-07,,,,,Rejected,Applied
+988,Nicholas Payne,29,Female,5.1,Company Website,Sales Associate,Human Resources ,Emily Chen,2026-06-11,,,,,Rejected,Applied
+1377,Karen Fernandez,26,Male,2.4,Naukri,Business Analyst,Engineering,Emily Chen,2025-10-04,,,,,Rejected,Applied
+946,Paula Brown,30,Female,5.5,company website,Data Analyst,Product,Sarah Johnson,2026-01-09,,,,,Rejected,Applied
+1376,Kenneth Brown,21,Male,0.0,NAUKRI,Software Engineer,Engineering ,Vikram Singh,2026-02-24,,,,,Rejected,Applied
+170,Daniel Murphy,37,Male,12.2,NAUKRI,Software Engineer,Human Resources,Emily Chen,2026-02-25,2026-03-04,,,,Rejected,Screened
+168,Alyssa Day,34,Male,9.9,Linked in,Data Analyst,Sales,Emily Chen,2026-08-17,2026-08-19,,,,In Process,
+653,David Robinson,24,Female,0.0,indeed,Business Analyst,Operations,Arjun Patel,2025-11-28,,,,,Rejected,Applied
+174,Matthew Harrington,33,Non-binary,10.8,Indeed,Sales Associate,Human Resources,Vikram Singh,2026-04-24,2026-04-29,2026-05-10,2026-05-13,2026-05-29,Hired,
+519,Penny Bowman,26,Male,1.5,indeed,HR Executive,Engineering ,Rohan Mehta,2025-11-26,2025-12-06,2025-12-27,,,Rejected,Interviewed
+1227,Kimberly Smith,26,Female,1.6,naukri,QA Engineer,Product,Sarah Johnson,2025-11-30,,,,,Rejected,Applied
+1194,Ashley Parrish,31,Male,7.9,indeed,Marketing Specialist,Engineering,Sarah Johnson,2026-02-12,2026-02-19,,,,Rejected,Screened
+913,Robert Haynes,33,Female,10.1,job fair,Data Analyst,Marketing ,Priya Sharma,2025-11-03,,,,,Rejected,Applied
+492,Heather Bolton,33,Female,10.5,NAUKRI,Marketing Specialist,Product,Aisha Khan,2026-04-29,2026-05-04,2026-05-11,2026-05-18,2026-06-08,Hired,
+954,Alyssa Haynes,31,Male,6.1,naukri,Business Analyst,Finance,Sarah Johnson,2026-04-30,,,,,Rejected,Applied
+74,Lauren Daniels,33,Female,7.2,naukri,UX Designer,Human Resources,Rohan Mehta,2026-02-16,2026-02-22,2026-03-13,2026-03-27,2026-04-18,Hired,
+1472,Kristen Jones,33,Male,7.7,Indeed ,Data Analyst,Finance,Vikram Singh,2025-12-25,,,,,Rejected,Applied
+588,Jeremy Scott,18,Female,0.0,Naukri,Business Analyst,Marketing ,Sarah Johnson,2025-11-20,2025-11-23,2025-11-28,2025-12-03,2025-12-09,Hired,
+751,Krista Benton,30,Female,7.3,REFERRAL,Sales Associate,Marketing,Rohan Mehta,2025-12-17,2025-12-20,,,,Rejected,Screened
+658,Connie Turner,27,Female,3.5,Company Website,DevOps Engineer,Marketing,Vikram Singh,2025-09-23,2025-09-29,,,,Rejected,Screened
+843,Virginia Henderson,24,Male,0.6,linkedin,UX Designer,Operations,Priya Sharma,2026-02-08,2026-02-14,,,,Rejected,Screened
+235,Michael Lyons,36,Male,12.4,LinkedIn,Data Analyst,Marketing,Sarah Johnson,2026-01-02,2026-01-06,2026-01-11,,,Rejected,Interviewed
+733,Kyle Nguyen,34,Female,9.3,referral,Business Analyst,Engineering ,Emily Chen,2026-01-25,2026-01-29,2026-02-07,2026-02-13,2026-02-25,Hired,
+215,Julie Alexander,18,Female,0.0,Indeed ,Sales Associate,Finance ,Emily Chen,2025-11-05,2025-11-08,2025-11-11,,,Rejected,Interviewed
+163,Lindsey Walker,30,Female,6.2,Linked in,Marketing Specialist,Human Resources,Emily Chen,2026-05-07,,,,,Rejected,Applied
+133,Mary Marshall,35,Female,12.7,REFERRAL,Data Analyst,Sales,Priya Sharma,2026-07-01,2026-07-03,2026-07-14,,,Rejected,Interviewed
+1160,Kara Sandoval,33,Male,7.5,linkedin,DevOps Engineer,Human Resources,Emily Chen,2026-07-09,2026-07-11,2026-07-24,2026-07-27,,Rejected,Offered
+223,Elizabeth Oliver DDS,27,Male,4.6,Indeed ,HR Executive,Sales,Arjun Patel,2026-01-08,2026-01-17,,,,Rejected,Screened
+1241,Preston Kim,33,Male,7.8,REFERRAL,Data Analyst,Human Resources,Emily Chen,2025-11-04,2025-11-08,,,,Rejected,Screened
+935,Michael Thompson,37,Female,13.7,NAUKRI,DevOps Engineer,Marketing,David Lee,2026-06-22,,,,,Rejected,Applied
+186,Dr. Hannah Patterson,25,Male,2.9,LINKEDIN,Product Manager,Engineering ,Sarah Johnson,2026-03-02,2026-03-04,2026-03-08,,,Rejected,Interviewed
+42,Fred Smith,37,Male,14.3,Naukri,Business Analyst,Marketing ,Arjun Patel,2026-02-09,,,,,Rejected,Applied
+693,Crystal Mann,24,Female,0.0,naukri,HR Executive,Engineering ,Arjun Patel,2026-05-01,2026-05-08,,,,Rejected,Screened
+109,Evelyn Galvan,25,Female,0.2,Indeed ,HR Executive,Engineering ,Sarah Johnson,2026-09-01,2026-09-06,2026-09-12,,,In Process,
+39,Elizabeth Fowler,26,Male,3.3,indeed,HR Executive,Engineering ,Arjun Patel,2026-06-24,,,,,Rejected,Applied
+569,Lisa Randall,34,Male,10.9,naukri,Product Manager,Engineering ,David Lee,2026-08-13,2026-08-18,2026-08-29,,,In Process,
+1010,Blake Orr,34,Male,11.4,referral,QA Engineer,Product,Sarah Johnson,2026-03-02,2026-03-05,2026-03-14,2026-03-16,2026-03-28,Hired,
+1282,Jacob Williams,22,Male,0.0,Company website,DevOps Engineer,Human Resources,Arjun Patel,2026-09-06,,,,,In Process,
+1457,Brian Chen,28,Male,2.9,Indeed ,QA Engineer,Engineering ,Arjun Patel,2026-07-09,2026-07-18,2026-08-01,,,Rejected,Interviewed
+484,Steve Paul,28,Male,5.4,company website,Business Analyst,Sales,Arjun Patel,2026-08-07,2026-08-12,2026-08-30,,,In Process,
+469,Katie Mcneil,29,Male,6.5,JobFair,Product Manager,Human Resources,Sarah Johnson,2026-03-10,,,,,Rejected,Applied
+891,Jennifer Morris,29,Male,5.8,LINKEDIN,DevOps Engineer,Human Resources,Arjun Patel,2025-09-16,,,,,Rejected,Applied
+948,Ariel Sandoval,35,Male,9.2,REFERRAL,HR Executive,Finance,David Lee,2026-07-06,2026-07-13,2026-07-24,,,Rejected,Interviewed
+25,Matthew Foster,34,Male,10.5,Job Fair,DevOps Engineer,Product,Aisha Khan,2026-07-19,,,,,Rejected,Applied
+1025,James Washington,27,Male,2.3,Linked in,QA Engineer,Marketing,David Lee,2025-11-28,2025-12-01,,,,Rejected,Screened
+1206,Jose Bennett,27,Female,2.0,Naukri,HR Executive,Engineering ,Aisha Khan,2026-08-19,,,,,In Process,
+69,James Brown,34,Female,8.1,NAUKRI,Marketing Specialist,Engineering,Rohan Mehta,2026-01-27,2026-01-30,,,,Rejected,Screened
+885,Holly Scott,32,Female,7.4,Indeed ,DevOps Engineer,Engineering ,Priya Sharma,2026-05-23,2026-05-29,,,,Rejected,Screened
+1280,Nancy Webb,29,Female,5.9,Company Website,QA Engineer,Finance ,Emily Chen,2026-03-05,,,,,Rejected,Applied
+367,Courtney Rodriguez,21,Female,0.0,Indeed,DevOps Engineer,Engineering,Priya Sharma,2026-04-17,,,,,Rejected,Applied
+506,Jodi Roach,23,Female,0.0,LINKEDIN,Marketing Specialist,Product,Priya Sharma,2026-07-02,,,,,Rejected,Applied
+851,Shannon Miller,27,Female,2.0,Naukri,Product Manager,Finance,Rohan Mehta,2025-11-03,2025-11-09,,,,Rejected,Screened
+1331,Michael Fitzgerald,29,Female,6.1,Indeed ,Product Manager,Finance ,Rohan Mehta,2026-02-11,,,,,Rejected,Applied
+384,Mr. Andrew Foster,34,Male,9.9,linkedin,Marketing Specialist,Product,Arjun Patel,2025-11-14,2025-11-23,,,,Rejected,Screened
+735,Steven Stein,23,Female,0.0,company website,QA Engineer,Engineering,Sarah Johnson,2026-08-15,,,,,Rejected,Applied
+718,Brenda Hinton,18,Female,0.0,Naukri,UX Designer,Product,David Lee,2026-08-13,,,,,Rejected,Applied
+1351,Destiny Obrien,20,Female,0.0,Indeed ,Sales Associate,Engineering,Arjun Patel,2026-04-08,2026-04-16,,,,Rejected,Screened
+455,Alfred Galvan,18,Female,0.0,Company Website,Sales Associate,Human Resources,David Lee,2026-05-19,,,,,Rejected,Applied
+265,Yvonne Burns,26,Male,3.7,Company Website,DevOps Engineer,Product,Aisha Khan,2026-08-20,2026-08-25,,,,In Process,
+76,Sarah Moore,26,Female,2.8,linkedin,HR Executive,Finance,Emily Chen,2026-08-28,2026-08-30,2026-09-12,,,In Process,
+915,Dale Chan,25,Male,0.0,Referral,HR Executive,Marketing ,Sarah Johnson,2025-11-02,2025-11-09,2025-11-23,2025-12-01,2025-12-13,Hired,
+233,Christopher Parker,26,Female,2.9,JobFair,Software Engineer,Human Resources,Emily Chen,2025-11-11,,,,,Rejected,Applied
+445,Mrs. Diane Reyes,35,Female,12.6,Naukri,Product Manager,Finance,Arjun Patel,2026-06-28,2026-07-05,,,,Rejected,Screened
+396,Dana Chapman,24,Female,1.9,Linked in,UX Designer,Engineering,David Lee,2025-12-30,,,,,Rejected,Applied
+177,Michael Elliott,22,Male,0.0,Linked in,Sales Associate,Finance ,Sarah Johnson,2026-08-23,,,,,In Process,
+1326,Dawn Wyatt,25,Male,1.0,indeed,Sales Associate,Operations,Priya Sharma,2026-03-18,2026-03-23,,,,Rejected,Screened
+1417,Mark Anderson,26,Female,0.1,REFERRAL,Product Manager,Marketing ,Priya Sharma,2025-12-18,2025-12-22,2025-12-27,,,Rejected,Interviewed
+1048,James Martin,31,Female,7.5,LINKEDIN,Business Analyst,Sales,Sarah Johnson,2026-08-25,2026-08-29,2026-09-07,,,In Process,
+596,Sherry Woods,36,Male,10.7,linkedin,Product Manager,Finance ,Rohan Mehta,2025-10-03,2025-10-14,2025-11-02,,,Rejected,Interviewed
+62,Gerald Hensley,34,Female,9.3,LinkedIn,Marketing Specialist,Product,Emily Chen,2026-07-30,2026-08-05,2026-08-08,,,Rejected,Interviewed
+873,Michael Blair,28,Male,2.0,job fair,Data Analyst,Human Resources,Rohan Mehta,2025-11-29,,,,,Rejected,Applied
+1132,Mariah Robles,30,Male,7.6,indeed,QA Engineer,Finance,Priya Sharma,2026-03-10,2026-03-16,2026-03-20,2026-03-23,2026-03-30,Hired,
+1422,Kyle Welch,30,Female,5.7,job fair,DevOps Engineer,Product,Emily Chen,2025-11-13,,,,,Rejected,Applied
+279,Shannon James,34,Female,12.0,Naukri,Data Analyst,Marketing ,David Lee,2025-12-01,2025-12-04,2025-12-15,,,Rejected,Interviewed
+37,Sherri Baker,36,Female,11.4,LinkedIn,Data Analyst,Finance,Vikram Singh,2025-11-10,2025-11-16,,,,Rejected,Screened
+663,James Webster,26,Male,0.4,Indeed,Marketing Specialist,Finance ,Vikram Singh,2025-12-21,2025-12-25,2026-01-08,,,Rejected,Interviewed
+1367,Susan Porter,26,Female,1.6,Naukri,DevOps Engineer,Engineering,Rohan Mehta,2025-12-10,2025-12-21,,,,Rejected,Screened
+1099,Stephen Cowan,18,Female,0.0,linkedin,Product Manager,Engineering,David Lee,2025-09-28,,,,,Rejected,Applied
+978,Margaret Tanner,26,Male,0.2,LinkedIn,UX Designer,Marketing ,Aisha Khan,2026-05-08,,,,,Rejected,Applied
+739,Mr. David Wright,23,Male,0.0,Job Fair,Product Manager,Engineering,Arjun Patel,2026-03-04,,,,,Rejected,Applied
+192,Karen Graham,18,Male,0.0,REFERRAL,Sales Associate,Operations,Emily Chen,2026-08-08,2026-08-13,,,,Rejected,Screened
+920,Samantha Terry,25,Male,0.0,Indeed,Business Analyst,Engineering,Sarah Johnson,2026-06-11,,,,,Rejected,Applied
+457,Dustin Gallegos,22,Male,0.0,LINKEDIN,Business Analyst,Marketing ,Emily Chen,2026-03-21,,,,,Rejected,Applied
+676,Larry Harris,33,Female,7.2,REFERRAL,Software Engineer,Engineering ,Sarah Johnson,2026-08-11,2026-08-13,,,,Rejected,Screened
+761,Mary Kelly,30,Female,5.4,Naukri,Sales Associate,Sales,David Lee,2026-01-28,2026-02-04,,,,Rejected,Screened
+1446,Amy Rowe,35,Female,10.6,JobFair,Software Engineer,Sales,Sarah Johnson,2026-07-04,,,,,Rejected,Applied
+729,Aaron Parker,29,Male,6.7,NAUKRI,Product Manager,Finance ,Emily Chen,2025-11-02,2025-11-09,2025-11-13,,,Rejected,Interviewed
+413,Julian Conner,19,Female,0.0,naukri,Business Analyst,Finance ,Vikram Singh,2026-02-20,2026-02-25,,,,Rejected,Screened
+826,Monica Ellis,38,Female,16.0,LinkedIn,QA Engineer,Human Resources,Vikram Singh,2026-05-26,2026-06-01,,,,Rejected,Screened
+617,Bryan Parker,27,Female,3.4,referral,DevOps Engineer,Human Resources,Sarah Johnson,2026-06-09,2026-06-11,2026-06-14,2026-06-20,,Rejected,Offered
+115,Garrett Lin,25,Male,1.3,JobFair,UX Designer,Marketing ,Vikram Singh,2026-01-19,,,,,Rejected,Applied
+418,Carrie Wright,27,Female,4.1,REFERRAL,HR Executive,Finance ,Vikram Singh,2026-01-25,2026-01-29,2026-02-08,,,Rejected,Interviewed
+1444,Glenn Collins DDS,26,Female,0.1,Linked in,Software Engineer,Marketing ,Arjun Patel,2025-12-12,2025-12-21,,,,Rejected,Screened
+970,Eric Barker,27,Male,1.2,JobFair,DevOps Engineer,Sales,Emily Chen,2026-04-15,,,,,Rejected,Applied
+605,Mrs. Virginia Daniels,20,Male,0.0,linkedin,Sales Associate,Engineering ,Arjun Patel,2025-11-14,2025-11-21,,,,Rejected,Screened
+1450,Jessica Rojas,30,Female,6.6,Company Website,HR Executive,Engineering,Sarah Johnson,2026-04-19,,,,,Rejected,Applied
+90,Aimee Montoya,26,Male,0.6,job fair,DevOps Engineer,Finance ,David Lee,2026-02-03,,,,,Rejected,Applied
+849,Jessica Bowen,21,Female,0.0,job fair,UX Designer,Product,Arjun Patel,2026-04-15,,,,,Rejected,Applied
+1158,Heidi Brown,26,Female,1.8,Job Fair,QA Engineer,Human Resources,Emily Chen,2026-05-01,2026-05-05,,,,Rejected,Screened
+1449,Randy Wright,25,Female,1.3,job fair,Sales Associate,Engineering ,Arjun Patel,2026-05-27,,,,,Rejected,Applied
+754,Jennifer Porter,20,Male,0.0,indeed,Marketing Specialist,Human Resources,Priya Sharma,2026-08-25,,,,,In Process,
+499,Meghan Rush,36,Female,10.5,Job Fair,Product Manager,Marketing,Priya Sharma,2026-09-15,,,,,In Process,
+12,Jamie Arnold,28,Female,3.3,REFERRAL,Software Engineer,Operations,Priya Sharma,2026-06-16,2026-06-21,2026-06-25,,,Rejected,Interviewed
+397,Jennifer Collins,39,Female,16.7,LinkedIn,QA Engineer,Operations,Aisha Khan,2026-01-19,,,,,Rejected,Applied
+285,Stephanie Williams,19,Female,0.0,LinkedIn,DevOps Engineer,Human Resources,Rohan Mehta,2026-06-12,,,,,Rejected,Applied
+1067,Yolanda Green,36,Male,10.6,indeed,Software Engineer,Sales,Priya Sharma,2026-05-27,2026-06-02,2026-06-07,,,Rejected,Interviewed
+691,Ryan Landry,33,Male,7.3,Linked in,QA Engineer,Sales,Rohan Mehta,2026-05-25,2026-06-05,,,,Rejected,Screened
+1244,Kimberly Choi,27,Male,4.7,referral,Software Engineer,Human Resources,Priya Sharma,2025-09-26,2025-10-01,2025-10-09,,,Rejected,Interviewed
+1419,Erika Alvarez,33,Male,10.3,LINKEDIN,Product Manager,Engineering,Aisha Khan,2026-02-15,,,,,Rejected,Applied
+690,Maria Brown,34,Male,8.6,NAUKRI,UX Designer,Engineering,Aisha Khan,2026-08-11,,,,,Rejected,Applied
+852,Paul Lawrence,18,Male,0.0,job fair,DevOps Engineer,Engineering,Aisha Khan,2026-04-07,,,,,Rejected,Applied
+160,Jamie Smith,30,Male,5.8,job fair,HR Executive,Operations,Priya Sharma,2025-10-21,,,,,Rejected,Applied
+896,Ryan Murphy,19,Female,0.0,LinkedIn,Data Analyst,Sales,Priya Sharma,2025-10-02,,,,,Rejected,Applied
+1203,Kimberly Morrison,29,Male,4.2,LinkedIn,Software Engineer,Marketing,Priya Sharma,2026-09-06,2026-09-08,2026-09-14,,,In Process,
+258,Kathleen Moran,29,Female,5.4,LINKEDIN,UX Designer,Engineering,Vikram Singh,2025-10-19,,,,,Rejected,Applied
+336,Andrea Hubbard,24,Female,2.0,Company Website,Business Analyst,Sales,Sarah Johnson,2026-03-22,,,,,Rejected,Applied
+1423,Kristy Mills,28,Male,4.9,company website,QA Engineer,Product,Emily Chen,2025-10-19,2025-10-21,,,,Rejected,Screened
+1040,Corey Whitaker,32,Male,7.9,company website,UX Designer,Operations,Arjun Patel,2025-12-25,,,,,Rejected,Applied
+516,Dr. Kelly Hammond DVM,30,Female,6.5,LINKEDIN,Product Manager,Finance,Priya Sharma,2026-08-10,,,,,Rejected,Applied
+1016,Lori Flowers MD,24,Male,0.9,NAUKRI,Marketing Specialist,Finance ,Rohan Mehta,2026-02-02,2026-02-12,,,,Rejected,Screened
+769,Jason Nixon,28,Female,5.1,indeed,HR Executive,Engineering ,Sarah Johnson,2026-03-24,,,,,Rejected,Applied
+1332,Mary Adkins,24,Male,0.1,Indeed,QA Engineer,Marketing ,Priya Sharma,2025-11-20,2025-11-22,,,,Rejected,Screened
+762,Amanda Terrell,34,Male,9.1,Company website,Software Engineer,Engineering ,Aisha Khan,2026-06-02,2026-06-07,,,,Rejected,Screened
+1114,Brian Gonzalez,24,Male,0.0,JobFair,UX Designer,Marketing ,Emily Chen,2026-09-06,,,,,In Process,
+522,Christopher Morris,29,Male,6.9,REFERRAL,Sales Associate,Marketing,David Lee,2026-04-04,2026-04-06,2026-04-10,,,Rejected,Interviewed
+23,Ethan Adams,19,Male,0.0,Referral,QA Engineer,Engineering,Sarah Johnson,2026-05-30,2026-06-06,2026-06-17,2026-06-21,2026-07-08,Hired,
+357,Jesse Perry,32,Male,6.9,JobFair,HR Executive,Finance ,Vikram Singh,2026-05-19,,,,,Rejected,Applied
+1287,Carrie Valdez,21,Male,0.0,LINKEDIN,Sales Associate,Marketing,Rohan Mehta,2026-04-16,2026-04-22,2026-05-14,2026-05-27,2026-06-04,Hired,
+341,Allison Smith,34,Male,11.2,REFERRAL,Business Analyst,Product,Aisha Khan,2025-10-09,2025-10-15,2025-10-29,,,Rejected,Interviewed
+432,Jack White,22,Male,0.0,referral,Marketing Specialist,Operations,Rohan Mehta,2026-06-13,2026-06-21,,,,Rejected,Screened
+474,Evelyn Williams,31,Male,8.4,Company website,Business Analyst,Finance ,David Lee,2026-04-11,2026-04-18,,,,Rejected,Screened
+218,Mark Brown,29,Female,4.1,LINKEDIN,Business Analyst,Human Resources,Sarah Johnson,2026-03-26,,,,,Rejected,Applied
+912,Cynthia Green,29,Female,6.9,Job Fair,Sales Associate,Engineering,Sarah Johnson,2026-01-07,2026-01-13,2026-01-22,,,Rejected,Interviewed
+1218,Samantha Zavala MD,26,Male,2.8,NAUKRI,Data Analyst,Engineering ,Vikram Singh,2026-05-26,2026-05-29,2026-06-09,,,Rejected,Interviewed
+1012,Megan Oliver,29,Male,5.2,JobFair,DevOps Engineer,Engineering ,Aisha Khan,2026-02-22,,,,,Rejected,Applied
+1474,Aaron Little,33,Non-binary,8.3,Linked in,UX Designer,Human Resources,Vikram Singh,2026-07-28,2026-08-01,2026-08-12,2026-08-19,2026-09-04,Hired,
+94,Christina Walters,25,Male,1.7,indeed,Business Analyst,Engineering,David Lee,2026-04-19,2026-04-24,,,,Rejected,Screened
+1009,Karen Keith,41,Female,15.3,indeed,DevOps Engineer,Engineering,Arjun Patel,2026-05-30,,,,,Rejected,Applied
+1071,Susan Powers,21,Female,0.0,Company website,HR Executive,Finance,Emily Chen,2026-05-16,2026-05-21,,,,Rejected,Screened
+1093,Frank Whitaker,26,Male,2.3,LinkedIn,DevOps Engineer,Marketing,Aisha Khan,2026-03-31,2026-04-03,2026-04-12,2026-04-15,,Rejected,Offered
+697,Joseph Hill,18,Male,0.0,Indeed ,QA Engineer,Human Resources,Vikram Singh,2025-10-13,2025-10-15,,,,Rejected,Screened
+997,Edward Stanley,20,Male,0.0,indeed,Data Analyst,Engineering ,Vikram Singh,2026-03-09,2026-03-16,,,,Rejected,Screened
+154,Devon Flores,27,Male,4.2,naukri,UX Designer,Finance ,Arjun Patel,2025-10-12,,,,,Rejected,Applied
+1100,Steven Howard,26,Male,1.1,linkedin,QA Engineer,Finance,Rohan Mehta,2026-06-19,2026-06-29,2026-07-21,2026-07-31,2026-09-01,Hired,
+1315,Marie Boyd,37,Male,11.4,Company website,HR Executive,Operations,Aisha Khan,2026-06-12,2026-06-19,2026-06-24,,,Rejected,Interviewed
+1453,Emily Morris,29,Female,3.3,linkedin,Product Manager,Human Resources,Sarah Johnson,2025-10-18,2025-10-20,2025-10-25,2025-10-28,2025-11-03,Hired,
+790,Clayton Steele,25,Female,0.4,JobFair,Business Analyst,Human Resources,Aisha Khan,2026-09-08,,,,,In Process,
+581,William Evans,36,Male,13.8,LinkedIn,HR Executive,Operations,David Lee,2025-09-26,2025-09-29,,,,Rejected,Screened
+704,Michael Abbott,32,Male,6.3,Company website,UX Designer,Engineering ,Arjun Patel,2026-05-08,2026-05-17,,,,Rejected,Screened
+1274,Raymond Quinn,29,Female,6.0,naukri,Product Manager,Human Resources,Arjun Patel,2026-03-23,2026-03-28,,,,Rejected,Screened
+488,Samantha Gardner,32,Female,8.0,Linked in,Business Analyst,Finance ,Emily Chen,2026-09-14,2026-09-16,,,,In Process,
+560,Louis Martin,36,Female,10.7,LINKEDIN,Product Manager,Engineering ,David Lee,2026-03-17,2026-03-19,,,,Rejected,Screened
+802,Krista Wilson,30,Female,4.8,REFERRAL,Data Analyst,Sales,Emily Chen,2026-08-07,2026-08-10,2026-08-21,,,In Process,
+513,Allison Spencer,25,Male,1.1,Job Fair,UX Designer,Marketing,Arjun Patel,2025-09-20,2025-09-25,2025-10-13,2025-10-16,2025-10-28,Hired,
+634,Robert Reese,22,Male,0.0,LINKEDIN,Software Engineer,Marketing ,Aisha Khan,2026-04-01,2026-04-06,2026-04-14,,,Rejected,Interviewed
+1122,David Hinton,31,Male,6.3,Job Fair,Data Analyst,Human Resources,Sarah Johnson,2026-01-01,,,,,Rejected,Applied
+1353,Jason Rodriguez,37,Female,14.8,LinkedIn,Business Analyst,Operations,Vikram Singh,2026-06-26,2026-06-29,,,,Rejected,Screened
+791,Jennifer Taylor,29,Male,4.9,linkedin,QA Engineer,Finance,Vikram Singh,2026-07-14,,,,,Rejected,Applied
+117,William Herrera,18,Female,0.0,NAUKRI,Business Analyst,Human Resources,Aisha Khan,2026-05-27,,,,,Rejected,Applied
+741,Eric Rush,23,Male,0.7,Naukri,Sales Associate,Finance,Emily Chen,2026-05-04,,,,,Rejected,Applied
+1082,Edwin Brown,26,Female,0.6,linkedin,Business Analyst,Operations,Priya Sharma,2025-11-11,2025-11-16,,,,Rejected,Screened
+831,Mr. Michael Williams,19,Male,0.0,Referral,HR Executive,Finance,Rohan Mehta,2026-03-01,2026-03-06,2026-03-28,,,Rejected,Interviewed
+120,Jeffrey Chandler,26,Female,0.2,LinkedIn,HR Executive,Finance,Arjun Patel,2026-06-27,,,,,Rejected,Applied
+657,Eric Thomas,21,Male,0.0,naukri,Business Analyst,Finance,Emily Chen,2026-05-18,,,,,Rejected,Applied
+636,Zachary Michael,28,Male,5.2,Linked in,DevOps Engineer,Engineering,Aisha Khan,2026-05-16,2026-05-22,2026-05-31,,,Rejected,Interviewed
+370,Sabrina Austin,36,Male,11.6,naukri,Sales Associate,Finance ,Arjun Patel,2025-11-23,,,,,Rejected,Applied
+269,Cynthia Rowe,32,Male,9.1,Job Fair,Sales Associate,Finance ,David Lee,2026-03-23,,,,,Rejected,Applied
+656,Kyle Chambers,28,Male,4.9,Company Website,UX Designer,Sales,Arjun Patel,2025-10-31,2025-11-03,,,,Rejected,Screened
+936,Cody Ramirez,35,Male,10.9,LINKEDIN,DevOps Engineer,Finance ,Priya Sharma,2026-09-06,,,,,In Process,
+823,Jose Ramirez,26,Female,0.3,Job Fair,QA Engineer,Marketing,David Lee,2026-01-17,,,,,Rejected,Applied
+867,Lori Mason,23,Female,0.0,Indeed ,Sales Associate,Finance,David Lee,2025-10-21,2025-10-25,,,,Rejected,Screened
+47,John Pierce,33,Female,7.6,naukri,Software Engineer,Operations,David Lee,2026-07-09,2026-07-12,2026-07-24,,,Rejected,Interviewed
+1306,Matthew Baker,42,Female,19.0,company website,Data Analyst,Sales,Arjun Patel,2026-02-06,,,,,Rejected,Applied
+992,Brian Harris,33,Male,8.5,Linked in,DevOps Engineer,Finance ,Arjun Patel,2025-12-17,2025-12-22,2025-12-27,,,Rejected,Interviewed
+877,Michael Miles,20,Female,0.0,Job Fair,DevOps Engineer,Marketing,Arjun Patel,2026-04-03,2026-04-10,2026-04-15,2026-04-20,2026-05-10,Hired,
+774,Samuel Wong,26,Female,0.1,Company Website,DevOps Engineer,Finance,Vikram Singh,2026-03-11,2026-03-18,,,,Rejected,Screened
+772,Mr. Jeffrey Horton,24,Male,0.0,Indeed,Sales Associate,Marketing ,Priya Sharma,2026-03-27,,,,,Rejected,Applied
+5,Cristian Santos,33,Male,8.6,Indeed,Product Manager,Finance,Vikram Singh,2026-02-05,2026-02-09,2026-02-12,,,Rejected,Interviewed
+1004,Derrick Brown,42,Male,16.6,company website,Business Analyst,Product ,Priya Sharma,2026-07-05,2026-07-07,,,,Rejected,Screened
+1317,Robert Clarke,30,Female,5.3,referral,Data Analyst,Marketing ,Rohan Mehta,2026-04-05,2026-04-15,,,,Rejected,Screened
+264,Diane Evans,27,Male,1.2,referral,HR Executive,Marketing,Priya Sharma,2025-12-04,2025-12-06,2025-12-17,2025-12-20,2025-12-25,Hired,
+1197,Donna Beck,31,Female,5.8,indeed,Marketing Specialist,Engineering ,Vikram Singh,2025-11-28,2025-12-01,,,,Rejected,Screened
+1385,Jacqueline Dickerson,22,Male,0.0,Company Website,DevOps Engineer,Operations,Sarah Johnson,2026-01-17,2026-01-22,,,,Rejected,Screened
+444,Holly Valentine,30,Male,7.6,Naukri,Sales Associate,Finance ,Vikram Singh,2026-02-01,,,,,Rejected,Applied
+1003,Dennis Marshall,32,Male,7.7,naukri,Marketing Specialist,Engineering ,Priya Sharma,2026-02-06,,,,,Rejected,Applied
+1078,David Carter,33,Male,11.0,Referral,Data Analyst,Finance,Rohan Mehta,2026-06-11,2026-06-19,2026-07-03,2026-07-06,2026-07-25,Hired,
+838,Carol Sanders,30,Male,6.3,linkedin,DevOps Engineer,Product,Vikram Singh,2026-05-23,2026-05-27,,,,Rejected,Screened
+1355,Tina Walter,21,Male,0.0,LINKEDIN,QA Engineer,Finance,Aisha Khan,2025-12-07,2025-12-14,,,,Rejected,Screened
+305,Maria Parker,36,Female,11.7,JobFair,Marketing Specialist,Finance,Vikram Singh,2026-08-14,,,,,Rejected,Applied
+1245,Michael Sloan,38,Male,13.8,Company Website,QA Engineer,Finance,Emily Chen,2026-01-30,,,,,Rejected,Applied
+314,Tracy Ballard,29,Female,3.5,Indeed,Sales Associate,Finance,Arjun Patel,2026-06-12,,,,,Rejected,Applied
+150,Stephanie Manning,31,Male,7.6,company website,Marketing Specialist,Engineering ,Priya Sharma,2026-03-03,,,,,Rejected,Applied
+1149,John Allen,34,Female,8.1,linkedin,DevOps Engineer,Engineering ,Arjun Patel,2026-07-10,2026-07-18,,,,Rejected,Screened
+575,Daniel Nguyen,31,Female,5.4,indeed,Data Analyst,Finance ,Vikram Singh,2026-07-12,,,,,Rejected,Applied
+51,Jessica Holmes,39,Male,15.2,REFERRAL,Software Engineer,Engineering ,David Lee,2026-06-02,2026-06-06,,,,Rejected,Screened
+1270,Amanda Perkins,32,Male,6.7,Linked in,HR Executive,Finance,David Lee,2025-11-28,2025-12-03,2025-12-06,,,Rejected,Interviewed
+727,Christian Dawson,30,Female,5.5,Company website,Sales Associate,Finance ,Vikram Singh,2025-10-23,2025-10-30,,,,Rejected,Screened
+834,Tyler Harris,18,Male,0.0,Linked in,Marketing Specialist,Human Resources,Emily Chen,2026-02-06,2026-02-08,,,,Rejected,Screened
+1116,Michael Phillips,31,Female,7.9,referral,Business Analyst,Marketing,Priya Sharma,2026-07-25,2026-07-27,2026-07-29,,,Rejected,Interviewed
+471,Veronica King,25,Female,2.6,JobFair,QA Engineer,Human Resources,Rohan Mehta,2026-02-16,,,,,Rejected,Applied
+972,Jenna Gamble,22,Female,0.0,indeed,Product Manager,Engineering ,Rohan Mehta,2025-11-13,2025-11-23,2025-12-11,,,Rejected,Interviewed
+654,Amy Gordon,30,Male,6.7,JobFair,Product Manager,Engineering ,Arjun Patel,2026-03-05,2026-03-12,2026-03-31,2026-04-11,2026-04-23,Hired,
+400,Hannah Luna,34,Female,9.6,Indeed ,Marketing Specialist,Marketing,Sarah Johnson,2025-11-28,,,,,Rejected,Applied
+512,Curtis Taylor,35,Female,10.0,naukri,Software Engineer,Engineering ,Aisha Khan,2026-01-03,,,,,Rejected,Applied
+321,Susan Turner,18,Female,0.0,JobFair,Software Engineer,Product,Priya Sharma,2026-07-16,,,,,Rejected,Applied
+20,Carla Gray,29,Non-binary,6.4,Linked in,UX Designer,Engineering ,Emily Chen,2026-03-30,2026-04-04,,,,Rejected,Screened
+685,James Whitaker,23,Male,0.0,job fair,UX Designer,Engineering,Priya Sharma,2026-05-21,,,,,Rejected,Applied
+36,Jeffrey Chavez,30,Male,6.3,referral,Business Analyst,Finance ,Aisha Khan,2026-08-26,2026-08-29,2026-09-08,,,In Process,
+903,Sherry Tapia,34,Male,11.6,REFERRAL,HR Executive,Product,Emily Chen,2025-12-22,2025-12-24,2026-01-06,,,Rejected,Interviewed
+828,Claudia Jordan,20,Male,0.0,Job Fair,UX Designer,Sales,Aisha Khan,2026-06-12,,,,,Rejected,Applied
+1360,Austin Schultz,29,Female,6.2,Company website,QA Engineer,Engineering ,Emily Chen,2026-05-26,,,,,Rejected,Applied
+408,Jeremy Turner,30,Male,7.6,REFERRAL,HR Executive,Engineering,Sarah Johnson,2026-03-28,2026-03-31,2026-04-05,2026-04-08,2026-04-18,Hired,
+921,Russell Murphy,28,Male,5.8,JobFair,UX Designer,Sales,Vikram Singh,2026-05-31,,,,,Rejected,Applied
+538,Bianca Wood,22,Male,0.0,LINKEDIN,Data Analyst,Finance ,Priya Sharma,2026-03-23,,,,,Rejected,Applied
+759,Heather Woodard,27,Female,1.6,Company Website,Marketing Specialist,Finance ,Arjun Patel,2026-05-02,,,,,Rejected,Applied
+1063,Stephanie Evans,27,Female,4.9,naukri,Software Engineer,Sales,Rohan Mehta,2026-02-05,,,,,Rejected,Applied
+246,Donna Landry,40,Female,16.6,NAUKRI,Product Manager,Marketing,Rohan Mehta,2025-11-29,2025-12-10,2025-12-31,,,Rejected,Interviewed
+1128,Jeffrey Howell,21,Non-binary,0.0,Company website,QA Engineer,Engineering,Emily Chen,2025-11-29,,,,,Rejected,Applied
+785,Margaret Harper,31,Female,6.1,job fair,QA Engineer,Operations,Rohan Mehta,2026-01-11,,,,,Rejected,Applied
+490,Lance Simmons,24,Male,0.8,LINKEDIN,HR Executive,Product,Sarah Johnson,2025-12-11,2025-12-13,2025-12-17,2025-12-25,2026-01-04,Hired,
+155,Brenda Hall,31,Female,8.2,Company website,Product Manager,Marketing ,Arjun Patel,2026-09-08,,,,,In Process,
+962,Sylvia Schroeder,23,Male,0.0,Linked in,UX Designer,Finance ,Vikram Singh,2026-05-08,2026-05-11,,,,Rejected,Screened
+854,Donald Miller,28,Male,3.4,indeed,Sales Associate,Marketing,David Lee,2026-02-08,2026-02-10,2026-02-18,,,Rejected,Interviewed
+626,Michael Miller,43,Male,17.9,company website,Sales Associate,Finance,Rohan Mehta,2025-12-21,2025-12-24,,,,Rejected,Screened
+686,Mr. Michael Scott PhD,29,Male,3.3,LinkedIn,Business Analyst,Finance ,Aisha Khan,2025-10-18,,,,,Rejected,Applied
+570,Michael Johnson,24,Female,0.8,job fair,DevOps Engineer,Finance ,Aisha Khan,2025-10-30,,,,,Rejected,Applied
+1442,Derrick Espinoza,26,Female,1.5,JobFair,HR Executive,Marketing,Arjun Patel,2026-03-20,2026-03-23,,,,Rejected,Screened
+18,Derek Zuniga,19,Male,0.0,JobFair,Business Analyst,Human Resources,David Lee,2025-11-25,,,,,Rejected,Applied
+128,Jason Powell,28,Female,2.7,indeed,HR Executive,Human Resources,Priya Sharma,2026-02-17,2026-02-19,2026-02-26,,,Rejected,Interviewed
+1489,Jacob Erickson,22,Male,0.0,LINKEDIN,Product Manager,Product,Arjun Patel,2026-01-01,2026-01-09,,,,Rejected,Screened
+928,Jacqueline Mccoy,33,Female,10.7,referral,Marketing Specialist,Operations,Rohan Mehta,2025-11-12,2025-11-23,2025-12-14,,,Rejected,Interviewed
+981,James Oconnor,29,Female,4.6,Referral,HR Executive,Product,Sarah Johnson,2026-07-30,2026-08-01,2026-08-07,2026-08-10,,Rejected,Offered
+1485,Jacob Obrien,30,Male,4.1,REFERRAL,Business Analyst,Engineering ,Rohan Mehta,2025-11-28,2025-12-03,,,,Rejected,Screened
+191,Debra Morton,38,Male,12.8,LinkedIn,Sales Associate,Product,Rohan Mehta,2026-05-06,,,,,Rejected,Applied
+1140,Ernest Bush,26,Female,3.5,company website,HR Executive,Engineering ,Aisha Khan,2026-05-19,2026-05-21,,,,Rejected,Screened
+993,Michael Bowen,29,Male,3.5,Job Fair,Sales Associate,Marketing ,Aisha Khan,2025-11-15,,,,,Rejected,Applied
+1479,Lisa Morris,28,Non-binary,5.9,Indeed,Product Manager,Marketing ,Arjun Patel,2025-12-24,2025-12-31,,,,Rejected,Screened
+1266,Casey Obrien,21,Male,0.0,LINKEDIN,Software Engineer,Finance,Vikram Singh,2026-08-25,2026-08-31,,,,In Process,
+607,Brian Martin,18,Female,0.0,referral,Product Manager,Human Resources,Emily Chen,2026-03-24,,,,,Rejected,Applied
+181,Alexander Collins,20,Male,0.0,LINKEDIN,UX Designer,Marketing ,Sarah Johnson,2025-09-27,2025-10-01,,,,Rejected,Screened
+302,Heather Fields,35,Male,10.3,naukri,Data Analyst,Sales,Rohan Mehta,2026-01-14,2026-01-17,,,,Rejected,Screened
+497,Austin Osborne,23,Female,0.0,linkedin,Marketing Specialist,Marketing ,Sarah Johnson,2026-07-06,,,,,Rejected,Applied
+1346,Aaron Moore,999,Male,0.0,Indeed ,HR Executive,Engineering ,Sarah Johnson,2026-05-11,2026-05-16,2026-05-20,,,Rejected,Interviewed
+1271,Kevin Escobar,29,Male,6.6,Referral,Sales Associate,Finance ,Emily Chen,2026-01-24,2026-01-27,2026-02-09,2026-02-15,2026-02-27,Hired,
+1254,Sarah Randolph,35,Male,10.3,naukri,HR Executive,Finance,Emily Chen,2026-01-22,,,,,Rejected,Applied
+518,Michael Cooper,27,Male,2.4,Linked in,Marketing Specialist,Marketing,Priya Sharma,2026-04-14,2026-04-16,2026-04-26,,,Rejected,Interviewed
+1070,Courtney Nichols,35,Male,12.8,referral,Business Analyst,Finance ,Sarah Johnson,2026-05-17,2026-05-24,2026-06-04,2026-06-08,,Rejected,Offered
+477,Robin Brown,39,Male,14.2,Job Fair,Sales Associate,Engineering ,Rohan Mehta,2026-06-17,,,,,Rejected,Applied
+158,Jason Stein,28,Non-binary,4.2,Job Fair,Product Manager,Finance ,Sarah Johnson,2026-06-03,,,,,Rejected,Applied
+1196,Cynthia Mueller,31,Female,6.6,Referral,DevOps Engineer,Human Resources,Vikram Singh,2026-09-01,2026-09-07,2026-09-10,,,In Process,
+17,Holly Wood,22,Male,0.0,LINKEDIN,Product Manager,Marketing,Sarah Johnson,2026-07-12,2026-07-17,2026-07-29,,,Rejected,Interviewed
+1073,Catherine Davis,32,Female,8.5,job fair,DevOps Engineer,Engineering,Rohan Mehta,2026-06-15,,,,,Rejected,Applied
+547,Johnny Khan,28,Female,3.6,Linked in,HR Executive,Product,David Lee,2025-12-02,,,,,Rejected,Applied
+659,Travis Hobbs,24,Female,0.0,JobFair,HR Executive,Engineering,Aisha Khan,2026-08-02,,,,,Rejected,Applied
+1240,Richard Turner,24,Male,1.8,Indeed ,Data Analyst,Sales,Vikram Singh,2026-03-13,2026-03-15,,,,Rejected,Screened
+1020,Lisa Mills,25,Non-binary,0.5,indeed,DevOps Engineer,Finance ,Aisha Khan,2025-11-21,2025-11-27,2025-12-08,,,Rejected,Interviewed
+1272,Kimberly Lutz,27,Male,1.5,Indeed,QA Engineer,Product,Vikram Singh,2026-09-09,2026-09-14,,,,In Process,
+960,Mitchell Sellers,23,Female,0.3,linkedin,Data Analyst,Finance,Aisha Khan,2026-02-01,2026-02-05,2026-02-17,,,Rejected,Interviewed
+1425,Regina Ramos,29,Male,3.1,Company website,Software Engineer,Marketing,Priya Sharma,2026-02-18,,,,,Rejected,Applied
+284,Shelia Wallace,29,Female,5.8,LinkedIn,UX Designer,Human Resources,David Lee,2026-07-05,,,,,Rejected,Applied
+798,Michael Perry PhD,28,Female,4.3,NAUKRI,QA Engineer,Sales,Vikram Singh,2026-06-29,2026-07-03,2026-07-11,,,Rejected,Interviewed
+226,Benjamin Smith,29,Female,3.3,Indeed ,Sales Associate,Engineering,Priya Sharma,2026-02-02,,,,,Rejected,Applied
+27,Justin Baker,37,Male,14.8,JobFair,Software Engineer,Engineering ,Arjun Patel,2025-10-21,,,,,Rejected,Applied
+438,Christopher Guerra,25,Male,0.0,NAUKRI,Software Engineer,Product,Vikram Singh,2025-10-13,2025-10-17,,,,Rejected,Screened
+1473,Edward Baker,37,Male,11.1,REFERRAL,HR Executive,Engineering ,Vikram Singh,2025-12-21,2025-12-27,2026-01-10,,,Rejected,Interviewed
+230,Lori Guerrero,36,Female,12.2,Naukri,Marketing Specialist,Marketing ,Vikram Singh,2026-07-03,2026-07-06,2026-07-10,2026-07-12,2026-07-25,Hired,
+38,Cassandra Gaines,27,Male,4.0,linkedin,DevOps Engineer,Finance ,Priya Sharma,2026-04-20,,,,,Rejected,Applied
+750,Leslie Gardner,26,Female,3.2,LINKEDIN,HR Executive,Finance,Priya Sharma,2025-12-07,,,,,Rejected,Applied
+1046,Hannah Martin,37,Male,13.7,Linked in,Business Analyst,Finance,Emily Chen,2026-06-22,2026-06-28,2026-07-05,,,Rejected,Interviewed
+470,Jeanette Harrison,23,Male,0.0,Naukri,DevOps Engineer,Finance ,Vikram Singh,2026-05-17,2026-05-23,2026-06-06,,,Rejected,Interviewed
+1294,Mitchell Wilson,30,Non-binary,4.2,naukri,Sales Associate,Finance ,Emily Chen,2025-11-21,2025-11-24,2025-12-01,,,Rejected,Interviewed
+1488,Justin Hurley,34,Female,9.7,LINKEDIN,Product Manager,Human Resources,David Lee,2025-10-13,2025-10-17,2025-10-20,,,Rejected,Interviewed
+688,Robert Jackson,33,Male,7.5,JobFair,DevOps Engineer,Operations,Rohan Mehta,2026-04-25,,,,,Rejected,Applied
+1394,Robert Woods,33,Male,9.5,Indeed ,Business Analyst,Operations,Emily Chen,2026-01-29,,,,,Rejected,Applied
+640,Janet Kane DVM,32,Female,9.6,NAUKRI,Marketing Specialist,Product,Sarah Johnson,2026-02-15,2026-02-19,2026-03-04,2026-03-11,2026-03-26,Hired,
+1310,Jennifer Hernandez,36,Female,13.8,Referral,Data Analyst,Finance ,Sarah Johnson,2025-12-08,2025-12-13,,,,Rejected,Screened
+1219,Jill Conway,36,Male,13.5,company website,QA Engineer,Operations,Sarah Johnson,2026-09-02,2026-09-04,2026-09-11,,,In Process,
+1159,Jesse Castro,32,Male,7.0,Naukri,Sales Associate,Marketing,Rohan Mehta,2025-09-27,,,,,Rejected,Applied
+1458,Christopher Hill,30,Female,7.5,Referral,Data Analyst,Finance,Vikram Singh,2026-09-06,2026-09-08,2026-09-12,,,In Process,
+1379,William Wolfe,25,Female,0.0,LINKEDIN,Business Analyst,Finance,Sarah Johnson,2026-02-23,2026-02-25,,,,Rejected,Screened
+801,Jim Newton,25,Female,0.0,Company Website,HR Executive,Product,Emily Chen,2026-03-08,,,,,Rejected,Applied
+161,Paul Castaneda,20,Female,0.0,indeed,Marketing Specialist,Product ,Sarah Johnson,2025-09-17,2025-09-23,2025-09-27,,,Rejected,Interviewed
+957,Eric Henry Jr.,39,Male,16.1,REFERRAL,Data Analyst,Human Resources,Rohan Mehta,2026-09-03,2026-09-06,,,,In Process,
+1187,Jennifer Adkins,25,Female,2.9,Job Fair,Product Manager,Marketing ,Sarah Johnson,2026-08-09,,,,,Rejected,Applied
+822,Mark Beard,20,Male,0.0,Job Fair,UX Designer,Marketing ,Priya Sharma,2026-08-31,,,,,In Process,
+1286,Sandy Baker,30,Female,6.1,JobFair,Product Manager,Marketing ,Priya Sharma,2026-09-02,,,,,In Process,
+878,Troy Mills,19,Female,0.0,naukri,Marketing Specialist,Sales,Aisha Khan,2026-06-24,,,,,Rejected,Applied
+914,Emily Nelson,28,Female,5.8,job fair,Product Manager,Sales,Sarah Johnson,2026-03-22,2026-03-25,,,,Rejected,Screened
+153,Denise Jones,28,Female,2.7,LinkedIn,DevOps Engineer,Finance ,Emily Chen,2025-10-13,2025-10-16,2025-10-30,,,Rejected,Interviewed
+1389,Charles Haley,21,Male,0.0,Company Website,UX Designer,Operations,David Lee,2026-03-14,,,,,Rejected,Applied
+510,Michelle Ho,28,Female,2.5,LINKEDIN,Software Engineer,Human Resources,Sarah Johnson,2025-10-28,,,,,Rejected,Applied
+1136,James Howard,27,Male,4.0,job fair,UX Designer,Marketing,Priya Sharma,2026-07-06,,,,,Rejected,Applied
+1251,Matthew Hunt,37,Male,14.8,JobFair,Business Analyst,Marketing,Rohan Mehta,2026-07-09,,,,,Rejected,Applied
+1273,Reginald Diaz,30,Male,4.2,referral,DevOps Engineer,Finance,Arjun Patel,2026-08-31,2026-09-07,,,,In Process,
+104,Christine Wright,21,Male,0.0,Company Website,HR Executive,Marketing,Aisha Khan,2026-07-31,,,,,Rejected,Applied
+587,Dwayne Klein,24,Female,0.7,NAUKRI,DevOps Engineer,Operations,Vikram Singh,2026-01-08,2026-01-13,2026-01-25,,,Rejected,Interviewed
+1344,Kyle Black,34,Female,11.5,Indeed,Software Engineer,Engineering,David Lee,2025-09-29,,,,,Rejected,Applied
+1144,Matthew Wright,21,Female,0.0,Naukri,Sales Associate,Finance,Sarah Johnson,2026-09-08,2026-09-12,,,,In Process,
+54,Mark Perez,23,Male,0.0,naukri,Software Engineer,Sales,Sarah Johnson,2025-11-14,,,,,Rejected,Applied
+152,Pamela Boyd,37,Female,14.6,naukri,Marketing Specialist,Engineering ,Emily Chen,2026-06-06,2026-06-11,2026-06-24,,,Rejected,Interviewed
+404,Kathleen Webster,-1,Male,1.3,Company Website,Sales Associate,Finance,Priya Sharma,2026-06-18,,,,,Rejected,Applied
+1470,Cody Bailey,33,Male,9.1,LINKEDIN,Sales Associate,Human Resources,Aisha Khan,2026-06-08,2026-06-13,,,,Rejected,Screened
+208,Cathy Robinson,38,Male,13.6,Job Fair,Product Manager,Marketing ,Aisha Khan,2025-11-19,,,,,Rejected,Applied
+1433,Omar Price,34,Female,11.2,REFERRAL,Marketing Specialist,Human Resources,Sarah Johnson,2026-09-13,,,,,In Process,
+1123,John Garcia,24,Male,0.3,indeed,UX Designer,Finance ,Aisha Khan,2025-11-08,2025-11-15,2025-11-26,,,Rejected,Interviewed
+1334,James Morgan,22,Female,0.0,LinkedIn,Data Analyst,Product,Rohan Mehta,2026-06-04,2026-06-15,,,,Rejected,Screened
+9,Gabrielle Davis,25,Male,0.5,company website,UX Designer,Marketing,Rohan Mehta,2025-10-09,,,,,Rejected,Applied
+1015,William Graham,27,Female,2.0,Indeed ,HR Executive,Human Resources,David Lee,2025-12-23,,,,,Rejected,Applied
+1359,Kevin Johnson,24,Male,0.0,LINKEDIN,Software Engineer,Finance ,Priya Sharma,2025-12-13,2025-12-15,2025-12-23,,,Rejected,Interviewed
+1061,Arthur Mcneil,39,Male,16.9,JobFair,Sales Associate,Operations,Sarah Johnson,2025-10-17,,,,,Rejected,Applied
+453,Alexander Brown,21,Male,0.0,LINKEDIN,Data Analyst,Finance,Vikram Singh,2026-07-30,2026-08-03,,,,Rejected,Screened
+254,Barbara Dudley,28,Female,2.4,Company website,HR Executive,Human Resources,Arjun Patel,2026-05-30,2026-06-04,2026-06-12,,,Rejected,Interviewed
+897,Aimee Gonzalez,33,Male,10.2,Linked in,HR Executive,Engineering ,Aisha Khan,2026-07-05,2026-07-12,2026-07-25,,,Rejected,Interviewed
+1324,Matthew Watts,24,Female,1.0,job fair,Software Engineer,Engineering,David Lee,2025-12-08,2025-12-11,2025-12-19,,,Rejected,Interviewed
+881,Patricia Johnson,24,Female,0.3,Company Website,Product Manager,Marketing ,Rohan Mehta,2026-04-06,,,,,Rejected,Applied
+1429,Theresa Woods,37,Female,11.1,Naukri,Data Analyst,Finance ,Sarah Johnson,2026-07-19,,,,,Rejected,Applied
+624,Colleen Wright,23,Female,0.0,Referral,Marketing Specialist,Marketing ,Sarah Johnson,2026-02-06,,,,,Rejected,Applied
+346,Theresa Williams,31,Female,5.7,job fair,Marketing Specialist,Engineering ,Emily Chen,2026-07-11,,,,,Rejected,Applied
+1302,Mary Campbell,18,Male,0.0,JobFair,Data Analyst,Engineering,Sarah Johnson,2026-06-01,2026-06-08,,,,Rejected,Screened
+263,Timothy Romero,30,Female,6.6,LINKEDIN,Sales Associate,Sales,David Lee,2026-03-09,2026-03-16,,,,Rejected,Screened
+151,David Wright,33,Male,9.4,naukri,Sales Associate,Finance,Aisha Khan,2026-05-06,2026-05-11,,,,Rejected,Screened
+473,Lori Ingram,27,Male,4.6,Job Fair,HR Executive,Product,Priya Sharma,2026-06-25,,,,,Rejected,Applied
+641,Michael Stanley,28,Female,3.3,Linked in,Software Engineer,Human Resources,Sarah Johnson,2026-08-09,,,,,Rejected,Applied
+1500,Ethan Frey,23,Male,0.0,referral,Software Engineer,Marketing ,Rohan Mehta,2026-02-04,2026-02-09,2026-02-28,,,Rejected,Interviewed
+1426,David Torres,20,Female,0.0,indeed,Software Engineer,Product,David Lee,2025-11-27,2025-11-29,,,,Rejected,Screened
+551,Kelly Lee,27,Male,2.2,Indeed,Data Analyst,Marketing,Emily Chen,2026-09-09,2026-09-15,,,,In Process,
+929,Lauren Green,29,Male,4.3,company website,Marketing Specialist,Human Resources,David Lee,2026-02-27,,,,,Rejected,Applied
+489,Bobby Guerrero,22,Male,0.0,Linked in,Product Manager,Engineering ,Aisha Khan,2026-01-06,,,,,Rejected,Applied
+1372,Pamela Weaver,32,Male,8.0,Referral,Sales Associate,Human Resources,Emily Chen,2026-03-19,2026-03-22,2026-03-31,,,Rejected,Interviewed
+1172,Mr. Anthony Mcconnell PhD,34,Female,9.1,Linked in,Marketing Specialist,Engineering ,Arjun Patel,2025-10-06,,,,,Rejected,Applied
+147,Victoria Larson,35,Male,9.2,Indeed ,UX Designer,Engineering,Sarah Johnson,2026-07-08,2026-07-11,2026-07-16,,,Rejected,Interviewed
+403,Mary Thompson,22,Female,0.0,NAUKRI,Business Analyst,Product,Vikram Singh,2026-09-07,,,,,In Process,
+955,Kristy Hart,23,Female,0.0,LINKEDIN,Product Manager,Marketing,Rohan Mehta,2025-11-22,2025-12-03,,,,Rejected,Screened
+1421,Wayne Wolfe,32,Male,8.5,Naukri,Data Analyst,Marketing,David Lee,2026-07-18,2026-07-22,,,,Rejected,Screened
+660,Lori Simmons,32,Female,7.1,Job Fair,Marketing Specialist,Marketing ,Priya Sharma,2025-11-07,,,,,Rejected,Applied
+464,Taylor Carlson,23,Male,0.0,REFERRAL,Marketing Specialist,Sales,Aisha Khan,2026-07-01,2026-07-04,2026-07-07,,,Rejected,Interviewed
+187,Jonathan Peterson,43,Male,18.0,Referral,HR Executive,Sales,Vikram Singh,2026-06-14,2026-06-21,2026-07-05,2026-07-14,2026-07-31,Hired,
+1148,Sarah Booth,32,Female,8.5,REFERRAL,DevOps Engineer,Engineering ,David Lee,2025-11-25,2025-12-02,,,,Rejected,Screened
+1225,Steven Lee,22,Male,0.0,Linked in,Software Engineer,Marketing,Emily Chen,2026-05-29,2026-06-05,2026-06-18,,,Rejected,Interviewed
+609,Rachel Bradley,26,Female,3.1,naukri,UX Designer,Engineering,Priya Sharma,2026-09-07,,,,,In Process,
+144,Christopher Rubio,31,Female,8.5,Indeed ,Sales Associate,Finance,Sarah Johnson,2026-05-30,,,,,Rejected,Applied
+752,Michael Gonzales,34,Male,9.3,NAUKRI,Data Analyst,Product,Arjun Patel,2026-08-12,2026-08-21,,,,In Process,
+982,Stacey Snyder,19,Male,0.0,Referral,Data Analyst,Sales,Priya Sharma,2025-10-14,2025-10-16,,,,Rejected,Screened
+198,Spencer Haynes,38,Male,13.3,REFERRAL,DevOps Engineer,Finance,Priya Sharma,2026-04-16,2026-04-19,2026-04-22,,,Rejected,Interviewed
+884,Ian Porter,27,Female,4.6,NAUKRI,Marketing Specialist,Engineering,Aisha Khan,2026-03-17,,,,,Rejected,Applied
+280,Nathan Malone,28,Male,3.8,Indeed ,UX Designer,Product,Emily Chen,2025-11-11,,,,,Rejected,Applied
+294,Margaret Coleman,18,Female,0.0,company website,Business Analyst,Finance ,Emily Chen,2026-03-08,,,,,Rejected,Applied
+1380,Michael Smith,35,Female,9.4,Indeed,Sales Associate,Product,Priya Sharma,2026-09-09,2026-09-12,,,,In Process,
+401,Robin Young,26,Male,0.1,Indeed ,HR Executive,Finance,Sarah Johnson,2026-02-03,,,,,Rejected,Applied
+123,April Frost,27,Female,2.7,naukri,DevOps Engineer,Product ,Vikram Singh,2026-04-21,,,,,Rejected,Applied
+1208,Dawn Rivera,25,Male,2.7,Company website,Data Analyst,Engineering ,Rohan Mehta,2026-07-21,,,,,Rejected,Applied
+203,Elizabeth Perkins,18,Non-binary,0.0,LinkedIn,Data Analyst,Human Resources,David Lee,2025-11-19,2025-11-21,,,,Rejected,Screened
+836,Timothy Hill,30,Female,5.1,Job Fair,DevOps Engineer,Finance,Emily Chen,2025-12-25,2025-12-31,,,,Rejected,Screened
+247,Krista Gibson,44,Male,21.0,Indeed,UX Designer,Sales,Rohan Mehta,2025-12-15,2025-12-18,2026-01-01,,,Rejected,Interviewed
+1495,Jennifer Garcia,38,Female,14.3,Linked in,UX Designer,Sales,Vikram Singh,2026-01-24,2026-01-30,2026-02-08,2026-02-18,2026-03-07,Hired,
+1424,Emily Reed,31,Female,7.1,company website,HR Executive,Engineering,Sarah Johnson,2026-06-26,2026-06-29,2026-07-02,,,Rejected,Interviewed
+1154,Matthew Garcia MD,22,Male,0.0,LinkedIn,HR Executive,Finance ,Rohan Mehta,2025-10-27,2025-11-06,2025-11-28,2025-12-06,2025-12-28,Hired,
+385,Aimee Turner,43,Male,18.3,Indeed ,UX Designer,Finance ,Rohan Mehta,2026-06-04,2026-06-09,,,,Rejected,Screened
+1487,Steve Miller PhD,28,Male,4.5,NAUKRI,Business Analyst,Marketing,Aisha Khan,2026-07-28,2026-08-04,2026-08-09,,,Rejected,Interviewed
+855,Lindsay Lawson,25,Male,1.2,Indeed,Product Manager,Product,Priya Sharma,2025-09-30,2025-10-02,2025-10-13,,,Rejected,Interviewed
+220,Bailey Duran DDS,29,Male,6.6,LinkedIn,Marketing Specialist,Sales,Aisha Khan,2026-07-13,2026-07-19,2026-07-23,2026-07-27,2026-08-10,Hired,
+642,Martha Bailey,24,Male,0.7,indeed,Sales Associate,Marketing ,David Lee,2025-12-01,2025-12-04,,,,Rejected,Screened
+2,Noah Rhodes,30,Female,5.1,LinkedIn,UX Designer,Finance,Aisha Khan,2025-10-01,2025-10-03,2025-10-07,,,Rejected,Interviewed
+113,Julia Torres,25,Female,0.0,job fair,Product Manager,Finance,Priya Sharma,2026-06-10,,,,,Rejected,Applied
+699,Renee Browning,41,Female,17.5,naukri,Software Engineer,Engineering ,David Lee,2025-09-17,2025-09-21,2025-09-30,,,Rejected,Interviewed
+1447,John Lee,29,Female,3.6,LINKEDIN,HR Executive,Engineering,Sarah Johnson,2026-08-30,,,,,In Process,
+952,Sarah Thompson,27,Female,2.4,Indeed ,Product Manager,Human Resources,Rohan Mehta,2026-06-28,,,,,Rejected,Applied
+1498,James Morgan,23,Male,0.0,referral,Business Analyst,Human Resources,Arjun Patel,2026-02-25,2026-02-28,,,,Rejected,Screened
+1292,Christopher Jones,25,Male,0.0,Referral,Data Analyst,Product,Emily Chen,2026-05-06,2026-05-13,2026-05-19,,,Rejected,Interviewed
+1369,Dale Wright,22,Male,0.0,Company website,QA Engineer,Engineering ,Priya Sharma,2026-08-13,,,,,Rejected,Applied
+442,Joann Ferguson,31,Female,5.9,LINKEDIN,HR Executive,Engineering ,Rohan Mehta,2026-01-31,,,,,Rejected,Applied
+1137,Michael Roberson,24,Male,0.0,company website,Data Analyst,Engineering,Arjun Patel,2026-06-01,,,,,Rejected,Applied
+1257,Mr. Carl Rios,34,Female,8.2,NAUKRI,QA Engineer,Marketing ,Emily Chen,2026-07-02,2026-07-07,,,,Rejected,Screened
+664,Samuel Turner,34,Female,11.3,job fair,Data Analyst,Marketing,David Lee,2025-11-22,,,,,Rejected,Applied
+1388,David Reynolds,21,Male,0.0,Indeed,QA Engineer,Marketing ,Aisha Khan,2026-05-06,,,,,Rejected,Applied
+1258,Manuel Mccullough,32,Male,7.1,Job Fair,DevOps Engineer,Marketing ,Vikram Singh,2026-05-10,,,,,Rejected,Applied
+1347,Penny Gomez MD,30,Male,7.4,indeed,Data Analyst,Engineering ,Priya Sharma,2025-12-03,2025-12-07,,,,Rejected,Screened
+318,Ashley Hall,29,Male,5.0,Naukri,Software Engineer,Product,Priya Sharma,2026-02-18,2026-02-20,2026-03-03,2026-03-11,,Rejected,Offered
+649,Jennifer Miranda,34,Female,11.6,job fair,HR Executive,Marketing ,Emily Chen,2026-03-04,,,,,Rejected,Applied
+710,Sean Clay,29,Male,5.2,linkedin,Product Manager,Finance,Sarah Johnson,2026-09-10,,,,,In Process,
+1283,Terry Ward,35,Female,12.9,Job Fair,Product Manager,Finance ,Priya Sharma,2025-09-17,,,,,Rejected,Applied
+973,Amanda Guzman,26,Male,1.2,NAUKRI,Marketing Specialist,Engineering ,Emily Chen,2026-06-04,2026-06-10,2026-06-20,,,Rejected,Interviewed
+628,Laura Hernandez,25,Female,0.9,Naukri,Software Engineer,Marketing ,Emily Chen,2025-11-24,2025-11-30,,,,Rejected,Screened
+633,Robert Cummings,39,Female,15.0,indeed,Product Manager,Finance ,Vikram Singh,2026-03-11,2026-03-16,,,,Rejected,Screened
+1307,Grace Chavez,40,Male,15.0,Linked in,Sales Associate,Marketing ,Sarah Johnson,2026-06-07,2026-06-11,,,,Rejected,Screened
+1249,Theresa Torres,32,Female,7.5,company website,Business Analyst,Marketing,Arjun Patel,2026-08-07,,,,,Rejected,Applied
+1477,Mary Ryan,35,Female,12.1,company website,Marketing Specialist,Finance,David Lee,2026-04-08,2026-04-13,2026-04-17,,,Rejected,Interviewed
+1255,Julia Dunn MD,21,Male,0.0,indeed,DevOps Engineer,Sales,Aisha Khan,2026-08-03,2026-08-07,2026-08-10,,,Rejected,Interviewed
+1399,Mariah Thompson,23,Female,0.0,Linked in,Software Engineer,Engineering ,Vikram Singh,2026-07-05,,,,,Rejected,Applied
+796,Adam Taylor,25,Female,2.4,Indeed ,UX Designer,Marketing ,Sarah Johnson,2026-06-17,,,,,Rejected,Applied
+646,Kim Morrow,30,Female,5.1,Company Website,DevOps Engineer,Finance ,Vikram Singh,2026-06-02,,,,,Rejected,Applied
+1013,Peter Thompson,27,Male,1.3,REFERRAL,UX Designer,Engineering ,Vikram Singh,2026-05-13,2026-05-17,2026-05-20,2026-05-30,2026-06-13,Hired,
+557,Kathryn Williams,32,Male,9.6,referral,QA Engineer,Human Resources,Emily Chen,2025-11-16,2025-11-19,2025-11-26,2025-12-01,2025-12-18,Hired,
+682,Justin Walker,31,Female,5.2,referral,Business Analyst,Finance ,Emily Chen,2026-08-14,2026-08-21,,,,In Process,
+578,Raymond Le,32,Female,6.3,Company Website,Product Manager,Marketing,Vikram Singh,2026-09-08,,,,,In Process,
+1110,Lorraine Turner,21,Female,0.0,Indeed,Software Engineer,Marketing ,Priya Sharma,2026-04-16,,,,,Rejected,Applied
+1267,Shannon Taylor,35,Male,10.4,LinkedIn,Business Analyst,Sales,David Lee,2025-11-12,2025-11-18,2025-11-23,,,Rejected,Interviewed
+1184,Miss Tina Gordon,31,Male,8.3,referral,UX Designer,Sales,David Lee,2025-12-20,2025-12-22,2026-01-03,2026-01-08,2026-01-13,Hired,
+525,Krista Martinez,24,Non-binary,0.0,linkedin,Business Analyst,Operations,Emily Chen,2026-03-22,2026-03-24,,,,Rejected,Screened
+1060,Lisa Evans,30,Non-binary,5.1,company website,Marketing Specialist,Marketing ,Sarah Johnson,2025-12-10,,,,,Rejected,Applied
+541,James Gilbert,21,Male,0.0,linkedin,Product Manager,Engineering,Emily Chen,2026-01-08,2026-01-13,,,,Rejected,Screened
+1195,Sharon Newton,30,Male,5.9,Company Website,DevOps Engineer,Marketing,Priya Sharma,2025-11-03,,,,,Rejected,Applied
+749,Jenna Wilson,18,Female,0.0,Linked in,DevOps Engineer,Product,Rohan Mehta,2026-02-19,,,,,Rejected,Applied
+1402,Mark Thomas,29,Female,6.4,NAUKRI,Business Analyst,Engineering,Sarah Johnson,2026-02-08,,,,,Rejected,Applied
+485,Jasmine Beltran,34,Non-binary,9.9,Indeed ,Product Manager,Product,Priya Sharma,2026-05-24,2026-05-29,,,,Rejected,Screened
+96,Anna Henderson,38,Male,12.2,LINKEDIN,Business Analyst,Finance,David Lee,2026-05-23,2026-05-26,,,,Rejected,Screened
+1021,Jason Hernandez,22,Male,0.0,Company website,Data Analyst,Engineering ,Emily Chen,2025-10-13,,,,,Rejected,Applied
+564,Veronica Silva,27,Male,4.5,referral,Marketing Specialist,Engineering ,Sarah Johnson,2025-10-24,2025-10-27,2025-11-06,2025-11-08,2025-11-16,Hired,
+1265,Ian Torres,32,Female,6.6,Company website,QA Engineer,Engineering,Aisha Khan,2025-10-28,,,,,Rejected,Applied
+743,George Ochoa,28,Male,5.5,Referral,UX Designer,Engineering ,Aisha Khan,2026-09-09,2026-09-14,,,,In Process,
+864,Tiffany Townsend,29,Female,5.4,JobFair,Business Analyst,Finance,David Lee,2025-12-08,,,,,Rejected,Applied
+892,Nathan Nelson,33,Female,7.9,JobFair,Business Analyst,Sales,Aisha Khan,2026-07-30,,,,,Rejected,Applied
+1039,Samuel Suarez,35,Male,9.4,JobFair,Data Analyst,Sales,Priya Sharma,2026-05-05,,,,,Rejected,Applied
+207,Bryan Herrera,41,Male,18.6,Naukri,Product Manager,Engineering,Vikram Singh,2026-01-15,2026-01-18,2026-02-01,,,Rejected,Interviewed
+393,Brian Smith,30,Female,6.4,Indeed,HR Executive,Engineering,Aisha Khan,2026-02-15,,,,,Rejected,Applied
+795,Jerry Brown,34,Female,12.0,linkedin,Marketing Specialist,Finance,Vikram Singh,2025-11-09,2025-11-15,2025-11-26,2025-12-01,2025-12-18,Hired,
+871,Kimberly Myers,32,Male,9.5,naukri,Data Analyst,Marketing,Rohan Mehta,2025-12-02,,,,,Rejected,Applied
+398,Gary Jackson,31,Female,6.0,job fair,QA Engineer,Marketing,David Lee,2025-10-14,,,,,Rejected,Applied
+767,Raymond Chapman,25,Female,2.0,linkedin,DevOps Engineer,Sales ,Arjun Patel,2025-12-06,2025-12-09,,,,Rejected,Screened
+1392,Elizabeth Hart,25,Female,1.2,Referral,Business Analyst,Finance,Rohan Mehta,2025-11-02,2025-11-13,,,,Rejected,Screened
+1242,Matthew Wells,18,Female,0.0,company website,Business Analyst,Human Resources,Aisha Khan,2026-08-20,2026-08-22,,,,In Process,
+1029,Patrick Mccall,35,Female,9.6,LINKEDIN,Marketing Specialist,Operations,Priya Sharma,2026-06-03,2026-06-06,,,,Rejected,Screened
+643,Joshua Rice,35,Male,10.9,linkedin,Data Analyst,Operations,Emily Chen,2026-08-20,2026-08-24,2026-09-06,,,In Process,
+613,Franklin Wright,31,Male,8.7,JobFair,Data Analyst,Product,Priya Sharma,2025-11-16,,,,,Rejected,Applied
+961,Erica Johnson,24,Male,0.0,Job Fair,HR Executive,Marketing,Rohan Mehta,2025-12-15,,,,,Rejected,Applied
+726,Rebecca Marquez,27,Male,1.3,Company Website,Product Manager,Human Resources,Aisha Khan,2026-08-02,,,,,Rejected,Applied
+684,Jennifer Hernandez,25,Male,2.6,NAUKRI,QA Engineer,Operations,Arjun Patel,2025-12-17,2025-12-22,2025-12-26,,,Rejected,Interviewed
+99,Jessica Smith,21,Male,0.0,company website,UX Designer,Operations,Aisha Khan,2025-10-28,2025-11-02,,,,Rejected,Screened
+805,Kimberly Fritz,18,Male,0.0,referral,UX Designer,Product ,Sarah Johnson,2026-09-15,,,,,In Process,
+407,Lori Hernandez,25,Male,2.0,linkedin,Marketing Specialist,Engineering ,Arjun Patel,2026-03-24,2026-03-28,2026-04-01,2026-04-06,,Rejected,Offered
+503,Mr. Justin Green III,25,Female,0.0,LINKEDIN,QA Engineer,Finance ,Vikram Singh,2026-07-10,,,,,Rejected,Applied
+1072,Sarah Pittman,31,Female,7.9,Indeed ,Business Analyst,Engineering,Sarah Johnson,2026-05-03,,,,,Rejected,Applied
+1057,Michael Holloway,37,Male,12.9,LinkedIn,HR Executive,Finance ,Rohan Mehta,2026-09-01,2026-09-12,,,,In Process,
+930,Alison Brown,25,Male,1.6,REFERRAL,Data Analyst,Marketing ,Priya Sharma,2026-03-14,2026-03-20,,,,Rejected,Screened
+780,Kevin Price,35,Male,12.5,REFERRAL,Product Manager,Sales,Aisha Khan,2026-07-06,2026-07-12,,,,Rejected,Screened
+201,Melissa Brewer,26,Male,3.6,LINKEDIN,DevOps Engineer,Human Resources,Aisha Khan,2026-04-07,2026-04-14,,,,Rejected,Screened
+135,Rebecca Jackson,18,Female,0.0,REFERRAL,HR Executive,Product,Emily Chen,2026-05-04,2026-05-11,,,,Rejected,Screened
+1052,Alexa Buck,29,Male,5.0,NAUKRI,QA Engineer,Finance,Vikram Singh,2026-01-09,,,,,Rejected,Applied
+41,Paula Moreno,23,Non-binary,0.3,indeed,QA Engineer,Marketing,Emily Chen,2025-10-16,,,,,Rejected,Applied
+1018,James Nguyen,34,Male,9.8,NAUKRI,Marketing Specialist,Marketing ,Priya Sharma,2026-09-11,2026-09-16,,,,In Process,
+231,Jessica Stephens,22,Female,0.0,LinkedIn,Product Manager,Sales,Aisha Khan,2026-08-27,2026-08-30,,,,In Process,
+379,Anthony Moore,36,Male,10.3,LINKEDIN,Marketing Specialist,Operations,David Lee,2026-01-06,2026-01-09,,,,Rejected,Screened
+289,Lisa Allen,31,Male,8.8,Indeed ,Marketing Specialist,Sales,Arjun Patel,2026-09-07,2026-09-11,,,,In Process,
+419,Jeffrey Mills,18,Female,0.0,indeed,QA Engineer,Finance ,Priya Sharma,2026-03-15,,,,,Rejected,Applied
+392,Laura Mckinney,29,Male,4.3,linkedin,Marketing Specialist,Engineering ,Priya Sharma,2026-06-18,2026-06-20,,,,Rejected,Screened
+593,Jason Love,40,Female,17.2,Company website,Software Engineer,Human Resources,Sarah Johnson,2025-11-10,,,,,Rejected,Applied
+1163,Dorothy Boyd,22,Male,0.0,referral,Data Analyst,Sales,Vikram Singh,2026-02-08,2026-02-11,,,,Rejected,Screened
+1087,Mark Smith,25,Male,1.0,linkedin,UX Designer,Finance,Priya Sharma,2026-08-12,2026-08-18,,,,In Process,
+648,Molly Rodriguez,27,Female,3.1,LINKEDIN,DevOps Engineer,Sales,Vikram Singh,2026-08-17,,,,,Rejected,Applied
+1153,Jillian Wilson,26,Female,1.2,NAUKRI,DevOps Engineer,Marketing ,Arjun Patel,2026-07-30,2026-08-06,,,,Rejected,Screened
+1368,Nicolas Salas,22,Male,0.0,linkedin,Marketing Specialist,Sales,Sarah Johnson,2026-09-13,2026-09-16,,,,In Process,
+521,Amy Martinez,32,Male,9.0,NAUKRI,Software Engineer,Marketing,Sarah Johnson,2026-09-04,2026-09-07,,,,In Process,
+65,Jessica Callahan,24,Female,0.0,Job Fair,Business Analyst,Engineering,Arjun Patel,2026-01-07,,,,,Rejected,Applied
+15,Dylan Miller,30,Female,4.8,naukri,Sales Associate,Engineering ,David Lee,2026-07-03,2026-07-10,2026-07-21,2026-07-27,2026-08-01,Hired,
+1181,Michelle Walls,19,Female,0.0,company website,Business Analyst,Sales,Rohan Mehta,2025-11-28,2025-12-08,,,,Rejected,Screened
+1065,Rebekah Greene,35,Female,10.6,NAUKRI,Product Manager,Finance ,Vikram Singh,2025-12-14,2025-12-21,2026-01-04,,,Rejected,Interviewed
+493,William Gould,21,Female,0.0,indeed,Software Engineer,Marketing,Sarah Johnson,2025-10-02,,,,,Rejected,Applied
+380,Megan Nelson,31,Male,5.2,Linked in,Product Manager,Finance ,Vikram Singh,2026-04-16,2026-04-23,,,,Rejected,Screened
+188,Samantha Garcia,27,Female,3.0,indeed,Product Manager,Marketing ,Arjun Patel,2026-02-14,2026-02-19,2026-03-10,,,Rejected,Interviewed
+764,Jessica Smith,25,Female,0.8,Linked in,Product Manager,Human Resources,Emily Chen,2026-01-08,2026-01-15,2026-01-26,,,Rejected,Interviewed
+217,Rodney Morales,30,Male,4.4,Linked in,Marketing Specialist,Finance ,Emily Chen,2026-04-16,,,,,Rejected,Applied
+792,Cody Reid,32,Male,6.8,LinkedIn,Business Analyst,Sales,Sarah Johnson,2026-05-18,2026-05-25,2026-05-28,,,Rejected,Interviewed
+1077,Elizabeth French,29,Female,4.2,Referral,Marketing Specialist,Product,Aisha Khan,2026-08-26,2026-08-30,,,,In Process,
+879,Michelle Jackson,36,Male,11.9,company website,QA Engineer,Marketing ,David Lee,2026-03-19,2026-03-25,,,,Rejected,Screened
+338,Charles Lester,32,Female,7.8,naukri,DevOps Engineer,Marketing ,Rohan Mehta,2026-04-01,,,,,Rejected,Applied
+720,Jeffrey Roberson,25,Male,1.4,JobFair,Marketing Specialist,Product,Aisha Khan,2025-09-22,,,,,Rejected,Applied
+296,John Young,19,Female,0.0,Indeed,Business Analyst,Operations,Priya Sharma,2026-06-22,,,,,Rejected,Applied
+1017,Suzanne Jones,27,Female,4.4,LINKEDIN,Software Engineer,Engineering ,Rohan Mehta,2025-12-30,2026-01-07,2026-01-15,2026-01-29,2026-02-22,Hired,
+1276,Jonathan Bates,29,Male,3.3,Company website,HR Executive,Marketing ,Emily Chen,2026-02-21,,,,,Rejected,Applied
+456,Marie Moody,24,Male,0.7,indeed,Marketing Specialist,Marketing ,Arjun Patel,2026-07-07,2026-07-12,,,,Rejected,Screened
+696,Mr. Aaron Arnold,32,Female,9.9,NAUKRI,Data Analyst,Engineering ,Sarah Johnson,2026-06-03,2026-06-10,2026-06-22,,,Rejected,Interviewed
+816,Anna Estes,24,Female,0.2,naukri,UX Designer,Finance ,David Lee,2026-03-08,,,,,Rejected,Applied
+270,Patrick Thornton,22,Male,0.0,Linked in,QA Engineer,Marketing ,Emily Chen,2026-05-31,2026-06-06,2026-06-10,2026-06-17,2026-07-02,Hired,
+996,Brittany Ward,31,Male,8.2,LINKEDIN,Sales Associate,Engineering ,Sarah Johnson,2026-02-16,2026-02-22,2026-02-28,,,Rejected,Interviewed
+202,Ricky Davis II,25,Male,1.9,LinkedIn,QA Engineer,Engineering ,David Lee,2026-08-10,2026-08-15,2026-08-25,2026-09-03,,In Process,
+162,Jennifer Adkins,999,Male,8.9,company website,UX Designer,Operations,Arjun Patel,2025-12-01,,,,,Rejected,Applied
+730,Derrick Anderson,24,Male,0.6,linkedin,Marketing Specialist,Human Resources,Vikram Singh,2026-02-13,2026-02-15,2026-02-24,,,Rejected,Interviewed
+402,Craig Morrison,30,Male,7.8,REFERRAL,Product Manager,Finance,Arjun Patel,2025-10-10,2025-10-13,,,,Rejected,Screened
+703,Karl Branch,37,Male,13.2,Naukri,Marketing Specialist,Engineering ,Emily Chen,2025-10-09,2025-10-16,,,,Rejected,Screened
+1130,James Rivers,26,Male,3.5,linkedin,Marketing Specialist,Marketing ,David Lee,2026-03-06,,,,,Rejected,Applied
+566,John Coffey,29,Male,3.4,LINKEDIN,Software Engineer,Engineering,Arjun Patel,2025-10-11,2025-10-14,2025-11-02,,,Rejected,Interviewed
+1414,Phillip Miller,34,Female,8.8,Company website,Marketing Specialist,Finance,Aisha Khan,2026-05-25,,,,,Rejected,Applied
+1022,Olivia Ayers,24,Male,1.7,referral,Product Manager,Operations,Arjun Patel,2026-07-28,2026-08-05,2026-08-13,,,Rejected,Interviewed
+1026,Amanda Hill,41,Female,15.6,JobFair,Sales Associate,Human Resources,Emily Chen,2025-12-18,,,,,Rejected,Applied
+1412,Brian Brown,36,Male,12.0,Naukri,Software Engineer,Product,Priya Sharma,2025-09-25,2025-09-28,,,,Rejected,Screened
+1105,Shawn Scott,39,Male,16.9,LinkedIn,HR Executive,Sales,Aisha Khan,2025-12-13,,,,,Rejected,Applied
+206,David Martinez,30,Female,4.6,linkedin,Product Manager,Product,Sarah Johnson,2025-12-14,,,,,Rejected,Applied
+35,Debra Davidson,37,Female,11.9,naukri,HR Executive,Engineering ,Rohan Mehta,2026-08-19,,,,,In Process,
+776,Christopher Moore,27,Female,4.3,LinkedIn,DevOps Engineer,Marketing ,David Lee,2025-12-01,,,,,Rejected,Applied
+509,Joshua Vance,30,Female,6.2,naukri,HR Executive,Sales,Sarah Johnson,2025-12-06,,,,,Rejected,Applied
+1491,Eric Blackburn,23,Male,0.0,LINKEDIN,QA Engineer,Product,Arjun Patel,2025-12-16,2025-12-23,2026-01-10,,,Rejected,Interviewed
+1391,Dr. Samuel Holmes DDS,36,Female,11.0,LinkedIn,Marketing Specialist,Product,David Lee,2026-03-19,,,,,Rejected,Applied
+92,Brian Rodriguez,40,Non-binary,16.7,JobFair,Software Engineer,Sales,Priya Sharma,2026-01-12,2026-01-18,2026-01-27,,,Rejected,Interviewed
+1364,Samantha Jones,32,Female,9.1,naukri,Marketing Specialist,Human Resources,Aisha Khan,2026-06-28,,,,,Rejected,Applied
+898,Elizabeth Dean,18,Male,0.0,naukri,QA Engineer,Product,Sarah Johnson,2025-10-11,,,,,Rejected,Applied
+565,Molly Watts,32,Male,9.9,Indeed,HR Executive,Finance ,Priya Sharma,2025-11-02,,,,,Rejected,Applied
+1370,Brittney Rodriguez,39,Male,15.5,Indeed,Software Engineer,Marketing,Arjun Patel,2026-04-16,2026-04-20,,,,Rejected,Screened
+777,Tina Hall,42,Female,19.3,indeed,UX Designer,Engineering ,David Lee,2026-04-16,,,,,Rejected,Applied
+242,Matthew Moon,44,Female,21.3,Linked in,Marketing Specialist,Engineering ,Emily Chen,2025-11-09,2025-11-16,2025-11-27,,,Rejected,Interviewed
+14,Michele Williams,36,Female,11.2,Naukri,Marketing Specialist,Engineering,David Lee,2025-10-02,,,,,Rejected,Applied
+316,Jordan Chambers,30,Male,5.4,Linked in,QA Engineer,Product,Vikram Singh,2025-11-20,2025-11-25,,,,Rejected,Screened
+601,Casey Gillespie,30,Male,7.2,Naukri,Business Analyst,Product,Sarah Johnson,2026-08-20,2026-08-22,2026-08-29,,,In Process,
+388,James Padilla,25,Non-binary,2.0,Referral,HR Executive,Operations,Rohan Mehta,2025-10-09,2025-10-20,2025-11-11,2025-11-19,2025-12-16,Hired,
+1298,Candace Soto,26,Female,1.7,Linked in,Software Engineer,Engineering,Arjun Patel,2025-11-23,2025-11-30,2025-12-19,2025-12-28,2026-01-05,Hired,
+167,Alyssa Long,37,Male,14.5,JobFair,Marketing Specialist,Engineering ,Arjun Patel,2025-11-06,,,,,Rejected,Applied
+841,Casey Perez,33,Male,10.6,Company website,Marketing Specialist,Marketing ,Vikram Singh,2026-03-19,,,,,Rejected,Applied
+21,Margaret Hawkins DDS,32,Female,7.6,job fair,DevOps Engineer,Marketing ,Aisha Khan,2026-08-30,,,,,In Process,
+647,Gregory Hill,33,Female,9.8,Job Fair,DevOps Engineer,Sales,Sarah Johnson,2025-11-04,,,,,Rejected,Applied
+1155,April Davis,22,Female,0.0,linkedin,Sales Associate,Engineering ,Rohan Mehta,2025-12-09,2025-12-20,2025-12-26,,,Rejected,Interviewed
+832,Richard Stevens,22,Male,0.0,LINKEDIN,Product Manager,Product,Sarah Johnson,2026-01-15,,,,,Rejected,Applied
+1268,Deborah Mercado,30,Male,5.7,JobFair,Software Engineer,Product,Sarah Johnson,2026-05-28,2026-06-02,2026-06-06,,,Rejected,Interviewed
+563,Robert Richardson,32,Male,8.2,linkedin,Software Engineer,Engineering,Aisha Khan,2026-01-07,,,,,Rejected,Applied
+1476,Patty Allen,26,Male,2.0,Referral,HR Executive,Marketing,Arjun Patel,2026-08-01,2026-08-08,2026-08-26,2026-08-30,,In Process,
+687,Maria Henry,19,Male,0.0,referral,Data Analyst,Product,David Lee,2026-08-24,2026-08-31,2026-09-08,,,In Process,
+958,Daniel Fox,26,Female,0.9,Company Website,DevOps Engineer,Operations,Arjun Patel,2026-09-15,,,,,In Process,
+190,Jessica Gross,23,Female,0.0,Indeed,Business Analyst,Product,Vikram Singh,2025-11-01,,,,,Rejected,Applied
+976,Cynthia Haas,28,Male,5.3,JobFair,Data Analyst,Finance,Sarah Johnson,2026-02-21,,,,,Rejected,Applied
+700,Brent Hernandez,22,Female,0.0,Company website,Sales Associate,Product,Vikram Singh,2026-09-10,,,,,In Process,
+511,Rebecca Hicks,26,Female,2.5,linkedin,Data Analyst,Finance,Sarah Johnson,2026-09-09,,,,,In Process,
+1083,Brenda Gonzalez,30,Male,5.2,referral,Sales Associate,Finance ,Rohan Mehta,2026-08-09,2026-08-12,,,,Rejected,Screened
+475,Robin Thompson,27,Male,2.5,Job Fair,Business Analyst,Finance,Aisha Khan,2026-07-27,,,,,Rejected,Applied
+857,Elizabeth Holmes,25,Male,0.0,Indeed ,QA Engineer,Sales,Priya Sharma,2026-07-15,2026-07-17,,,,Rejected,Screened
+748,Dana Bennett,31,Male,5.5,LINKEDIN,Data Analyst,Product,Priya Sharma,2025-11-18,2025-11-24,2025-12-02,,,Rejected,Interviewed
+253,Tanya Kim,33,Male,8.6,indeed,QA Engineer,Operations,Aisha Khan,2026-05-04,2026-05-07,2026-05-13,,,Rejected,Interviewed
+22,Patty Perez,34,Male,9.1,JobFair,DevOps Engineer,Marketing ,Vikram Singh,2025-11-12,,,,,Rejected,Applied
+1338,Austin Walker,34,Female,8.5,LINKEDIN,Marketing Specialist,Operations,Arjun Patel,2026-08-25,2026-08-30,,,,In Process,
+460,Ruben Dunn,32,Male,6.7,Naukri,Business Analyst,Finance ,Priya Sharma,2026-08-06,,,,,Rejected,Applied
+1185,Erica Wilson,22,Male,0.0,job fair,DevOps Engineer,Finance ,Aisha Khan,2026-02-17,,,,,Rejected,Applied
+277,Wayne Morgan,18,Female,0.0,Company Website,Marketing Specialist,Sales,Priya Sharma,2025-10-05,2025-10-10,,,,Rejected,Screened
+956,William Keith,28,Male,5.3,NAUKRI,UX Designer,Marketing ,David Lee,2026-07-18,,,,,Rejected,Applied
+1216,Gary Ward,24,Female,1.1,Company Website,Business Analyst,Engineering ,Vikram Singh,2025-11-18,,,,,Rejected,Applied
+386,Chad Scott,26,Female,2.2,Company Website,QA Engineer,Sales,Emily Chen,2026-05-07,,,,,Rejected,Applied
+806,Ronald Potter,28,Male,2.1,Company Website,Product Manager,Finance ,Arjun Patel,2025-09-21,,,,,Rejected,Applied
+1438,Catherine Roberts,29,Male,5.2,LinkedIn,Marketing Specialist,Finance,Vikram Singh,2026-04-02,2026-04-06,2026-04-16,2026-04-23,2026-05-08,Hired,
+344,Nichole Alvarez,23,Male,0.0,JobFair,Sales Associate,Operations,Vikram Singh,2026-06-02,2026-06-06,2026-06-12,,,Rejected,Interviewed
+770,Todd Thomas,31,Male,8.1,Company website,HR Executive,Product,Vikram Singh,2026-04-02,2026-04-04,2026-04-08,2026-04-11,,Rejected,Offered
+1333,Michael Martin,27,Female,2.3,LINKEDIN,HR Executive,Product,Emily Chen,2026-02-14,,,,,Rejected,Applied
+131,Elizabeth Kelley,32,Male,8.9,Linked in,QA Engineer,Human Resources,Priya Sharma,2025-10-12,2025-10-16,2025-10-24,,,Rejected,Interviewed
+872,Sandra Becker,21,Female,0.0,Referral,Marketing Specialist,Finance,Sarah Johnson,2026-05-29,2026-06-04,,,,Rejected,Screened
+1124,Andrew Roberts,27,Male,2.0,NAUKRI,Product Manager,Sales,Aisha Khan,2026-05-22,2026-05-28,2026-06-09,,,Rejected,Interviewed
+1397,Alejandro Martinez,34,Male,10.2,Indeed ,DevOps Engineer,Product,Rohan Mehta,2026-09-06,2026-09-12,,,,In Process,
+88,Christopher Bass,31,Male,6.9,LINKEDIN,QA Engineer,Operations,Emily Chen,2026-06-23,2026-06-27,,,,Rejected,Screened
+1483,Kenneth Huff,25,Female,2.9,linkedin,Business Analyst,Engineering ,Vikram Singh,2026-01-01,,,,,Rejected,Applied
+331,Vanessa Howard,32,Male,6.2,Linked in,HR Executive,Sales,Vikram Singh,2026-07-08,2026-07-15,,,,Rejected,Screened
+1239,Angel Reilly,33,Male,9.0,referral,UX Designer,Human Resources,Sarah Johnson,2026-02-27,2026-03-04,2026-03-16,2026-03-25,,Rejected,Offered
+467,Jason Beck,28,Female,4.5,indeed,UX Designer,Product,Priya Sharma,2026-03-11,2026-03-13,,,,Rejected,Screened
+122,Kenneth Scott,34,Male,11.6,Indeed,Business Analyst,Marketing,Sarah Johnson,2026-08-21,2026-08-27,2026-09-02,2026-09-12,,In Process,
+1045,Cassandra Harrell,23,Male,0.0,Job Fair,HR Executive,Finance,Emily Chen,2026-08-02,,,,,Rejected,Applied
+1096,James Chapman,28,Male,2.6,job fair,Software Engineer,Finance ,Sarah Johnson,2026-08-13,2026-08-15,,,,Rejected,Screened
+1131,James Jefferson,43,Female,20.5,REFERRAL,UX Designer,Engineering,Sarah Johnson,2025-11-24,2025-11-27,2025-12-04,2025-12-06,2025-12-27,Hired,
+1295,Robert Cortez,25,Male,1.3,Company Website,UX Designer,Marketing,Sarah Johnson,2026-08-28,,,,,In Process,
+861,Vanessa Hatfield,29,Male,3.7,Naukri,Marketing Specialist,Marketing ,Arjun Patel,2026-06-16,2026-06-25,2026-07-14,,,Rejected,Interviewed
+1460,Richard Alvarez,35,Non-binary,10.6,Linked in,Software Engineer,Engineering ,Aisha Khan,2026-06-29,2026-07-03,,,,Rejected,Screened
+1127,Mary Jackson,28,Male,5.1,Job Fair,Business Analyst,Marketing,Emily Chen,2026-01-06,,,,,Rejected,Applied

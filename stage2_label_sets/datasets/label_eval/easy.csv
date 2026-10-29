@@ -1,0 +1,20 @@
+label_id,source_raw,expected_source,example_type,reason,author
+E01,Company Website,Company Website,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E02,Company website,Company Website,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E03,company website,Company Website,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E04,Indeed,Indeed,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E05,Indeed ,Indeed,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E06,indeed,Indeed,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E07,Job Fair,Job Fair,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E08,JobFair,Job Fair,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E09,job fair,Job Fair,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E10,LINKEDIN,LinkedIn,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E11,Linked in,LinkedIn,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E12,LinkedIn,LinkedIn,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E13,linkedin,LinkedIn,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E14,NAUKRI,Naukri,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E15,Naukri,Naukri,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E16,naukri,Naukri,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E17,REFERRAL,Referral,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E18,Referral,Referral,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset
+E19,referral,Referral,real_case_or_spacing_variant,Ground truth from the Source Mapping tab; dictionary was built from these labels.,project_dataset

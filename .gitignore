@@ -1,0 +1,16 @@
+# Environment variables & API Keys
+.env
+
+# Database binaries (optional, or keep if you prefer committing it)
+*.db
+*.sqlite3
+
+# Python cache & Jupyter checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+.env
