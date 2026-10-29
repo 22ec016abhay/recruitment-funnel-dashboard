@@ -1,0 +1,163 @@
+{
+ "results": {
+  "Company Website": {
+   "canonical_source": "Company Website",
+   "confidence": "High",
+   "rationale": "Exact match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "Company website": {
+   "canonical_source": "Company Website",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "company website": {
+   "canonical_source": "Company Website",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "Indeed": {
+   "canonical_source": "Indeed",
+   "confidence": "High",
+   "rationale": "Exact match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "Indeed ": {
+   "canonical_source": "Indeed",
+   "confidence": "High",
+   "rationale": "Trimmed whitespace, matches allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "indeed": {
+   "canonical_source": "Indeed",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "Job Fair": {
+   "canonical_source": "Job Fair",
+   "confidence": "High",
+   "rationale": "Exact match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "JobFair": {
+   "canonical_source": "Job Fair",
+   "confidence": "High",
+   "rationale": "Combined words, matches allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "job fair": {
+   "canonical_source": "Job Fair",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "LINKEDIN": {
+   "canonical_source": "LinkedIn",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "Linked in": {
+   "canonical_source": "LinkedIn",
+   "confidence": "High",
+   "rationale": "Spelling variant, matches allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "LinkedIn": {
+   "canonical_source": "LinkedIn",
+   "confidence": "High",
+   "rationale": "Exact match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "linkedin": {
+   "canonical_source": "LinkedIn",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "NAUKRI": {
+   "canonical_source": "Naukri",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "Naukri": {
+   "canonical_source": "Naukri",
+   "confidence": "High",
+   "rationale": "Exact match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "naukri": {
+   "canonical_source": "Naukri",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "REFERRAL": {
+   "canonical_source": "Referral",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "Referral": {
+   "canonical_source": "Referral",
+   "confidence": "High",
+   "rationale": "Exact match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  },
+  "referral": {
+   "canonical_source": "Referral",
+   "confidence": "High",
+   "rationale": "Case-insensitive match to allowed source.",
+   "failed": false,
+   "failure_reason": null
+  }
+ },
+ "meta": {
+  "provider": "groq",
+  "model": "openai/gpt-oss-20b",
+  "structured_output": true,
+  "effort": "low",
+  "temperature": 0,
+  "n_labels": 19,
+  "attempts": [
+   {
+    "latency_s": 1.4086174999829382,
+    "stop_reason": "end_turn",
+    "input_tokens": 739,
+    "output_tokens": 636,
+    "attempt": 1,
+    "n_sent": 19,
+    "n_valid": 19,
+    "problems": {}
+   }
+  ],
+  "retries": 0,
+  "validation_problems": {},
+  "n_failed": 0,
+  "input_tokens": 739,
+  "output_tokens": 636,
+  "latency_s": 1.4086174999829382
+ }
+}

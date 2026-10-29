@@ -1,0 +1,185 @@
+{
+ "results": {
+  "Company Website": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "Company website": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "company website": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "Indeed": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "Indeed ": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "indeed": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "Job Fair": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "JobFair": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "job fair": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "LINKEDIN": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "Linked in": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "LinkedIn": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "linkedin": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "NAUKRI": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "Naukri": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "naukri": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "REFERRAL": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "Referral": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  },
+  "referral": {
+   "canonical_source": "Unknown",
+   "confidence": "Low",
+   "rationale": "",
+   "failed": true,
+   "failure_reason": "no valid output after retries"
+  }
+ },
+ "meta": {
+  "provider": "anthropic",
+  "model": "openai/gpt-oss-20b",
+  "structured_output": true,
+  "effort": "low",
+  "temperature": null,
+  "n_labels": 19,
+  "attempts": [
+   {
+    "latency_s": 2.540997229516506e-06,
+    "api_error": {
+     "error_type": "AttributeError",
+     "status_code": null,
+     "message": "'OpenAI' object has no attribute 'messages'"
+    },
+    "attempt": 1,
+    "n_sent": 19
+   },
+   {
+    "latency_s": 1.374981366097927e-06,
+    "api_error": {
+     "error_type": "AttributeError",
+     "status_code": null,
+     "message": "'OpenAI' object has no attribute 'messages'"
+    },
+    "attempt": 2,
+    "n_sent": 19
+   },
+   {
+    "latency_s": 9.170034900307655e-07,
+    "api_error": {
+     "error_type": "AttributeError",
+     "status_code": null,
+     "message": "'OpenAI' object has no attribute 'messages'"
+    },
+    "attempt": 3,
+    "n_sent": 19
+   }
+  ],
+  "retries": 2,
+  "validation_problems": {
+   "api_error": 3
+  },
+  "n_failed": 19,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "latency_s": 4.832982085645199e-06
+ }
+}
