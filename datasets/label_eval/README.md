@@ -7,6 +7,7 @@ Only source-label strings are stored here. No applicant data.
 | easy.csv | 19 | project dataset | Sanity check |
 | dev.csv | 30 | assistant | Choose the fuzzy cutoff ONLY |
 | hard.csv | 60 | assistant (0 labels from the project owner so far) | Final test; frozen after approval |
+| hard_v2.csv | 33 | assistant (written after hard.csv results were known; NOT independent) | Second, harder test; frozen (hard_v2.sha256) |
 
 ## Easy set - read this first
 The existing dictionary was built from these 19 labels, so Baseline A is expected to score 100% by construction.
