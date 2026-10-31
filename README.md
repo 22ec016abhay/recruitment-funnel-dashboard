@@ -136,7 +136,6 @@ python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 python3 sql/load_data.py
-python3 tests/build_eval_set.py
 python3 -m unittest discover tests
 python3 -m src.fairness.report
 python3 notebook/make_fairness_notebook.py
