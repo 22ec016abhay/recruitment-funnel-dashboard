@@ -132,17 +132,17 @@ It does not confirm that each sentence uses the right fact. In run 5, one senten
 ## Quick start
 
 ```bash
-python3 -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 python3 -m pip install -r requirements.txt
-cp .env.example .env                       # add your own GROQ_API_KEY; never commit .env
-python3 sql/load_data.py                   # builds sql/recruitment.db from datasets/processed/
-python3 tests/build_eval_set.py            # writes the 25-question evaluation set
-python3 -m unittest discover tests         # offline tests (92)
-python3 -m src.fairness.report             # AI #5 report
-python3 notebook/make_fairness_notebook.py # AI #5 walk-through notebook
-python3 -m src.brief.run_brief             # live AI #2 brief (needs key)
-python3 tests/eval_agent.py                # live AI #3 evaluation (needs key)
-streamlit run app.py                       # dashboard
+python3 sql/load_data.py
+python3 tests/build_eval_set.py
+python3 -m unittest discover tests
+python3 -m src.fairness.report
+python3 notebook/make_fairness_notebook.py
+python3 -m src.brief.run_brief
+python3 tests/eval_agent.py
+streamlit run app.py
 ```
 
 If you already have a working `sql/recruitment.db`, copy it somewhere safe before running `sql/load_data.py`, because that script rebuilds the file.

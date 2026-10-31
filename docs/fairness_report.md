@@ -167,4 +167,4 @@ Gender counts: {'Male': 691, 'Female': 594, 'Non-binary': 44}
 - Non-binary (n = 46) is below the 50-person threshold: reported, flagged, not interpreted, never a reference group.
 - Stratified cells are small; the Mantel-Haenszel odds ratio is a pooled summary, not a verdict.
 - The repository does not show how the synthetic data were generated, so this analysis cannot say what causes any gap.
-- The project spec states that a female disparity was planted (conversion factor 0.75). The generator notebook in this repo does not contain that factor, so this report does not treat it as established.
+- The synthetic generator (notebook/recuitment_v2.ipynb) sets FEMALE_CONVERSION_FACTOR = 0.75 on purpose, so the female gap in this dataset is built in. This analysis checks that the method detects a planted effect; it is not evidence about real hiring.
