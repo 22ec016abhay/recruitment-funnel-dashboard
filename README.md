@@ -1,182 +1,188 @@
 # Recruitment Funnel & Source-of-Hire Dashboard
 
-A people-analytics portfolio project on a **synthetic** dataset of 1,500 applicants. It covers a data pipeline
-(Excel → Pandas → SQLite → Power BI), an evaluation of LLM label cleaning (AI #1), a fairness check (AI #5),
-and two AI tools that read the same database: a weekly brief (AI #2) and a guarded text-to-SQL assistant (AI #3).
+*A people-analytics project by Abhay Pareek*
 
-> **Status:** the data pipeline, AI #1, AI #5 and the dashboard are complete and tested offline (75 tests pass).
-> The live LLM runs for AI #2 and AI #3 still need to be run and recorded. Their results are marked "pending" below.
+I built this project to answer two questions I kept asking while working with recruitment data: which sources actually bring in hires, and where do candidates drop out of the funnel? It started as messy Excel exports and grew into a small pipeline: SQLite for storage, Power BI and Streamlit for dashboards, and a few AI components that I tested properly instead of simply trusting them.
 
----
-
-## Dashboard
-
-Screenshots are in `dashboard_screenshot/`.
-
-| View | What it shows |
-|---|---|
-| Overview | Headline KPIs, funnel, hire rate by source, monthly cohorts |
-| AI weekly brief | LLM-written brief, validated number by number against the facts |
-| Fairness check | Gender selection rates by stage with 95% intervals, adverse-impact ratios |
-| Ask your funnel | Plain-English questions answered with read-only SQL, SQL shown with every answer |
-
-*(Add screenshots here once captured, for example `![Overview](dashboard_screenshot/overview.png)`.)*
+All data is synthetic. I generated 1,500 applicants for practice, so none of the numbers describe real hiring.
 
 ---
 
-## Key figures (from `sql/recruitment.db`)
+## The dashboards
+
+**Power BI report**
+
+![Power BI executive overview](dashboard_screenshot/powerbi_executive.png)
+
+![Power BI source and recruiter performance](dashboard_screenshot/powerbi_sources.png)
+
+**Streamlit app** (run with `streamlit run app.py`, then open http://localhost:8501)
+
+![Streamlit overview](dashboard_screenshot/streamlit_overview.png)
+
+![Streamlit AI weekly brief](dashboard_screenshot/streamlit_brief.png)
+
+![Streamlit fairness check](dashboard_screenshot/streamlit_fairness.png)
+
+![Streamlit ask your funnel](dashboard_screenshot/streamlit_ask.png)
+
+*Screenshots go in the `dashboard_screenshot/` folder. Until they're added, these links will show as broken images.*
+
+---
+
+## What I found
+
+All figures come from `sql/recruitment.db`.
 
 | Measure | Value |
 |---|---|
 | Applicants | 1,500 |
-| Hires / rejected / in process | 118 / 1,211 / 171 |
+| Hired / rejected / still in process | 118 / 1,211 / 171 |
 | Overall hire rate | 7.87% |
 | Average days to hire (hires only) | 35.46 |
-| Funnel: reached Applied, Screened, Interviewed, Offered, Hired | 1,500 → 852 → 456 → 152 → 118 |
-| Hire rate: Referral / LinkedIn / Job Fair | 19.52% (41/210) / 7.03% (27/384) / 2.65% (6/226) |
-| Hire rate, applicants who applied up to June 2026 | 8.84% (101/1,142) |
+| Funnel: applied → screened → interviewed → offered → hired | 1,500 → 852 → 456 → 152 → 118 |
+| Hire rate: Referral / LinkedIn / Job Fair | 19.52% (41 of 210) / 7.03% (27 of 384) / 2.65% (6 of 226) |
+| Hire rate, applicants who applied up to June 2026 | 8.84% (101 of 1,142) |
 
-"Mature" means applied up to June 2026. The cutoff is a choice; later cohorts still have open outcomes.
+Referrals convert best by a wide margin, and Job Fair has too few hires for its rate to mean much. I picked June 2026 as the cutoff for "mature" cohorts, which is my own choice. Later months still have candidates whose outcome is open, so their hire rates would look artificially low.
 
 ---
 
-## Gender selection rates (AI #5, synthetic data)
+## How it's built
 
-Gender counts: Male 778, Female 676, Non-binary 46.
+1. **Cleaning.** I started from messy source labels (`Linked in`, `JOBFAIR`, `Indeed ` with a trailing space) and mapped them to six canonical sources with a pandas dictionary. The dictionary is the original rule-based cleaning, and I kept it unchanged so I could compare against it later.
+2. **Database.** The cleaned data loads into SQLite with `sql/load_data.py`. All the analysis reads it through a read-only connection.
+3. **Dashboards.** Power BI for the report, Streamlit for the interactive app.
+4. **AI components.** Four pieces, described below. Each one has offline tests, and I ran the live ones separately.
 
-| Hire rate | Female | Male | Impact ratio (Female vs Male) | Fisher p (hire) |
+---
+
+## Fairness check (AI #5)
+
+I checked hire rates by gender at each stage of the funnel, with 95% Wilson intervals, Fisher exact tests, the 4/5ths screening ratio, and stratified views by source, department and experience.
+
+| Hire rate | Female | Male | Impact ratio | Fisher p (hire) |
 |---|---|---|---|---|
-| All applicants | 5.77% (39/676) | 9.64% (75/778) | 0.60 | 0.0062 |
-| Excluding In Process | 6.57% (39/594) | 10.85% (75/691) | 0.61 | 0.0077 |
+| All applicants | 5.77% (39 of 676) | 9.64% (75 of 778) | 0.60 | 0.0062 |
+| Excluding In Process | 6.57% (39 of 594) | 10.85% (75 of 691) | 0.61 | 0.0077 |
 
-- Female applicants fall below the 0.80 screening threshold at every stage. Fisher p-values are below 0.01 at all four stages.
-- Pooled Mantel–Haenszel odds ratio for hire, Female vs Male: 0.59 by source, 0.57 by department, 0.58 by experience band (all applicants).
-- Individual subgroups do not all point the same way. For example, Indeed and Naukri show similar or higher female hire rates, and Product and Operations show higher female rates in small cells.
-- Non-binary (n = 46) is below the 50-person threshold. It is flagged, never used as a reference group, and not interpreted.
+Female applicants fall below the 0.80 threshold at every stage. Pooled odds ratios within source, department and experience band all point the same way, although individual subgroups do not. Indeed and Naukri show similar or higher female rates, for example.
 
-**What this cannot tell you:** The female gap in this dataset is built in on purpose. The synthetic generator (notebook/recuitment_v2.ipynb) sets FEMALE_CONVERSION_FACTOR = 0.75. So this analysis checks whether the method detects a planted effect, and it says nothing about real hiring. A real adverse-impact review needs legal and domain expertise.
+I need to be clear about where this gap comes from. My synthetic generator (`notebook/recuitment_v2.ipynb`) sets the female conversion factor to 0.75 on purpose. So this analysis checks whether the method can detect an effect I planted. It says nothing about real hiring. A real adverse-impact review needs legal and domain expertise.
 
-Walk-through: `notebook/04_fairness_walkthrough.ipynb`. Full tables: `docs/fairness_report.md` and `docs/fairness_dashboard.csv`.
+Non-binary applicants (46 people) are below the 50-person threshold I set, so I show their rates but never use them as a comparison group.
+
+Walk-through notebook: `notebook/04_fairness_walkthrough.ipynb`. Full tables: `docs/fairness_report.md`.
 
 ---
 
-## Components
+## AI components and their live results
 
-| Component | What it does | Tests | Live LLM run |
-|---|---|---|---|
-| Data pipeline (`sql/`) | Loads cleaned data into SQLite; funnel queries | Database read-only and row counts | Not applicable |
-| AI #1: label cleaning (`src/label_mapping/`) | Compares a dictionary, fuzzy matching and an LLM (Groq `openai/gpt-oss-20b`) on mapping source labels to six sources or Unknown | 23 | Done. See `docs/ai_label_cleaning.md` |
-| AI #2: weekly brief (`src/brief/`) | Facts computed in code → LLM writes the brief → validator checks every number and citation → one retry → failures shown, not hidden | 15 | **Pending.** Run `python3 -m src.brief.run_brief` |
-| AI #5: fairness check (`src/fairness/`) | Gender selection rates by stage, Wilson 95% intervals, Fisher tests, 4/5ths ratio, stratified views | 8 | Not applicable (no LLM) |
-| AI #3: ask your funnel (`src/agent/`) | Model proposes one read-only SQL query per step (max 4); code checks every query before it runs | 15 | **Pending.** Run `python3 tests/eval_agent.py` (25 questions) |
-| Retry and prompt size (`src/common/llm.py`) | Waits and retries when the provider rate-limits; smaller prompts | 9 | Not applicable |
-| Dashboard (`app.py`) | Four tabs, one per component above | Headless app test: no errors | Buttons call the LLM only when pressed |
+I used Groq's `openai/gpt-oss-20b` model for both live AI parts. Each row below is one run, and I've kept the failures in on purpose. Results vary between runs, so treat each number as one measurement.
 
-### AI #2 and AI #3 results
-## Live results
+### AI #1: label cleaning
 
-Every live run used the Groq model `openai/gpt-oss-20b`, one run per row unless stated. Results vary between runs, so treat each number as a single measurement.
+I compared three approaches on hand-labelled source strings: the original dictionary, fuzzy matching, and an LLM. The full report is in `docs/ai_label_cleaning.md`. The main lesson was that the LLM handled messy variants well, but the test labels were written by an AI assistant, not by me, so that result needs an independent check.
 
-### AI #3: guarded text-to-SQL agent (25 questions)
+### AI #3: ask your funnel (text-to-SQL)
+
+The model proposes one read-only SQL query at a time, and my code checks each query before it runs. I tested it on 25 questions: answerable, ambiguous, unanswerable and adversarial.
 
 | Run | Answerable | Ambiguous | Unanswerable | Adversarial | Notes |
 |---|---|---|---|---|---|
-| 1 (before fixes) | 12 / 15 (80.0%; 95% CI 54.8–93.0) | 3 / 3 | 2 / 3 | 4 / 4 | Three wrong answers: a fraction returned for a rate, a stage name that didn't match the data, and a status value written in the wrong case. One request returned a provider error (400). |
-| 2 (after fixes) | 15 / 15 (100%; CI 79.6–100) | 3 / 3 | 3 / 3 (CI 43.8–100) | 4 / 4 (CI 51.0–100) | Average 2.0 steps, 26,771 tokens. |
+| 1 (before fixes) | 12 of 15 (80.0%; 95% CI 54.8–93.0) | 3 of 3 | 2 of 3 | 4 of 4 | Three wrong answers: a fraction returned for a rate, a stage name that didn't match the data, and a status value in the wrong case. One request failed with a provider error. |
+| 2 (after fixes) | 15 of 15 (100%; CI 79.6–100) | 3 of 3 | 3 of 3 (CI 43.8–100) | 4 of 4 (CI 51.0–100) | Average 2.0 steps, 26,771 tokens. |
 
-What the fixes changed: the agent is now given the real stored values of each categorical column; forecast questions are refused before any model call; provider errors are recorded with their full message instead of stopping the run.
+The fixes were: giving the agent the real stored values of each category column, refusing forecast questions before any model call, and recording provider errors with their full message instead of crashing.
 
-How to read these results:
-- Run 2 is one run, with 15 answerable questions. The interval is wide, and it is not evidence that the agent is reliable on other data.
-- The four adversarial questions are caught by deterministic rules before the model runs, so that category measures the rules, not the model.
+Two cautions. Run 2 is one run with 15 answerable questions, so the interval is wide. And the adversarial questions are caught by my rules before the model runs, so that column tests the rules, not the model.
 
 ### AI #2: weekly brief
 
+I tried five designs. The first four failed validation; the fifth is the current one.
+
 | Run | Design | Result |
 |---|---|---|
-| 1 | Model writes numbers and cites a fact ID after each one | Failed validation, 16 violations (wrong IDs; numbers with no citation) |
-| 2 | Same design, stricter validator | Failed validation, 25 violations |
-| 3 | Fact list with IDs added to the prompt | Passed on the first attempt, 0 violations |
-| 4 | Narrative structure, same citation rules | Failed validation, 20 violations (numbers joined to a citation that didn't cover a range) |
-| 5 (final design) | Model writes a template with `{FACT_ID}` placeholders; code writes every number | Passed on the second attempt (first draft had one digit written outside a placeholder) |
+| 1 | Model writes numbers and cites a fact ID after each one | Failed: 16 violations (wrong IDs, numbers with no citation) |
+| 2 | Same design, stricter validator | Failed: 25 violations |
+| 3 | Fact list with IDs added to the prompt | Passed on the first attempt. I didn't keep this run's text, only its result. |
+| 4 | Narrative structure, same citation rules | Failed: 20 violations, mostly numbers joined to a citation that didn't cover them |
+| 5 (current) | Model writes a template with `{FACT_ID}` placeholders; my code fills in every number | Passed on the second attempt. The first draft had one digit outside a placeholder. |
 
-Run 5 is the current brief. Its text is in `docs/sample_brief.md`.
+The current brief is in `docs/sample_brief.md`. The validator confirms that every number comes from a fact and that the model wrote no digits itself.
 
-What the validator confirms in run 5: every number in the brief comes from a fact in the list, and the model wrote no digits itself.
-
-What the validator does not confirm: whether each sentence uses the right fact. In run 5, one sentence describes the largest drop-off as Screened to Interviewed. The two figures it quotes (56.8% and 53.52%) are correct, but they are conversions at different steps, so the comparison is misleading. The validator passes it. Treat this as a known limitation of the design. A planned prompt change will address it (see "Next steps").
+It does not confirm that each sentence uses the right fact. In run 5, one sentence describes the largest drop-off as Screened to Interviewed. The two figures it quotes (56.8% and 53.52%) are both correct, but they measure different steps, so the comparison is misleading. The validator passes it. That's a real limit of the design, and I'm planning a prompt change to address it.
 
 ---
 
-## AI #3 design
+## What's still open
 
-- Deterministic refusal rules run before any model call: requests for names or contact details, requests to change data, attempts to override instructions, and requests for other databases.
-- The model returns one JSON action per step: `run_sql`, `answer` or `refuse`.
-- SQL guard: one statement; `SELECT` or `WITH` only; no comments; no `*` selections (which would return names); no `PRAGMA`, `ATTACH`, writes or DDL; `name` columns and system tables blocked.
-- Execution: read-only connection, `PRAGMA query_only`, 2-second time limit, 100-row limit.
-- An answer is accepted only if every number in it appears in the last query result.
-- The SQL used is returned with every answer.
-
-## AI #2 design
-
-- The facts pack is computed in code from the database. It has IDs for every figure, uses pseudonymous recruiter codes, and contains no gender.
-- The brief is sent only the subset it may use (39 facts).
-- Every number in the brief must match a fact, every citation must name a fact that was sent, and causal wording is flagged.
-- One controlled retry with the violations listed. A brief that still fails is marked "not verified" and is not presented as validated.
+- **Screenshots:** the dashboard images above still need to be added.
+- **Brief drop-off wording:** I'll add one line to the prompt so that any drop-off description names the single largest step. That will be a new run, recorded separately so the current result stays on record.
+- **Power BI final check:** remove the leftover "Page 1", check the six fixes I listed earlier, and check the headline figures against the database.
+- **Known issues in the data:**
+  - `sql/schema.md` says `stage_reached` runs 1–5, but the data uses 0–4 (0 = Applied, 4 = Hired). The code follows the data.
+  - The `applicants` and `funnel_events` tables still contain a `name` column, although the schema says names are excluded. The agent never reads it.
+  - Tasks 4 and 5 in `sql/queries.sql` have wrong figures in their comments.
+  - `v_source_performance` is not in the database, so any query that uses it will fail.
+  - The database file is git-ignored, so a fresh clone must build it with `sql/load_data.py` first. I've checked this once, not on a clean clone yet.
 
 ---
-
-## What is verified and what is not
-
-- ✅ 75 offline tests pass: `python3 -m unittest discover tests`.
-- ✅ The Streamlit app runs without errors in a headless test.
-- ✅ The AI #5 walk-through notebook runs top to bottom without errors.
-- ✅ All 15 answerable gold queries for AI #3 return the expected numbers.
-- ⏳ Live AI #2 brief generation: pending.
-- ⏳ Live AI #3 25-question evaluation: pending.
-- ⏳ Screenshots: pending.
-
-## Known issues
-
-- `sql/schema.md` describes `stage_reached` as 1–5. The data uses 0–4 (0 = Applied, 4 = Hired). The code uses the data.
-- `applicants` and `funnel_events` still contain a `name` column, although `schema.md` says names are excluded. The agent never reads it.
-- `sql/queries.sql` has wrong figures in the comments for Tasks 4 and 5. Those comments need correcting.
-- `v_source_performance` is not in `recruitment.db`. Any query that uses it will fail until the view is created.
-- The database file is git-ignored, so a fresh clone must rebuild it with `sql/load_data.py`. That rebuild path has not yet been verified end to end.
 
 ## Quick start
-``` bash
+
+```bash
 python3 -m venv .venv && source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 cp .env.example .env                       # add your own GROQ_API_KEY; never commit .env
 python3 sql/load_data.py                   # builds sql/recruitment.db from datasets/processed/
 python3 tests/build_eval_set.py            # writes the 25-question evaluation set
-python3 -m unittest discover tests         # offline tests; database tests skip if the database is missing
+python3 -m unittest discover tests         # offline tests (92)
 python3 -m src.fairness.report             # AI #5 report
-python3 notebook/make_fairness_notebook.py # writes the AI #5 walk-through notebook
+python3 notebook/make_fairness_notebook.py # AI #5 walk-through notebook
 python3 -m src.brief.run_brief             # live AI #2 brief (needs key)
 python3 tests/eval_agent.py                # live AI #3 evaluation (needs key)
 streamlit run app.py                       # dashboard
 ```
 
+If you already have a working `sql/recruitment.db`, copy it somewhere safe before running `sql/load_data.py`, because that script rebuilds the file.
+
 ## Repository layout
 
+```
+app.py                      Streamlit dashboard
+sql/                        loader, queries, schema.md, recruitment.db (not committed)
+datasets/raw/, processed/   source and cleaned data
+datasets/label_eval/        AI #1 label sets, hashes, results
+dashboard_screenshot/       dashboard screenshots
+notebook/                   cleaning, AI #1 and AI #5 notebooks
+power bi/                   Power BI report and theme
+src/common/                 database connection, LLM wrapper with retry
+src/label_mapping/          AI #1
+src/brief/                  AI #2: facts pack, placeholder validator, brief generator, live runner
+src/fairness/               AI #5: analysis and report
+src/agent/                  AI #3: SQL guard, executor, agent loop
+tests/                      offline tests, evaluation set, live evaluation runner
+docs/                       AI #1 report, fairness report and tables, sample brief, run records
+```
 
 ## Security and privacy
 
-- Keys are read from `.env` (git-ignored) and are never printed, logged or written to notebooks, reports or outputs.
-- Only label strings (AI #1), aggregated facts (AI #2) and user questions with schema descriptions (AI #3) are sent to the model. Applicant rows are never sent.
-- Gender is used only in the AI #5 analysis, never in a prompt.
-- Recruiters are pseudonymous codes in the AI #2 facts pack.
+- Keys are read from `.env`, which is git-ignored. They are never printed, logged or written into notebooks or outputs.
+- Only label strings (AI #1), aggregated facts (AI #2) and user questions with the schema (AI #3) go to the model. No applicant rows are sent.
+- Gender is used only in the fairness analysis, never in a prompt.
+- Recruiters are pseudonymous codes in the brief.
 
 ## Limitations
 
-- All data is synthetic. Results describe the dataset, not real hiring.
-- AI #1 test labels were written by an AI assistant. The project owner has not written any, so that authorship bias is not yet removed.
-- Samples are small: 60 and 33 labels in AI #1, 46 Non-binary applicants in AI #5.
-- Model confidence labels are self-ratings, not calibrated probabilities.
-- Live LLM results are pending, so the LLM features have not been measured on real provider output.
+- All data is synthetic, so the results describe the generator as much as any real hiring.
+- I wrote the AI #2 and AI #3 test cases, and the AI #1 test labels were written by an AI assistant. None of the test labels is from a real recruiter, so this is a real limit.
+- The samples are small: 60 and 33 labels in AI #1, 46 Non-binary applicants in AI #5, and 15 answerable questions in AI #3.
+- Live results are single runs, and a rerun may differ.
+- The model's High/Medium/Low confidence labels are its own ratings, not calibrated probabilities.
 
 ## License
 
-MIT. See `LICENSE`. Replace `[Your Name]` in `LICENSE` with your name before publishing.
+MIT. See `LICENSE`.
+
+Abhay Pareek
