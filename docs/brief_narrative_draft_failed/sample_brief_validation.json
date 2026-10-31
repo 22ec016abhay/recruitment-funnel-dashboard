@@ -1,0 +1,135 @@
+{
+  "status": "FAILED_VALIDATION",
+  "validation": {
+    "is_valid": false,
+    "numbers_checked": 31,
+    "numbers_unsupported": 20,
+    "citations": 11,
+    "violations": [
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "118",
+        "cited": "OV_05"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "1,500",
+        "cited": "OV_05"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "384",
+        "cited": "SRC_1_R"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "27",
+        "cited": "SRC_1_R"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "210",
+        "cited": "SRC_6_R"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "41",
+        "cited": "SRC_6_R"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "220",
+        "cited": "SRC_5_R"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "19",
+        "cited": "SRC_5_R"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "232",
+        "cited": "SRC_2_R"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "11",
+        "cited": "SRC_2_R"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "1,500",
+        "cited": "FN_CV_2"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "852",
+        "cited": "FN_CV_2"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "456",
+        "cited": "FN_CV_3"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "152",
+        "cited": "FN_CV_4"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "118",
+        "cited": "FN_CV_5"
+      },
+      {
+        "type": "uncited_number",
+        "text": "582"
+      },
+      {
+        "type": "uncited_number",
+        "text": "339"
+      },
+      {
+        "type": "uncited_number",
+        "text": "265"
+      },
+      {
+        "type": "uncited_number",
+        "text": "25"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "6",
+        "cited": "SRC_4_R"
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "latency_s": 2.812,
+      "finish_reason": "stop",
+      "input_tokens": 1086,
+      "output_tokens": 475,
+      "rate_limit_retries": 0,
+      "rate_limit_wait_s": 0.0,
+      "is_valid": false,
+      "numbers_checked": 31,
+      "numbers_unsupported": 2
+    },
+    {
+      "attempt": 2,
+      "latency_s": 0.799,
+      "finish_reason": "stop",
+      "input_tokens": 1178,
+      "output_tokens": 390,
+      "rate_limit_retries": 0,
+      "rate_limit_wait_s": 0.0,
+      "is_valid": false,
+      "numbers_checked": 31,
+      "numbers_unsupported": 20
+    }
+  ],
+  "model": "openai/gpt-oss-20b",
+  "facts_sha256": "ff24a0f4e83f8f0a06907b425a76d127b138e700d1e7a981dfaa8c318ebfaf94"
+}

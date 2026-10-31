@@ -1,0 +1,105 @@
+{
+  "status": "FAILED_VALIDATION",
+  "validation": {
+    "is_valid": false,
+    "numbers_checked": 28,
+    "numbers_unsupported": 16,
+    "citations": 12,
+    "violations": [
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "118",
+        "cited": "OV_04"
+      },
+      {
+        "type": "number_not_in_cited_fact",
+        "text": "1,211",
+        "cited": "OV_04"
+      },
+      {
+        "type": "uncited_number",
+        "text": "27"
+      },
+      {
+        "type": "uncited_number",
+        "text": "7.03%"
+      },
+      {
+        "type": "uncited_number",
+        "text": "11"
+      },
+      {
+        "type": "uncited_number",
+        "text": "4.74%"
+      },
+      {
+        "type": "uncited_number",
+        "text": "14"
+      },
+      {
+        "type": "uncited_number",
+        "text": "6.14%"
+      },
+      {
+        "type": "uncited_number",
+        "text": "6"
+      },
+      {
+        "type": "uncited_number",
+        "text": "2.65%"
+      },
+      {
+        "type": "uncited_number",
+        "text": "19"
+      },
+      {
+        "type": "uncited_number",
+        "text": "8.64%"
+      },
+      {
+        "type": "uncited_number",
+        "text": "41"
+      },
+      {
+        "type": "uncited_number",
+        "text": "19.52%"
+      },
+      {
+        "type": "uncited_number",
+        "text": "3"
+      },
+      {
+        "type": "uncited_number",
+        "text": "358"
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "latency_s": 1.455,
+      "finish_reason": "stop",
+      "input_tokens": 1712,
+      "output_tokens": 393,
+      "rate_limit_retries": 0,
+      "rate_limit_wait_s": 0.0,
+      "is_valid": false,
+      "numbers_checked": 29,
+      "numbers_unsupported": 22
+    },
+    {
+      "attempt": 2,
+      "latency_s": 0.99,
+      "finish_reason": "stop",
+      "input_tokens": 2117,
+      "output_tokens": 403,
+      "rate_limit_retries": 0,
+      "rate_limit_wait_s": 0.0,
+      "is_valid": false,
+      "numbers_checked": 28,
+      "numbers_unsupported": 16
+    }
+  ],
+  "model": "openai/gpt-oss-20b",
+  "facts_sha256": "ff24a0f4e83f8f0a06907b425a76d127b138e700d1e7a981dfaa8c318ebfaf94"
+}

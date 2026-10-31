@@ -54,7 +54,7 @@ Gender counts: Male 778, Female 676, Non-binary 46.
 - Individual subgroups do not all point the same way. For example, Indeed and Naukri show similar or higher female hire rates, and Product and Operations show higher female rates in small cells.
 - Non-binary (n = 46) is below the 50-person threshold. It is flagged, never used as a reference group, and not interpreted.
 
-**What this cannot tell you:** why the gap exists. The repository does not show how the synthetic data were generated. The project plan says a female conversion factor of 0.75 was planted, but the generator notebook in this repository does not contain that factor, so the cause is not confirmed. This is not evidence about real hiring. A real adverse-impact review needs legal and domain expertise.
+**What this cannot tell you:** The female gap in this dataset is built in on purpose. The synthetic generator (notebook/recuitment_v2.ipynb) sets FEMALE_CONVERSION_FACTOR = 0.75. So this analysis checks whether the method detects a planted effect, and it says nothing about real hiring. A real adverse-impact review needs legal and domain expertise.
 
 Walk-through: `notebook/04_fairness_walkthrough.ipynb`. Full tables: `docs/fairness_report.md` and `docs/fairness_dashboard.csv`.
 
@@ -73,13 +73,38 @@ Walk-through: `notebook/04_fairness_walkthrough.ipynb`. Full tables: `docs/fairn
 | Dashboard (`app.py`) | Four tabs, one per component above | Headless app test: no errors | Buttons call the LLM only when pressed |
 
 ### AI #2 and AI #3 results
+## Live results
 
-*(Fill in after the live runs.)*
+Every live run used the Groq model `openai/gpt-oss-20b`, one run per row unless stated. Results vary between runs, so treat each number as a single measurement.
 
-- **AI #2 brief:** status ______; attempts ______; numbers checked ______; violations ______.
-- **AI #3 evaluation (25 questions):** answerable ______ / 15; ambiguous ______ / 3 (answered without causal wording); unanswerable ______ / 3; adversarial ______ / 4 refused; average steps ______.
+### AI #3: guarded text-to-SQL agent (25 questions)
 
-Until these are filled in, treat the LLM features as implemented and tested offline, but not yet measured on live data.
+| Run | Answerable | Ambiguous | Unanswerable | Adversarial | Notes |
+|---|---|---|---|---|---|
+| 1 (before fixes) | 12 / 15 (80.0%; 95% CI 54.8–93.0) | 3 / 3 | 2 / 3 | 4 / 4 | Three wrong answers: a fraction returned for a rate, a stage name that didn't match the data, and a status value written in the wrong case. One request returned a provider error (400). |
+| 2 (after fixes) | 15 / 15 (100%; CI 79.6–100) | 3 / 3 | 3 / 3 (CI 43.8–100) | 4 / 4 (CI 51.0–100) | Average 2.0 steps, 26,771 tokens. |
+
+What the fixes changed: the agent is now given the real stored values of each categorical column; forecast questions are refused before any model call; provider errors are recorded with their full message instead of stopping the run.
+
+How to read these results:
+- Run 2 is one run, with 15 answerable questions. The interval is wide, and it is not evidence that the agent is reliable on other data.
+- The four adversarial questions are caught by deterministic rules before the model runs, so that category measures the rules, not the model.
+
+### AI #2: weekly brief
+
+| Run | Design | Result |
+|---|---|---|
+| 1 | Model writes numbers and cites a fact ID after each one | Failed validation, 16 violations (wrong IDs; numbers with no citation) |
+| 2 | Same design, stricter validator | Failed validation, 25 violations |
+| 3 | Fact list with IDs added to the prompt | Passed on the first attempt, 0 violations |
+| 4 | Narrative structure, same citation rules | Failed validation, 20 violations (numbers joined to a citation that didn't cover a range) |
+| 5 (final design) | Model writes a template with `{FACT_ID}` placeholders; code writes every number | Passed on the second attempt (first draft had one digit written outside a placeholder) |
+
+Run 5 is the current brief. Its text is in `docs/sample_brief.md`.
+
+What the validator confirms in run 5: every number in the brief comes from a fact in the list, and the model wrote no digits itself.
+
+What the validator does not confirm: whether each sentence uses the right fact. In run 5, one sentence describes the largest drop-off as Screened to Interviewed. The two figures it quotes (56.8% and 53.52%) are correct, but they are conversions at different steps, so the comparison is misleading. The validator passes it. Treat this as a known limitation of the design. A planned prompt change will address it (see "Next steps").
 
 ---
 
@@ -120,18 +145,18 @@ Until these are filled in, treat the LLM features as implemented and tested offl
 - The database file is git-ignored, so a fresh clone must rebuild it with `sql/load_data.py`. That rebuild path has not yet been verified end to end.
 
 ## Quick start
-
-```bash
+``` bash
 python3 -m venv .venv && source .venv/bin/activate
 python3 -m pip install -r requirements.txt
-cp .env.example .env              # add your own GROQ_API_KEY; never commit .env
-python3 tests/build_eval_set.py   # writes the 25-question evaluation set
-python3 -m unittest discover tests        # offline tests, no key needed
-python3 -m src.fairness.report            # AI #5 report from the real database
-python3 notebook/make_fairness_notebook.py   # writes the AI #5 walk-through notebook
-python3 -m src.brief.run_brief            # live AI #2 brief (needs key)
-python3 tests/eval_agent.py               # live AI #3 evaluation (needs key)
-streamlit run app.py                      # dashboard
+cp .env.example .env                       # add your own GROQ_API_KEY; never commit .env
+python3 sql/load_data.py                   # builds sql/recruitment.db from datasets/processed/
+python3 tests/build_eval_set.py            # writes the 25-question evaluation set
+python3 -m unittest discover tests         # offline tests; database tests skip if the database is missing
+python3 -m src.fairness.report             # AI #5 report
+python3 notebook/make_fairness_notebook.py # writes the AI #5 walk-through notebook
+python3 -m src.brief.run_brief             # live AI #2 brief (needs key)
+python3 tests/eval_agent.py                # live AI #3 evaluation (needs key)
+streamlit run app.py                       # dashboard
 ```
 
 ## Repository layout

@@ -2,22 +2,35 @@
   "status": "OK",
   "validation": {
     "is_valid": true,
-    "numbers_checked": 34,
+    "placeholders": 14,
+    "numbers_checked": 14,
     "numbers_unsupported": 0,
-    "citations": 15,
+    "citations": 14,
     "violations": []
   },
   "attempts": [
     {
       "attempt": 1,
-      "latency_s": 1.249,
+      "latency_s": 1.231,
       "finish_reason": "stop",
-      "input_tokens": 1712,
-      "output_tokens": 484,
+      "input_tokens": 1121,
+      "output_tokens": 302,
+      "rate_limit_retries": 0,
+      "rate_limit_wait_s": 0.0,
+      "is_valid": false,
+      "placeholders": 15,
+      "numbers_unsupported": 0
+    },
+    {
+      "attempt": 2,
+      "latency_s": 0.835,
+      "finish_reason": "stop",
+      "input_tokens": 1167,
+      "output_tokens": 269,
       "rate_limit_retries": 0,
       "rate_limit_wait_s": 0.0,
       "is_valid": true,
-      "numbers_checked": 34,
+      "placeholders": 14,
       "numbers_unsupported": 0
     }
   ],

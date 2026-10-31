@@ -71,15 +71,14 @@ class TestSmallerBriefPrompt(unittest.TestCase):
         self.assertLess(len(msg_slim), len(full))
 
     def test_citing_a_fact_not_sent_is_a_violation(self):
-        client = FakeClient(["- Cohort June 2026 had 130 applicants [MON_2026-06]"] * 2)
+        client = FakeClient(["- {MON_2026-06} applicants in this cohort"] * 2)
         out = BG.generate_brief(client, self.pack)
         self.assertEqual(out["status"], "FAILED_VALIDATION")
         self.assertTrue(any(v["type"] == "unknown_citation" for v in out["validation"]["violations"]))
 
     def test_brief_passes_with_slim_facts(self):
-        cav = {f["id"]: f["value"] for f in self.pack["facts"]}["CAV_01"]
-        client = FakeClient([f"- 1,500 applicants [OV_01]; hire rate 7.87% [OV_05]; "
-                             f"{cav} cohorts after June have open outcomes [CAV_01]"])
+        client = FakeClient(["- {OV_01} applicants; hire rate {OV_05}; "
+                             "{CAV_01} cohorts after June have open outcomes"])
         out = BG.generate_brief(client, self.pack)
         self.assertEqual(out["status"], "OK", out["validation"])
 

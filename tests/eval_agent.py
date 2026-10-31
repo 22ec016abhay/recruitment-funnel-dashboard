@@ -55,7 +55,7 @@ def main():
         try:
             out = answer_question(item["question"], client=client)
         except Exception as e:  # reported as a failed item, not hidden
-            out = {"status": "error", "answer": f"{type(e).__name__}", "sql": [], "steps": 0}
+            out = {"status": "error", "answer": f"{type(e).__name__}: {e}", "sql": [], "steps": 0}
         ok = score(item, out)
         rows.append({"id": item["id"], "category": item["category"], "correct": ok,
                      "status": out["status"], "steps": out.get("steps"), "sql": out.get("sql", []),

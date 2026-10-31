@@ -88,14 +88,14 @@ class TestGenerateLoop(unittest.TestCase):
         cls.pack = generate_facts_pack()
 
     def test_valid_first_try(self):
-        client = FakeClient(["- 1,500 applicants [OV_01]; 118 hires [OV_02]"])
+        client = FakeClient(["- {OV_01} applicants; {OV_02} hires"])
         out = generate_brief(client, self.pack)
         self.assertEqual(out["status"], "OK")
         self.assertEqual(len(out["attempts"]), 1)
         self.assertEqual(out["model"], "openai/gpt-oss-20b")
 
     def test_one_controlled_retry_then_ok(self):
-        client = FakeClient(["- 1,600 applicants [OV_01]", "- 1,500 applicants [OV_01]"])
+        client = FakeClient(["- 1,600 applicants", "- {OV_01} applicants"])
         out = generate_brief(client, self.pack)
         self.assertEqual(out["status"], "OK")
         self.assertEqual(len(out["attempts"]), 2)
@@ -108,12 +108,12 @@ class TestGenerateLoop(unittest.TestCase):
         self.assertFalse(out["validation"]["is_valid"])
 
     def test_facts_are_sent_as_json_data_and_system_prompt_has_no_numbers(self):
-        client = FakeClient(["- 1,500 applicants [OV_01]"])
+        client = FakeClient(["- {OV_01} applicants"])
         generate_brief(client, self.pack)
         system = client.calls[0]["messages"][0]["content"]
         user = client.calls[0]["messages"][1]["content"]
         self.assertNotIn("1500", system)
-        self.assertIn('"id": "OV_01"', user)
+        self.assertIn("{OV_01}: ", user)
         self.assertEqual(client.calls[0]["temperature"], 0)
 
 
