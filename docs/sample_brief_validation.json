@@ -1,0 +1,26 @@
+{
+  "status": "OK",
+  "validation": {
+    "is_valid": true,
+    "numbers_checked": 34,
+    "numbers_unsupported": 0,
+    "citations": 15,
+    "violations": []
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "latency_s": 1.249,
+      "finish_reason": "stop",
+      "input_tokens": 1712,
+      "output_tokens": 484,
+      "rate_limit_retries": 0,
+      "rate_limit_wait_s": 0.0,
+      "is_valid": true,
+      "numbers_checked": 34,
+      "numbers_unsupported": 0
+    }
+  ],
+  "model": "openai/gpt-oss-20b",
+  "facts_sha256": "ff24a0f4e83f8f0a06907b425a76d127b138e700d1e7a981dfaa8c318ebfaf94"
+}

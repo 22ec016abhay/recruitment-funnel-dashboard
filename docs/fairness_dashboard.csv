@@ -1,0 +1,25 @@
+scope,stage,gender,n,rate_pct,impact_ratio,below_4_5ths,low_n
+all applicants,Screened,Female,676,47.63,0.746,True,False
+all applicants,Screened,Male,778,63.88,1.0,False,False
+all applicants,Screened,Non-binary,46,71.74,1.123,False,True
+all applicants,Interviewed,Female,676,25.15,0.727,True,False
+all applicants,Interviewed,Male,778,34.58,1.0,False,False
+all applicants,Interviewed,Non-binary,46,36.96,1.069,False,True
+all applicants,Offered,Female,676,7.69,0.623,True,False
+all applicants,Offered,Male,778,12.34,1.0,False,False
+all applicants,Offered,Non-binary,46,8.7,0.705,False,True
+all applicants,Hired,Female,676,5.77,0.599,True,False
+all applicants,Hired,Male,778,9.64,1.0,False,False
+all applicants,Hired,Non-binary,46,8.7,0.902,False,True
+excluding In Process,Screened,Female,594,47.47,0.756,True,False
+excluding In Process,Screened,Male,691,62.81,1.0,False,False
+excluding In Process,Screened,Non-binary,44,70.45,1.122,False,True
+excluding In Process,Interviewed,Female,594,25.25,0.721,True,False
+excluding In Process,Interviewed,Male,691,35.02,1.0,False,False
+excluding In Process,Interviewed,Non-binary,44,36.36,1.038,False,True
+excluding In Process,Offered,Female,594,8.25,0.634,True,False
+excluding In Process,Offered,Male,691,13.02,1.0,False,False
+excluding In Process,Offered,Non-binary,44,9.09,0.698,False,True
+excluding In Process,Hired,Female,594,6.57,0.606,True,False
+excluding In Process,Hired,Male,691,10.85,1.0,False,False
+excluding In Process,Hired,Non-binary,44,9.09,0.838,False,True

@@ -1,7 +1,12 @@
-# Environment variables & API Keys
-.env
+# Virtual Environment
+.venv/
 
-# Database binaries (optional, or keep if you prefer committing it)
+# Environment variables & API keys (never commit real keys)
+.env
+.env.*
+!.env.example
+
+# Database binaries (rebuilt from datasets/ with sql/load_data.py)
 *.db
 *.sqlite3
 
@@ -10,7 +15,9 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
+# Archives and exports
+*.zip
+
 # System files
 .DS_Store
 Thumbs.db
-.env

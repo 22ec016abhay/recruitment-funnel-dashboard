@@ -5,8 +5,8 @@ import os
 print("Starting clean SQLite database loading process...")
 
 # 1. Define paths relative to project root
-csv_path = "python/data/processed/cleaned_funnel_data.csv"
-events_path = "python/data/processed/funnel_long.csv"
+csv_path = "datasets/processed/cleaned_funnel_data.csv"
+events_path = "datasets/processed/funnel_long.csv"
 db_path = "sql/recruitment.db"
 
 if not os.path.exists(csv_path):

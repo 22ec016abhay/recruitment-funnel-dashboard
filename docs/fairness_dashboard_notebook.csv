@@ -1,0 +1,13 @@
+stage,gender,n,rate_pct,reference_group,reference_rate_pct,impact_ratio,below_4_5ths,low_n,scope
+Screened,Female,676,47.63,Male,63.88,0.746,True,False,all applicants
+Screened,Male,778,63.88,Male,63.88,1.0,False,False,all applicants
+Screened,Non-binary,46,71.74,Male,63.88,1.123,False,True,all applicants
+Interviewed,Female,676,25.15,Male,34.58,0.727,True,False,all applicants
+Interviewed,Male,778,34.58,Male,34.58,1.0,False,False,all applicants
+Interviewed,Non-binary,46,36.96,Male,34.58,1.069,False,True,all applicants
+Offered,Female,676,7.69,Male,12.34,0.623,True,False,all applicants
+Offered,Male,778,12.34,Male,12.34,1.0,False,False,all applicants
+Offered,Non-binary,46,8.7,Male,12.34,0.705,False,True,all applicants
+Hired,Female,676,5.77,Male,9.64,0.599,True,False,all applicants
+Hired,Male,778,9.64,Male,9.64,1.0,False,False,all applicants
+Hired,Non-binary,46,8.7,Male,9.64,0.902,False,True,all applicants
