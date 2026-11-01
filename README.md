@@ -6,10 +6,6 @@ I built this project to answer two questions I kept asking while working with re
 
 All data is synthetic. I generated 1,500 applicants for practice, so none of the numbers describe real hiring.
 
----
-
-## The dashboards
-
 ## The dashboards
 
 ### Streamlit app
@@ -139,8 +135,6 @@ The current brief is in `docs/sample_brief.md`. The validator confirms that ever
 
 It does not confirm that each sentence uses the right fact. In run 5, one sentence describes the largest drop-off as Screened to Interviewed. The two figures it quotes (56.8% and 53.52%) are both correct, but they measure different steps, so the comparison is misleading. The validator passes it. That's a real limit of the design, and I'm planning a prompt change to address it.
 
----
-
 ## What's still open
 
 - **Screenshots:** the dashboard images above still need to be added.
@@ -152,8 +146,6 @@ It does not confirm that each sentence uses the right fact. In run 5, one senten
   - Tasks 4 and 5 in `sql/queries.sql` have wrong figures in their comments.
   - `v_source_performance` is not in the database, so any query that uses it will fail.
   - The database file is git-ignored, so a fresh clone must build it with `sql/load_data.py` first. I've checked this once, not on a clean clone yet.
-
----
 
 ## Quick start
 
