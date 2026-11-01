@@ -6,6 +6,8 @@ Every figure comes from sql/recruitment.db through a read-only connection.
 LLM features (AI #2 brief, AI #3 questions) run only when you press their buttons,
 and need GROQ_API_KEY in .env. Without a key the rest of the app still works.
 """
+import os
+
 import altair as alt
 import pandas as pd
 import streamlit as st
@@ -15,6 +17,14 @@ from src.brief.brief_generator import generate_brief
 from src.brief.facts_pack import generate_facts_pack
 from src.fairness.fairness_check import run_fairness_audit
 from src.label_mapping.llm_mapper import get_client
+
+# On Streamlit Community Cloud the key lives in the app's secrets, not in .env.
+# Copy it into the environment so get_client() finds it. Local runs use .env as before.
+try:
+    if "GROQ_API_KEY" in st.secrets and not os.environ.get("GROQ_API_KEY"):
+        os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+except Exception:
+    pass
 
 ACCENT = "#0f766e"      # teal
 ACCENT_2 = "#f59e0b"    # amber for warnings / highlights

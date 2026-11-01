@@ -10,23 +10,49 @@ All data is synthetic. I generated 1,500 applicants for practice, so none of the
 
 ## The dashboards
 
-**Power BI report**
+## The dashboards
 
-![Power BI executive overview](dashboard_screenshot/powerbi_executive.png)
+### Streamlit app
 
-![Power BI source and recruiter performance](dashboard_screenshot/powerbi_sources.png)
+Run `streamlit run app.py` and open http://localhost:8501.
 
-**Streamlit app** (run with `streamlit run app.py`, then open http://localhost:8501)
+**Overview.** Headline figures, the funnel, hire rate by source and monthly cohorts. Figures match the database.
 
 ![Streamlit overview](dashboard_screenshot/streamlit_overview.png)
 
-![Streamlit AI weekly brief](dashboard_screenshot/streamlit_brief.png)
+**Fairness check.** Gender selection rates by stage with 95% intervals, adverse-impact ratios and Fisher tests. Synthetic data, see the fairness section below.
 
 ![Streamlit fairness check](dashboard_screenshot/streamlit_fairness.png)
 
+**Ask your funnel.** A plain-English question answered with a read-only SQL query. The SQL is shown with every answer.
+
 ![Streamlit ask your funnel](dashboard_screenshot/streamlit_ask.png)
 
-*Screenshots go in the `dashboard_screenshot/` folder. Until they're added, these links will show as broken images.*
+**AI weekly brief.** Every figure is filled in by code and checked against the facts. The brief can still misstate comparisons (see Limitations).
+
+![Streamlit AI weekly brief](dashboard_screenshot/streamlit_brief.png)
+
+### Power BI report
+
+**Executive overview (all departments).** Headline figures, funnel, monthly trend and source bars.
+
+![Power BI executive overview](dashboard_screenshot/powerbi_executive.png)
+
+**Source and recruiter performance.** Source benchmarks, time-to-hire by recruiter and the funnel drop-off waterfall.
+
+![Power BI source and recruiter performance](dashboard_screenshot/powerbi_sources.png)
+
+**Pipeline health and advanced metrics.** In-process and rejected counts, stage reach and key drivers.
+
+![Power BI pipeline health](dashboard_screenshot/powerbi_pipeline.png)
+
+**Cohort analysis.** Hire rate by application month, using only mature cohorts (applied up to June 2026). Later months are excluded because their outcomes are still open.
+
+![Power BI cohort analysis](dashboard_screenshot/powerbi_cohorts.png)
+
+**Row-level security.** The same report filtered to the Engineering department and one month, to show that the access rule works. Figures in this view are filtered, so they are not the totals.
+
+![Power BI row-level security](dashboard_screenshot/powerbi_rls.png)
 
 ---
 

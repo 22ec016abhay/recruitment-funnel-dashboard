@@ -9,6 +9,7 @@
 # Database binaries (rebuilt from datasets/ with sql/load_data.py)
 *.db
 *.sqlite3
+!sql/recruitment.db
 
 # Python cache & Jupyter checkpoints
 __pycache__/
