@@ -14,7 +14,7 @@ All data is synthetic. I generated 1,500 applicants for practice, so none of the
 
 ### Streamlit app
 
-Run `streamlit run app.py` and open http://localhost:8501.
+Run `streamlit run app.py` and open https://recruitment-funnel-dashboard.streamlit.app/
 
 **Overview.** Headline figures, the funnel, hire rate by source and monthly cohorts. Figures match the database.
 
