@@ -217,18 +217,16 @@ with tab_fair:
         y=alt.Y("rate_pct:Q", title="Share reaching stage (%)"),
         tooltip=["gender", "stage", "n", "reached", "rate_pct", "ci95_low_pct", "ci95_high_pct"],
     )
-    ci = base.mark_errorbar().encode(y="ci95_low_pct:Q", y2="ci95_high_pct:Q")
+    ci = base.mark_errorbar().encode(y=alt.Y("ci95_low_pct:Q", title="Share reaching stage (%)"),
+                                     y2=alt.Y2("ci95_high_pct:Q"))
     st.altair_chart((bars + ci).properties(height=340), width="stretch")
     st.caption("Bars: share of each gender reaching the stage. Whiskers: 95% Wilson interval.")
 
-    c1, c2 = st.columns(2)
-    with c1:
-        st.markdown("**Adverse-impact ratio** (reference = highest rate among groups with n ≥ 50)")
-        st.dataframe(res["impact"][["stage", "gender", "n", "rate_pct", "impact_ratio", "below_4_5ths", "low_n"]],
-                     width="stretch", hide_index=True)
-    with c2:
-        st.markdown("**Fisher exact test, Female vs Male**")
-        st.dataframe(res["tests"], width="stretch", hide_index=True)
+    st.markdown("**Adverse-impact ratio** (reference = highest rate among groups with n ≥ 50)")
+    st.dataframe(res["impact"][["stage", "gender", "n", "rate_pct", "impact_ratio", "below_4_5ths", "low_n"]],
+                 width="stretch", hide_index=True)
+    st.markdown("**Fisher exact test, Female vs Male**")
+    st.dataframe(res["tests"], width="stretch", hide_index=True)
 
 # ------------------------------------------------------------------ AI #3
 EXAMPLES = [
@@ -270,4 +268,5 @@ with tab_ai:
                         for sql in out["sql"]:
                             st.code(sql, language="sql")
                 if out.get("rows"):
-                    st.dataframe(pd.DataFrame(out["rows"]), width="stretch", hide_index=True)
+                    st.dataframe(pd.DataFrame(out["rows"], columns=out.get("columns")),
+                                 width="stretch", hide_index=True)

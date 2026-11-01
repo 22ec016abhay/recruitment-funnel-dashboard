@@ -246,7 +246,7 @@ def answer_question(question: str, client=None, conn=None) -> dict:
 
 def _run_agent(question, client, conn, t0) -> dict:
     schema_text = compact_schema(get_schema(conn), category_values(conn))
-    observations, sqls, last_rows, tokens = [], [], None, 0
+    observations, sqls, last_rows, last_cols, tokens = [], [], None, None, 0
     for step in range(1, MAX_STEPS + 1):
         user = json.dumps({"question": question, "schema": schema_text, "observations": observations},
                           ensure_ascii=False)
@@ -275,13 +275,14 @@ def _run_agent(question, client, conn, t0) -> dict:
                 continue
             return {"status": "answered", "answer": text, "sql": sqls, "steps": step,
                     "tokens": tokens, "latency_s": round(time.perf_counter() - t0, 3),
-                    "rows": last_rows}
+                    "rows": last_rows, "columns": last_cols}
         if kind == "run_sql":
             sql = str(act.get("sql", ""))
             sqls.append(sql)
             res = run_sql(sql, conn)
             if res["ok"]:
                 last_rows = res["rows"]
+                last_cols = res["columns"]
                 observations.append({"sql": sql, "columns": res["columns"], "rows": res["rows"][:10],
                                      "row_count": len(res["rows"]), "truncated": res["truncated"]})
             else:
