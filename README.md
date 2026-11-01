@@ -135,17 +135,6 @@ The current brief is in `docs/sample_brief.md`. The validator confirms that ever
 
 It does not confirm that each sentence uses the right fact. In run 5, one sentence describes the largest drop-off as Screened to Interviewed. The two figures it quotes (56.8% and 53.52%) are both correct, but they measure different steps, so the comparison is misleading. The validator passes it. That's a real limit of the design, and I'm planning a prompt change to address it.
 
-## What's still open
-
-- **Screenshots:** the dashboard images above still need to be added.
-- **Brief drop-off wording:** I'll add one line to the prompt so that any drop-off description names the single largest step. That will be a new run, recorded separately so the current result stays on record.
-- **Power BI final check:** remove the leftover "Page 1", check the six fixes I listed earlier, and check the headline figures against the database.
-- **Known issues in the data:**
-  - `sql/schema.md` says `stage_reached` runs 1–5, but the data uses 0–4 (0 = Applied, 4 = Hired). The code follows the data.
-  - The `applicants` and `funnel_events` tables still contain a `name` column, although the schema says names are excluded. The agent never reads it.
-  - Tasks 4 and 5 in `sql/queries.sql` have wrong figures in their comments.
-  - `v_source_performance` is not in the database, so any query that uses it will fail.
-  - The database file is git-ignored, so a fresh clone must build it with `sql/load_data.py` first. I've checked this once, not on a clean clone yet.
 
 ## Quick start
 
